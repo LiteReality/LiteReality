@@ -1,9 +1,15 @@
-<!-- Main Project Image -->
-
-<p align="center">
-  <img src="assets/logo.png" alt="LiteReality Logo" width="60" style="vertical-align:middle; margin-right:10px;"/>
-  <span style="font-size:2.5em; vertical-align:middle;"><b>LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans</b></span>
-</p>
+<table>
+  <tr>
+    <td style="vertical-align: middle;">
+      <img src="assets/logo.png" alt="LiteReality Logo" width="60"/>
+    </td>
+    <td style="vertical-align: middle;">
+      <h1 style="display: inline-block; vertical-align: middle; margin: 0;">
+        LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans
+      </h1>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2406.00000"><img src="https://img.shields.io/badge/arXiv-2406.00000-b31b1b.svg?style=flat-square" alt="arXiv"></a>
