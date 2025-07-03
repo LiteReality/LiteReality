@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/logo.png" alt="LiteReality Logo" width="48" style="vertical-align:middle;"/>
-  <span style="font-size:2em; font-weight:bold; vertical-align:middle; margin-left: 10px;">
-    LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans
-  </span>
+  <img src="assets/logo.png" alt="LiteReality Logo" width="36"/>
+  <strong style="font-size: 1.5em;">LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans</strong>
 </p>
 
 <p align="center">
