@@ -10,6 +10,7 @@
   <a href="https://www.youtube.com/watch?v=ecK9m3LXg2c&feature=youtu.be"><img src="https://img.shields.io/badge/Video-Presentation-yellow.svg?style=flat-square" alt="Video"></a>
 </p>
 
+
 <p align="center">
   <b><a href="https://zheninghuang.github.io/">Zhening Huang</a></b><sup>1</sup>,
   <b><a href="https://xywu.me">Xiaoyang Wu</a></b><sup>2</sup>,
@@ -30,7 +31,7 @@
 ## News
 
 - <b>[2025-07-03]</b> Our paper is now available on <a href="https://arxiv.org/abs/2406.00000">arXiv</a>! 🚀, checkout the 🎬 [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c)  
-- <b>Code will be released soon. Stay tuned!</b>
+- <b>Code will be released soon. ⭐ Star this repository to stay tuned for the code release!</b>
 
 
 ---
