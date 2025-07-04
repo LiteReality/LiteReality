@@ -5,9 +5,9 @@
 
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2406.00000"><img src="https://img.shields.io/badge/arXiv-2406.00000-b31b1b.svg?style=flat-square" alt="arXiv"></a>
-  <a href="https://litereality.github.io/"><img src="https://img.shields.io/badge/Project%20Page-LiteReality-blue.svg?style=flat-square" alt="Project Page"></a>
-  <a href="https://www.youtube.com/watch?v=ecK9m3LXg2c"><img src="https://img.shields.io/badge/Video-Presentation-yellow.svg?style=flat-square" alt="Video"></a>
+  <a href="https://arxiv.org/abs/2507.02861"><img src="https://img.shields.io/badge/arXiv-2507.02861-b31b1b.svg?style=flat-square" alt="arXiv"></a>
+  <a href="https://litereality.github.io"><img src="https://img.shields.io/badge/Project%20Page-LiteReality-blue.svg?style=flat-square" alt="Project Page"></a>
+  <a href="https://www.youtube.com/watch?v=ecK9m3LXg2c&feature=youtu.be"><img src="https://img.shields.io/badge/Video-Presentation-yellow.svg?style=flat-square" alt="Video"></a>
 </p>
 
 <p align="center">
