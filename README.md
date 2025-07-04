@@ -40,10 +40,11 @@
 If you find this project useful for your research, please cite:
 
 ```bibtex
-@article{huang2024literality,
-  title={LiteReality: Automatic RGB-D to Graphics-Ready Scene Conversion},
-  author={Huang, Zhening and Wu, Xiaoyang and Zhong, Fangcheng and Zhao, Hengshuang and Nie{\ss}ner, Matthias and Lasenby, Joan},
-  journal={arXiv preprint},
-  year={2024}
+@misc{huang2025literealitygraphicsready3dscene,
+      title={LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans}, 
+      author={Zhening Huang and Xiaoyang Wu and Fangcheng Zhong and Hengshuang Zhao and Matthias Nießner and Joan Lasenby},
+      year={2025},
+      eprint={2507.02861},
+      url={https://arxiv.org/abs/2507.02861}, 
 }
 ```
