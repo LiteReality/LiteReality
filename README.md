@@ -3,6 +3,9 @@
   LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans
 </h1>
 
+<p align="center">
+  <b>NeurIPS 2025</b>
+</p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2507.02861"><img src="https://img.shields.io/badge/arXiv-2507.02861-b31b1b.svg?style=flat-square" alt="arXiv"></a>
@@ -30,6 +33,7 @@
 
 ## News
 
+- <b> We are actively preparing the code release for LiteReality and expect to make it publicly available by the end of December [before 2026!]. 🚀📦 </b>
 - <b>[2025-07-03]</b> Our paper is now available on <a href="https://arxiv.org/abs/2406.00000">arXiv</a>! 🚀, checkout the 🎬 [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c)  
 - <b>Code will be released soon. ⭐ Star this repository to stay tuned for the code release!</b>
 
