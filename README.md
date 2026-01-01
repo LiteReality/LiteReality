@@ -33,7 +33,7 @@
 
 ## News
 
-- <b> We are actively preparing the code release for LiteReality and expect to make it publicly available by the end of December [before 2026!]. 🚀📦 </b>
+- <b> We are actively preparing the code release for LiteReality and expect to make it publicly available soon. 🚀📦 </b>
 - <b>[2025-07-03]</b> Our paper is now available on <a href="https://arxiv.org/abs/2406.00000">arXiv</a>! 🚀, checkout the 🎬 [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c)  
 - <b>Code will be released soon. ⭐ Star this repository to stay tuned for the code release!</b>
 
