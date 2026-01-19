@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litereality"
+version = "0.1.0"
+description = "Graphics-Ready 3D Scene Reconstruction from RGB-D Scans"
+
+dependencies = [
+    # PyTorch ecosystem (specify versions as in installation)
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "torchaudio>=2.1.0",
+
+    # Core scientific computing (pinned for compatibility)
+    "numpy<2.0",
+
+    # Computer vision and image processing
+    "opencv-python",
+    "scikit-image",
+    "pillow",
+    "scikit-learn",
+    "shapely"
+
+    # 3D processing
+    "open3d",
+    "trimesh",
+    "rtree",
+
+    # Machine learning and transformers
+    "transformers",
+    "segment-anything",
+    "huggingface_hub",
+
+    # Utilities and helpers
+    "tqdm",
+    "requests",
+    "gdown",
+    "python-dotenv",
+
+    # GroundingDINO (will need separate installation due to complex setup)
+    # Note: GroundingDINO requires manual installation with system dependencies
+]
+
+[project.urls]
+Homepage = "https://litereality.github.io"
+Repository = "https://github.com/LiteReality/LiteReality"
+Issues = "https://github.com/LiteReality/LiteReality/issues"
+Documentation = "https://litereality.github.io"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["litereality*"]
+exclude = ["litereality.third_party*"]
+
+# Note: The litereality subdirectories (LR_mat_painting, LR_preprocessing, etc.)
+# need __init__.py files to be recognized as Python packages. If setuptools
+# doesn't find packages, run: find litereality -type d -exec touch {}/__init__.py \;
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+litereality = [
+    "asset/**/*",
+    "third_party/**/*",
+    "*.md",
+    "*.txt",
+    "*.json",
+    "*.yaml",
+    "*.yml",
+]

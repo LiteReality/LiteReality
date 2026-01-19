@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+__init__.py
+
+# Environment variables
+.env
+.env.local
+
+# Processing directories
+input/
+output/
+tmp/
+cache/
+.processed_usdz
+example_scans/
+third_party
+
+# Database directories
+LiteReality_Database/
+
+# Model and data directories
+scans/
+third_party/
+
+# Log files
+*.log
+litereality_database
+CLAUDE.md
