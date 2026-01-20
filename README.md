@@ -30,16 +30,14 @@
 
 ## 📢 News
 
-- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([code](#2-download-example-scans), [results visualization](#results-gallery)), or [your own scans](#test-on-your-own-scans)! 
+- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([code](#2-download-example-scans), [results visualization](#🎬-results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
 - **[2025-09-18]** LiteReality has been accepted at NeurIPS 2025!
 - **[2025-07-03]** Our paper is now available on [arXiv](https://arxiv.org/abs/2507.02861)! Check out the [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c).
 
 --- 
 
-## 🎬 Results Gallery
-
-Here are some example scene reconstructions produced with this codebase. Click on any thumbnail to watch the full video demonstration.
-
+## 🎬 Results on Example Scans
+We tested this codebase with several example scans; here are some of the results (Left:RGB, Right:LiteReality Reconstruction). Click on any thumbnail to watch the full video.
 |  Girton Study Room | Darwin BedRoom | CUED BoardRoom |
 |-------------|---------|---------|
 | [![Girton Study Room](https://img.youtube.com/vi/pD06w2lUZZM/0.jpg)](https://www.youtube.com/watch?v=pD06w2lUZZM) | [![Darwin BedRoom](https://img.youtube.com/vi/fXzUqLkk2FQ/0.jpg)](https://www.youtube.com/watch?v=fXzUqLkk2FQ) | [![CUED BoardRoom](https://img.youtube.com/vi/Ku8fVaQy-8I/0.jpg)](https://www.youtube.com/watch?v=Ku8fVaQy-8I) |
