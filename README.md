@@ -84,7 +84,7 @@ cd GroundingDINO
 pip install -r requirements.txt
 conda install -c conda-forge gcc=13 gxx=13 -y
 pip install -e . --no-build-isolation
-cd ..
+cd ../..
 ```
 
 > If issues persist, please refer to the official [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) repository.

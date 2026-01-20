@@ -1,9 +1,6 @@
-import os
 import subprocess
-import tarfile
 from pathlib import Path
 from huggingface_hub import snapshot_download
-from tqdm import tqdm
 import shutil
 
 REPO_ID = "zhening/LiteReality-DataBase"
@@ -13,53 +10,48 @@ PBR_EXTRACT_PATH = BASE_DIR / "PBR_materials"
 
 def run_setup():
     # 1. DOWNLOAD
-    # Check if the directory exists and isn't empty
-    if BASE_DIR.exists() and any(BASE_DIR.iterdir()):
-        print(f"--- 1/3: {BASE_DIR} is not empty. Skipping/Verifying download ---")
+    BASE_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Check if download is already complete by looking for expected files
+    split_parts = sorted(list(BASE_DIR.glob("PBR_materials_part_*.tar")))
+    other_archives = list(BASE_DIR.glob("*.tar*"))
+    pbr_extracted = (BASE_DIR / "PBR_materials").exists()
+
+    # Skip download if we have the split parts OR the PBR folder already exists
+    if split_parts or pbr_extracted or other_archives:
+        print(f"--- 1/3: Download already complete in {BASE_DIR}. Skipping. ---")
     else:
         print(f"--- 1/3: Downloading from {REPO_ID} ---")
-        BASE_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # snapshot_download naturally handles resume/caching, so it's safe to call
-    snapshot_download(repo_id=REPO_ID, repo_type="dataset", local_dir=str(BASE_DIR))
+        snapshot_download(repo_id=REPO_ID, repo_type="dataset", local_dir=str(BASE_DIR))
 
 
+    # Refresh split_parts list after potential download
     split_parts = sorted(list(BASE_DIR.glob("PBR_materials_part_*.tar")))
-    combined_pbr = BASE_DIR / "PBR_materials_TOTAL.tar"
 
-    # Only stitch if the PBR folder doesn't exist and we have parts to stitch
+    # Only extract if the PBR folder doesn't exist and we have parts
     if PBR_EXTRACT_PATH.exists():
         print(f"--- 2/3: PBR materials already extracted in {PBR_EXTRACT_PATH}. Skipping. ---")
     elif split_parts:
         total_size = sum(p.stat().st_size for p in split_parts)
-        print(f"--- 2/3: Stitching PBR (Total: {total_size / 1e9:.2f} GB) ---")
-        
-        if not combined_pbr.exists():
-            pv_installed = shutil.which("pv") is not None
-            part_names = " ".join([f"'{str(p)}'" for p in split_parts])
+        print(f"--- 2/3: Extracting PBR directly (Total: {total_size / 1e9:.2f} GB) ---")
 
-            if pv_installed:
-                print("Using 'pv' for high-speed system stitching...")
-                cmd = f"cat {part_names} | pv -s {total_size} > '{combined_pbr}'"
-                subprocess.run(cmd, shell=True, check=True)
-            else:
-                print("Using Python with 128MB buffer...")
-                with open(combined_pbr, 'wb') as master:
-                    with tqdm(total=total_size, unit='B', unit_scale=True, desc="Stitching") as pbar:
-                        for part in split_parts:
-                            with open(part, 'rb') as f_in:
-                                while True:
-                                    chunk = f_in.read(128 * 1024 * 1024)
-                                    if not chunk: break
-                                    master.write(chunk)
-                                    pbar.update(len(chunk))
+        pv_installed = shutil.which("pv") is not None
+        part_names = " ".join([f"'{str(p)}'" for p in split_parts])
 
-        print("--- Extracting PBR (Multi-core) ---")
-        subprocess.run(f"tar -xf '{combined_pbr}' -C '{BASE_DIR}'", shell=True, check=True)
-        
-        # Cleanup only after successful extraction
-        combined_pbr.unlink()
-        for p in split_parts: p.unlink()
+        if pv_installed:
+            # Stream directly to tar with progress - no intermediate file needed
+            print("Using 'pv' for progress (streaming directly to tar)...")
+            cmd = f"cat {part_names} | pv -s {total_size} | tar -xf - -C '{BASE_DIR}'"
+        else:
+            # Stream directly to tar without progress
+            print("Streaming directly to tar (install 'pv' for progress bar)...")
+            cmd = f"cat {part_names} | tar -xf - -C '{BASE_DIR}'"
+
+        subprocess.run(cmd, shell=True, check=True)
+
+        # Cleanup split parts after successful extraction
+        for p in split_parts:
+            p.unlink()
 
     # 3. REMAINING ASSETS
     print("--- 3/3: Extracting remaining assets ---")
