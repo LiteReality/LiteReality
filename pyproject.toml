@@ -8,12 +8,12 @@ version = "0.1.0"
 description = "Graphics-Ready 3D Scene Reconstruction from RGB-D Scans"
 
 dependencies = [
-    # PyTorch ecosystem (specify versions as in installation)
+    # PyTorch ecosystem
     "torch>=2.1.0",
     "torchvision>=0.16.0",
     "torchaudio>=2.1.0",
 
-    # Core scientific computing (pinned for compatibility)
+    # Core scientific computing
     "numpy<2.0",
 
     # Computer vision and image processing
@@ -21,7 +21,7 @@ dependencies = [
     "scikit-image",
     "pillow",
     "scikit-learn",
-    "shapely"
+    "shapely",      # Fixed: Added comma
 
     # 3D processing
     "open3d",
@@ -38,9 +38,6 @@ dependencies = [
     "requests",
     "gdown",
     "python-dotenv",
-
-    # GroundingDINO (will need separate installation due to complex setup)
-    # Note: GroundingDINO requires manual installation with system dependencies
 ]
 
 [project.urls]
