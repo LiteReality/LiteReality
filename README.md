@@ -30,7 +30,7 @@
 
 ## 📢 News
 
-- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([Instruction](#2-download-example-scans), [results visualization](#results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
+- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([Instruction](#2-download-example-scans), [results visualization](#-results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
 - **[2025-09-18]** LiteReality has been accepted at NeurIPS 2025!
 - **[2025-07-03]** Our paper is now available on [arXiv](https://arxiv.org/abs/2507.02861)! Check out the [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c).
 
