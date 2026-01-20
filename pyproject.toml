@@ -21,7 +21,7 @@ dependencies = [
     "scikit-image",
     "pillow",
     "scikit-learn",
-    "shapely",      # Fixed: Added comma
+    "shapely",      
 
     # 3D processing
     "open3d",
