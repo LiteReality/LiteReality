@@ -107,7 +107,9 @@ bash litereality/utils/install_blender.sh
 
 ## 📊 Data Preparation
 
-### 1. Download Material Database
+### 1. Download LiteReality Database 
+
+(This might take quite a while!)
 
 This downloads and extracts the material database (~200 GB) to `./litereality_database/`.
 
