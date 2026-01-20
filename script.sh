@@ -25,7 +25,7 @@ $PYTHON_CMD litereality/LR_preprocessing/bbox_polish.py --scene  "$name_of_the_s
 # Step 2: Run the retrieval
 $PYTHON_CMD litereality/LR_retrieval/main_qwen.py --name "input/object_stage/$name_of_the_scene"
 
-# Step 3: Materail Painting
+# Step 3: Material Painting
 bash litereality/LR_mat_painting/scene_run.sh -d "output/mat_painting_stage/$name_of_the_scene"
 # Note: Resize now happens per-object during scene_run.sh (more efficient)
 blender -b -P litereality/LR_mat_painting/apply_mat_rotate.py -- --path "output/mat_painting_stage/$name_of_the_scene" --image_size 1000

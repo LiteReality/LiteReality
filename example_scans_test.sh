@@ -4,7 +4,7 @@ set -e
 
 mappings=(
     "2024_11_13_21_42_41 Girton_large_study_room"
-    "2025_01_20_08_44_07 BordRoom_CUED"
+    "2025_01_20_08_44_07 BoardRoom_CUED"
     "2024_11_13_21_38_09 Girton_Study_Room"
     "2025_03_16_10_29_01 Girton_Common_Room"
     "2025_05_05_08_42_28 Darwin_BedRoom"

@@ -109,7 +109,7 @@ bash litereality/utils/install_blender.sh
 
 ### 1. Download Material Database
 
-This downloads and extracts the material database (~200 GB) to `./LiteReality_Database/`.
+This downloads and extracts the material database (~200 GB) to `./litereality_database/`.
 
 ```bash
 python litereality/utils/litereality_database_download.py
