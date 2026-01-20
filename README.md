@@ -146,10 +146,7 @@ bash script.sh scans/2025_05_05_08_42_28 Darwin_BedRoom
 
 Currently, data capture uses Apple RoomPlan on a LiDAR-equipped iPhone. We use the [3D Scanner App](https://apps.apple.com/app/3d-scanner-app/id1419913995) to capture full images, depth, camera data, and RoomPlan raw outputs.
 
-<video width="480" controls poster="asset/scan_your_own_room_thumb.jpg">
-  <source src="asset/scan_your_own_room.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Scan your room](asset/scan_your_own_room_thumb.jpg)](asset/scan_your_own_room.mp4)
 
 ### 2. Run
 
