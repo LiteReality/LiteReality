@@ -26,16 +26,25 @@
   <sup>1</sup>University of Cambridge &nbsp; <sup>2</sup>The University of Hong Kong &nbsp; <sup>3</sup>Technical University of Munich
 </p>
 
-<p align="center">
-  <a href="asset/LiteReality.jpg"><img src="asset/LiteReality.jpg" alt="LiteReality Main Image" width="600"/></a>
-</p>
 
 
 ## 📢 News
 
-- **[2026-01-19]** LiteReality code is out! Test it with your own scans.
+- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([code](#2-download-example-scans), [results visualization](#results-gallery)), or [your own scans](#test-on-your-own-scans)! 
 - **[2025-09-18]** LiteReality has been accepted at NeurIPS 2025!
 - **[2025-07-03]** Our paper is now available on [arXiv](https://arxiv.org/abs/2507.02861)! Check out the [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c).
+
+--- 
+
+## 🎬 Results Gallery
+
+Here are some example scene reconstructions produced with this codebase. Click on any thumbnail to watch the full video demonstration.
+
+|  Girton Study Room | Darwin BedRoom | CUED BoardRoom |
+|-------------|---------|---------|
+| [![Girton Study Room](https://img.youtube.com/vi/pD06w2lUZZM/0.jpg)](https://www.youtube.com/watch?v=pD06w2lUZZM) | [![Darwin BedRoom](https://img.youtube.com/vi/fXzUqLkk2FQ/0.jpg)](https://www.youtube.com/watch?v=fXzUqLkk2FQ) | [![CUED BoardRoom](https://img.youtube.com/vi/Ku8fVaQy-8I/0.jpg)](https://www.youtube.com/watch?v=Ku8fVaQy-8I) |
+| Girton Study Room 2 | Girton Common Room | SigProc Tea Room |
+| [![Girton Study Room 2](https://img.youtube.com/vi/8RuTVrQ_oMI/0.jpg)](https://www.youtube.com/watch?v=8RuTVrQ_oMI) | [![Girton Common Room](https://img.youtube.com/vi/obAVOYMZBSI/0.jpg)](https://www.youtube.com/watch?v=obAVOYMZBSI) | [![SigProc Tea Room](https://img.youtube.com/vi/IJguTZLKZAE/0.jpg)](https://www.youtube.com/watch?v=IJguTZLKZAE) |
 
 ---
 
@@ -104,7 +113,7 @@ This downloads and extracts the material database (~200 GB) to `./LiteReality_Da
 
 ```bash
 python litereality/utils/litereality_database_download.py
-cp -r asset/pbr_annotations litereality_database/PBR_materials/material_lib/annotations
+cp -r asset/pbr_annotations/* litereality_database/PBR_materials/material_lib/annotations/ # Important: Replace the existing annotations with the new annotation JSON files
 ```
 
 ### 2. Download Example Scans
@@ -117,7 +126,7 @@ python litereality/utils/download_example_scans.py
 
 ---
 
-## 🚀 Test on Example Scans
+##  Test on Example Scans
 
 After downloading the database and example scans, run the full test suite:
 
@@ -131,7 +140,7 @@ Or test on a single example first:
 bash script.sh scans/2025_05_05_08_42_28 Darwin_BedRoom
 ```
 
-## 📱 Test on Your Own Scans
+##  Test on Your Own Scans
 
 ### 1. Prepare Data
 
@@ -156,6 +165,9 @@ bash script.sh scans/2025_01_20_08_44_07 BoardRoom_CUED
 ```
 
 ---
+
+
+
 
 ## 📂 Output Structure
 
@@ -186,7 +198,9 @@ Cache files are saved under `./cache/`, where you can inspect:
 - Object retrieval results
 - Material painting results
 
+
 ---
+
 
 ## 🙏 Acknowledgments
 
