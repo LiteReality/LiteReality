@@ -37,7 +37,7 @@
 --- 
 
 ## 🎬 Results on Example Scans
-We tested this codebase with several example scans; here are some of the results (Left:RGB, Right:LiteReality Reconstruction). Click on any thumbnail to watch the full video.
+We tested this codebase with several example scans; here are some of the results (Left:RGB, Right:LiteReality Reconstruction). **Click on any thumbnail to watch the full video 🎬.**
 |  Girton Study Room | Darwin BedRoom | CUED BoardRoom |
 |-------------|---------|---------|
 | [![Girton Study Room](https://img.youtube.com/vi/pD06w2lUZZM/0.jpg)](https://www.youtube.com/watch?v=pD06w2lUZZM) | [![Darwin BedRoom](https://img.youtube.com/vi/fXzUqLkk2FQ/0.jpg)](https://www.youtube.com/watch?v=fXzUqLkk2FQ) | [![CUED BoardRoom](https://img.youtube.com/vi/Ku8fVaQy-8I/0.jpg)](https://www.youtube.com/watch?v=Ku8fVaQy-8I) |
