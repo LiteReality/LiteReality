@@ -72,9 +72,11 @@ pip install -e .
 > **Note:** The GroundingDINO code in this repository includes patches for compatibility with PyTorch 2.5.1+ and CUDA 12.4.
 
 ```bash
+
+mkdir third_party
 cd third_party
 git clone https://github.com/IDEA-Research/GroundingDINO.git
-cp litereality/utils/setup_grounding_dino.py GroundingDINO/setup.py # replace setup.py with this file for easy installation
+cp ../litereality/utils/setup_grounding_dino.py GroundingDINO/setup.py # replace setup.py with this file for easy installation
 
 cd GroundingDINO
 
@@ -82,7 +84,7 @@ cd GroundingDINO
 pip install -r requirements.txt
 conda install -c conda-forge gcc=13 gxx=13 -y
 pip install -e . --no-build-isolation
-cd ../..
+cd ..
 ```
 
 > If issues persist, please refer to the official [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) repository.
