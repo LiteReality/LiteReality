@@ -2358,16 +2358,9 @@ def query_top_10_materials(folder_path, api_key, stitch_image_folder, object_typ
                     material_ids.append(mat_id)
                     material_list_text += f"- {mat_id}: {mat_desc}\n"
         else:
-            # Fallback: Use filesystem-based approach
-            print(f"Warning: Material key {material_key} not found in descriptions, using filesystem-based retrieval")
-            material_ids = get_actual_materials_for_category(material_key)
-            if not material_ids:
-                print(f"Warning: No materials found for {material_key}, skipping part {key}")
-                continue
-            # Generate descriptions for materials found in filesystem
-            for mat_id in material_ids:
-                mat_desc = generate_material_description(mat_id)
-                material_list_text += f"- {mat_id}: {mat_desc}\n"
+            # No fallback: Skip materials not in the curated database
+            print(f"Warning: Material key {material_key} not found in curated descriptions database, skipping part {key}")
+            continue
         
         # Determine how many materials to select (target: 10, but use what's available if less)
         target_count = 10
@@ -2526,8 +2519,8 @@ Select exactly {num_to_select} materials, ranked from best to worst match. Use O
                             break
 
                     if materials_list and isinstance(materials_list, list):
-                        # Be flexible about the count - accept as long as we have a reasonable number
-                        if len(materials_list) >= 4:  # Accept at least 4 materials
+                        # Be flexible about the count - accept any reasonable number since we can fill missing slots
+                        if len(materials_list) > 0:  # Accept any non-empty list
                             # Create normalized lookup (case-insensitive, strip whitespace)
                             material_ids_normalized = {mid.lower().strip(): mid for mid in material_ids}
 
@@ -2547,7 +2540,8 @@ Select exactly {num_to_select} materials, ranked from best to worst match. Use O
                                     invalid_materials.append(returned_id)
 
                             # Accept partial results if we have enough valid materials
-                            min_required = max(4, num_to_select // 2)  # At least 4 for top 10, or half for other cases
+                            # For small material sets, don't require more than what's available
+                            min_required = min(max(4, num_to_select // 2), len(material_ids))
                             
                             if len(valid_materials) >= min_required:
                                 # Fill missing slots with valid alternatives if needed
@@ -2572,11 +2566,27 @@ Select exactly {num_to_select} materials, ranked from best to worst match. Use O
                                 success = True
                                 break
                             else:
-                                # Debug output
-                                if count == 1:
-                                    print(f"  [Debug] Invalid IDs for {key}: {invalid_materials[:5]}")
-                                    print(f"  [Debug] Sample valid IDs: {material_ids[:5]}")
-                                parsing_errors.append(f"Found {len(valid_materials)}/{num_to_select} valid material IDs (minimum {min_required} required). Invalid: {invalid_materials[:3]}")
+                                # If we have very few valid materials due to VLM hallucinations,
+                                # be more lenient on the final attempt
+                                if count == 5 and len(valid_materials) >= max(2, num_to_select // 4):
+                                    print(f"  ⚠️ VLM hallucinated many invalid IDs for {key}, but accepting partial results ({len(valid_materials)}/{num_to_select})")
+                                    # Fill remaining slots and proceed
+                                    remaining_valid = [mid for mid in material_ids if mid not in valid_materials]
+                                    needed = num_to_select - len(valid_materials)
+                                    valid_materials.extend(remaining_valid[:needed])
+
+                                    # Update parsed_result and succeed
+                                    parsed_result["top_10"] = valid_materials[:num_to_select]
+                                    if "top_20" in parsed_result:
+                                        del parsed_result["top_20"]
+                                    success = True
+                                    break
+                                else:
+                                    # Debug output
+                                    if count == 1:
+                                        print(f"  [Debug] Invalid IDs for {key}: {invalid_materials[:5]}")
+                                        print(f"  [Debug] Sample valid IDs: {material_ids[:5]}")
+                                    parsing_errors.append(f"Found {len(valid_materials)}/{num_to_select} valid material IDs (minimum {min_required} required). Invalid: {invalid_materials[:3]}")
                         else:
                             parsing_errors.append(f"Expected {num_to_select} materials, got {len(materials_list)}")
                     else:

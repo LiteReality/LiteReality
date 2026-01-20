@@ -37,10 +37,10 @@ Output only the most specific category type text string from the provided databa
 # Note: prompt_stage1_parent_category is now built dynamically from JSON data
 # This template will be formatted with semantic and category_list
 prompt_stage1_parent_category_template = """
-I will provide an image composed of four sub-images arranged in a 2x2 grid. Each sub-image contains a red bounding box highlighting the {} object from different viewpoints.
+I will provide an image composed of four sub-images arranged in a 2x2 grid. Each sub-image contains a red bounding box highlighting the {OBJECT_CATEGORY} object from different viewpoints.
 
-Examine all four images and identify the main parent category of this object. Choose ONE of the following parent categories:
-{}
+Examine all four images and confirm the main parent category of this {OBJECT_CATEGORY} object. Choose ONE of the following parent categories:
+{category_list}
 
 Output only the parent category name exactly as listed above—no explanations, no additional text.
 """
@@ -486,7 +486,7 @@ def two_stage_category_retrieval(stitched_image_path, semantic, json_data, save_
     
     # Build Stage 1 prompt with all parent categories
     category_list = "\n".join([f"- {cat}" for cat in parent_categories])
-    stage1_prompt = prompt_stage1_parent_category_template.format(semantic, category_list)
+    stage1_prompt = prompt_stage1_parent_category_template.format(OBJECT_CATEGORY=semantic, category_list=category_list)
     retrieval_info["stage1_prompt"] = stage1_prompt
     
     stage1_save_folder = os.path.join(save_folder, "stage1_parent")

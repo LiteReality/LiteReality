@@ -40,24 +40,29 @@ def load_material_albedo(material_id):
         return None
 
     category = parts[0]  # "Plastic"
-    full_name = parts[1]  # "Plastic015A"
+    full_name = "_".join(parts[1:])  # Join all parts after category (e.g., "Plastic015A" or "acg_chip_001")
 
-    # Format the full_name using the same logic as the old code
-    actual_dir_name = format_string(full_name)
-
-    # Try the actual path
     base_path = "litereality_database/PBR_materials/material_lib/pbr_maps/train"
-    actual_path = f"{base_path}/{category}/{actual_dir_name}/basecolor.png"
 
-    if os.path.exists(actual_path):
-        return actual_path
+    # Try multiple path patterns (similar to Material_refinements.py)
+    # 1. Direct name (for ACG-style names like "acg_chip_001")
+    # 2. Formatted name (for old-style names like "Plastic015A" -> "acg_plastic_015_a")
+    possible_dir_names = [full_name]
 
-    # Fallback: try diffuse.png
-    diffuse_path = f"{base_path}/{category}/{actual_dir_name}/diffuse.png"
-    if os.path.exists(diffuse_path):
-        return diffuse_path
+    # Only add formatted version if name doesn't already start with "acg_"
+    if not full_name.startswith("acg_"):
+        possible_dir_names.append(format_string(full_name))
 
-    print(f"Warning: Material {material_id} not found at {actual_path} or {diffuse_path}")
+    for dir_name in possible_dir_names:
+        basecolor_path = f"{base_path}/{category}/{dir_name}/basecolor.png"
+        if os.path.exists(basecolor_path):
+            return basecolor_path
+
+        diffuse_path = f"{base_path}/{category}/{dir_name}/diffuse.png"
+        if os.path.exists(diffuse_path):
+            return diffuse_path
+
+    print(f"Warning: Material {material_id} not found at {base_path}/{category}/{full_name}/basecolor.png or diffuse.png")
     return None
 
 

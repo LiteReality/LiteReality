@@ -1,6 +1,7 @@
 import bpy
 import os
 import math
+import re
 import numpy as np
 import mathutils
 
@@ -125,14 +126,14 @@ def load_obj_with_pbr(object_folder, material_file, name_obj, glass_part_name="w
         bpy.ops.import_scene.obj(filepath=file_path)
         imported_obj = bpy.context.selected_objects[0]
 
-        # --- SCALE UVS BY 10× ---
+        # --- SCALE UVS BY 5× ---
         if imported_obj.type == 'MESH' and imported_obj.data.uv_layers:
             for uv_layer in imported_obj.data.uv_layers:
                 for uv_data in uv_layer.data:
                     uv = uv_data.uv
                     uv.x *= 3
                     uv.y *= 3
-            print(f"Scaled UVs of '{imported_obj.name}' by 10×")
+            print(f"Scaled UVs of '{imported_obj.name}' by 5×")
 
         # Special case: if this is the glass part, assign a transparent glass material
         if part == glass_part_name:
@@ -187,50 +188,55 @@ def load_obj_with_pbr(object_folder, material_file, name_obj, glass_part_name="w
             continue
 
         # Otherwise apply your PBR material
-        # Handle naming mismatch between decomposed OBJ parts and material folders
-        material_part_name = part
-        if part == "Door.001":
-            material_part_name = "Door"
-        elif part == "default_material":
-            # default_material might not have a specific material folder, use fallback
-            material_part_name = None
+        folder_path = os.path.join(material_file, part)
 
-        if material_part_name:
-            folder_path = os.path.join(material_file, material_part_name)
-        else:
-            folder_path = None
-        
-        # Check if material folder exists (skip if folder_path is None for parts without materials)
-        if folder_path is None or not os.path.exists(folder_path):
-            if folder_path is None:
-                print(f"⚠️  Info: Part '{part}' does not require a specific material folder")
-            else:
+        # Check if material folder exists
+        if not os.path.exists(folder_path):
+            # Try to match without numeric suffix (OBJ files sometimes have .001, .002, etc. suffixes but material folders don't)
+            part_name_without_suffix = part
+            # Remove any . followed by digits at the end (e.g., .001, .002, .123)
+            suffix_match = re.search(r'\.\d+$', part)
+            if suffix_match:
+                part_name_without_suffix = part[:suffix_match.start()]
+                folder_path_alt = os.path.join(material_file, part_name_without_suffix)
+                if os.path.exists(folder_path_alt):
+                    print(f"⚠️  Material folder not found for '{part}', but found '{part_name_without_suffix}', using that...")
+                    folder_path = folder_path_alt
+                else:
+                    folder_path = os.path.join(material_file, part)  # Reset to original
+
+            # If still not found, try fallback
+            if not os.path.exists(folder_path):
                 print(f"⚠️  Warning: Material folder not found for part '{part}': {folder_path}")
 
-            # FALLBACK: Check if LLM-retrieved materials exist in select_mat
-            # This happens when visual retrieval failed and optional LLM queries ran
-            select_mat_path = os.path.join(object_folder, "select_mat", part)
-            if os.path.exists(select_mat_path):
-                print(f"   ✓ Found LLM-retrieved materials in select_mat, using those...")
-                folder_path = select_mat_path
-            else:
-                print(f"   No materials found (neither visual nor LLM fallback), assigning default material...")
-                # Create a default material so the part still renders
-                default_mat = bpy.data.materials.new(name=f"{part}_Default")
-                default_mat.use_nodes = True
-                bsdf = default_mat.node_tree.nodes.get("Principled BSDF")
-                if bsdf:
-                    # Set a neutral gray color
-                    bsdf.inputs["Base Color"].default_value = (0.7, 0.7, 0.7, 1.0)
-                    bsdf.inputs["Roughness"].default_value = 0.5
-                if imported_obj.data.materials:
-                    imported_obj.data.materials[0] = default_mat
-                else:
-                    imported_obj.data.materials.append(default_mat)
+                # FALLBACK: Check if LLM-retrieved materials exist in select_mat
+                # Try both with and without numeric suffix
+                select_mat_path = os.path.join(object_folder, "select_mat", part)
+                suffix_match_fallback = re.search(r'\.\d+$', part)
+                if not os.path.exists(select_mat_path) and suffix_match_fallback:
+                    select_mat_path = os.path.join(object_folder, "select_mat", part_name_without_suffix)
 
-                # Parent and continue to next part
-                imported_obj.parent = parent_obj
-                continue
+                if os.path.exists(select_mat_path):
+                    print(f"   ✓ Found LLM-retrieved materials in select_mat, using those...")
+                    folder_path = select_mat_path
+                else:
+                    print(f"   No materials found (neither visual nor LLM fallback), assigning default material...")
+                    # Create a default material so the part still renders
+                    default_mat = bpy.data.materials.new(name=f"{part}_Default")
+                    default_mat.use_nodes = True
+                    bsdf = default_mat.node_tree.nodes.get("Principled BSDF")
+                    if bsdf:
+                        # Set a neutral gray color
+                        bsdf.inputs["Base Color"].default_value = (0.7, 0.7, 0.7, 1.0)
+                        bsdf.inputs["Roughness"].default_value = 0.5
+                    if imported_obj.data.materials:
+                        imported_obj.data.materials[0] = default_mat
+                    else:
+                        imported_obj.data.materials.append(default_mat)
+
+                    # Parent and continue to next part
+                    imported_obj.parent = parent_obj
+                    continue
         
         # Material folder exists (either from visual retrieval or LLM fallback), apply PBR material
         apply_pbr_material(imported_obj, folder_path)
@@ -530,7 +536,7 @@ for obj_mat_folder in all_obj_in_folder:
                 # Check if the mesh has an active UV map.
                 if mesh.uv_layers.active is not None:
                     print(f"Scaling UVs for object: {obj.name}")
-                    scale_uvs(mesh.uv_layers.active, scale_x=10, scale_y=10)
+                    scale_uvs(mesh.uv_layers.active, scale_x=5, scale_y=5)
                 else:
                     print(f"Object '{obj.name}' has no active UV map.")
         bpy.context.view_layer.update()

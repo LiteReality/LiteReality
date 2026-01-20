@@ -732,27 +732,184 @@ def create_floor(walls, thickness, room):
 def resize_intrinsic(intrinsic, original_size, new_size):
     """
     Adjust the intrinsic matrix for a resized image.
-    
+
     Parameters:
     intrinsic (np.array): Original 3x3 intrinsic matrix.
     original_size (tuple): Original image size as (height, width).
     new_size (tuple): New image size as (height, width).
-    
+
     Returns:
     np.array: Rescaled 3x3 intrinsic matrix.
     """
     # Calculate scaling factors
     scale_x = new_size[1] / original_size[1]
     scale_y = new_size[0] / original_size[0]
-    
+
     # Scale the focal lengths and principal point
     resized_intrinsic = intrinsic.copy()
     resized_intrinsic[0, 0] *= scale_x  # f_x
     resized_intrinsic[1, 1] *= scale_y  # f_y
     resized_intrinsic[0, 2] *= scale_x  # c_x
     resized_intrinsic[1, 2] *= scale_y  # c_y
-    
+
     return resized_intrinsic
+
+
+def matrix_to_rotation_translation(matrix):
+    """Extract rotation matrix and translation vector from a 4x4 transformation matrix."""
+    rotation = matrix[:3, :3]
+    translation = matrix[:3, 3]
+    return rotation, translation
+
+
+def rotation_matrix_to_quaternion(R):
+    """Convert a 3x3 rotation matrix to a quaternion (w, x, y, z)."""
+    trace = np.trace(R)
+    if trace > 0:
+        s = 0.5 / np.sqrt(trace + 1.0)
+        w = 0.25 / s
+        x = (R[2, 1] - R[1, 2]) * s
+        y = (R[0, 2] - R[2, 0]) * s
+        z = (R[1, 0] - R[0, 1]) * s
+    elif R[0, 0] > R[1, 1] and R[0, 0] > R[2, 2]:
+        s = 2.0 * np.sqrt(1.0 + R[0, 0] - R[1, 1] - R[2, 2])
+        w = (R[2, 1] - R[1, 2]) / s
+        x = 0.25 * s
+        y = (R[0, 1] + R[1, 0]) / s
+        z = (R[0, 2] + R[2, 0]) / s
+    elif R[1, 1] > R[2, 2]:
+        s = 2.0 * np.sqrt(1.0 + R[1, 1] - R[0, 0] - R[2, 2])
+        w = (R[0, 2] - R[2, 0]) / s
+        x = (R[0, 1] + R[1, 0]) / s
+        y = 0.25 * s
+        z = (R[1, 2] + R[2, 1]) / s
+    else:
+        s = 2.0 * np.sqrt(1.0 + R[2, 2] - R[0, 0] - R[1, 1])
+        w = (R[1, 0] - R[0, 1]) / s
+        x = (R[0, 2] + R[2, 0]) / s
+        y = (R[1, 2] + R[2, 1]) / s
+        z = 0.25 * s
+    return np.array([w, x, y, z])
+
+
+def quaternion_to_rotation_matrix(q):
+    """Convert a quaternion (w, x, y, z) to a 3x3 rotation matrix."""
+    w, x, y, z = q
+    return np.array([
+        [1 - 2*y*y - 2*z*z, 2*x*y - 2*z*w, 2*x*z + 2*y*w],
+        [2*x*y + 2*z*w, 1 - 2*x*x - 2*z*z, 2*y*z - 2*x*w],
+        [2*x*z - 2*y*w, 2*y*z + 2*x*w, 1 - 2*x*x - 2*y*y]
+    ])
+
+
+def slerp(q1, q2, t):
+    """Spherical linear interpolation between two quaternions."""
+    # Normalize quaternions
+    q1 = q1 / np.linalg.norm(q1)
+    q2 = q2 / np.linalg.norm(q2)
+
+    # Compute the dot product
+    dot = np.dot(q1, q2)
+
+    # If the dot product is negative, negate one quaternion to take the shorter path
+    if dot < 0:
+        q2 = -q2
+        dot = -dot
+
+    # If quaternions are very close, use linear interpolation
+    if dot > 0.9995:
+        result = q1 + t * (q2 - q1)
+        return result / np.linalg.norm(result)
+
+    # Compute the angle between quaternions
+    theta_0 = np.arccos(dot)
+    theta = theta_0 * t
+
+    # Compute the interpolated quaternion
+    q2_perp = q2 - dot * q1
+    q2_perp = q2_perp / np.linalg.norm(q2_perp)
+
+    return q1 * np.cos(theta) + q2_perp * np.sin(theta)
+
+
+def interpolate_extrinsics(extrinsic1, extrinsic2, num_interpolations=3):
+    """
+    Interpolate between two extrinsic matrices to create smooth camera transitions.
+
+    Parameters:
+    extrinsic1 (np.array): First 4x4 extrinsic matrix.
+    extrinsic2 (np.array): Second 4x4 extrinsic matrix.
+    num_interpolations (int): Number of intermediate frames to create between the two key frames.
+
+    Returns:
+    list: List of interpolated 4x4 extrinsic matrices (excluding the endpoints).
+    """
+    # Extract rotation and translation from both matrices
+    R1, t1 = matrix_to_rotation_translation(extrinsic1)
+    R2, t2 = matrix_to_rotation_translation(extrinsic2)
+
+    # Convert rotation matrices to quaternions
+    q1 = rotation_matrix_to_quaternion(R1)
+    q2 = rotation_matrix_to_quaternion(R2)
+
+    interpolated_matrices = []
+
+    for i in range(1, num_interpolations + 1):
+        # Interpolation parameter (0 to 1, excluding endpoints)
+        t = i / (num_interpolations + 1)
+
+        # Linear interpolation for translation
+        t_interp = t1 * (1 - t) + t2 * t
+
+        # SLERP for rotation
+        q_interp = slerp(q1, q2, t)
+        R_interp = quaternion_to_rotation_matrix(q_interp)
+
+        # Construct the interpolated 4x4 matrix
+        matrix_interp = np.eye(4)
+        matrix_interp[:3, :3] = R_interp
+        matrix_interp[:3, 3] = t_interp
+
+        interpolated_matrices.append(matrix_interp)
+
+    return interpolated_matrices
+
+
+def create_smooth_camera_trajectory(extrinsic_list, num_interpolations=3):
+    """
+    Create a smooth camera trajectory by interpolating between key camera poses.
+
+    Parameters:
+    extrinsic_list (list): List of (id, extrinsic_matrix) tuples for key camera poses.
+    num_interpolations (int): Number of intermediate frames between each pair of key frames.
+
+    Returns:
+    list: List of (id_str, extrinsic_matrix) tuples for all camera poses (key + interpolated).
+    """
+    if len(extrinsic_list) < 2:
+        return [(str(id), ext) for id, ext in extrinsic_list]
+
+    smooth_trajectory = []
+
+    for i in range(len(extrinsic_list)):
+        id_curr, ext_curr = extrinsic_list[i]
+
+        # Add the current key frame
+        smooth_trajectory.append((f"{id_curr}", ext_curr))
+
+        # If there's a next key frame, interpolate
+        if i < len(extrinsic_list) - 1:
+            id_next, ext_next = extrinsic_list[i + 1]
+
+            # Create interpolated frames
+            interpolated = interpolate_extrinsics(ext_curr, ext_next, num_interpolations)
+
+            # Add interpolated frames with IDs like "5_interp_1", "5_interp_2", etc.
+            for j, ext_interp in enumerate(interpolated):
+                interp_id = f"{id_curr}_interp_{j+1}"
+                smooth_trajectory.append((interp_id, ext_interp))
+
+    return smooth_trajectory
 
 def load_processed_data(room):
     """Load preprocessed scene data with validation."""
@@ -814,7 +971,7 @@ def load_processed_data(room):
     print(f"✓ Successfully loaded scene data for '{room}'")
     return object_lists, walls, wall_holes, floor_pose
 
-def main(room, load_textured_scan=False, take_image=False, render_engine='EEVEE'):
+def main(room, load_textured_scan=False, take_image=False, render_engine='EEVEE', num_interpolations=3):
     # load the preprocessed data
     
     # Get current script directory to use for relative paths
@@ -990,28 +1147,52 @@ def main(room, load_textured_scan=False, take_image=False, render_engine='EEVEE'
         folder_to_save = f"output/whole_scene_render/rendered_rgbd/{room}"
         if not os.path.exists(folder_to_save):
             os.makedirs(folder_to_save)
-    
+
         camera_data_folder = f"input/rgbd/{room}"
         intrinsic_matrix_list = f"{camera_data_folder}/intrinsic/*"
 
-        intrinsic_matrix = glob.glob(intrinsic_matrix_list)
+        intrinsic_files = glob.glob(intrinsic_matrix_list)
 
         width = 960
         height = 720
 
-        for intrinsic in intrinsic_matrix:
-            id = int(intrinsic.split("_")[-1].split(".")[0])
-            extrinsic = f"{camera_data_folder}/extrinsic/extrinsic_{id}.npy"
-            intrinsic = np.load(intrinsic)
-            intrinsic = resize_intrinsic(intrinsic, (192, 256), (height, width))
-            extrinsic = np.load(extrinsic)
+        # Load all camera poses first (key frames)
+        key_camera_poses = []
+        intrinsic_data = None  # We'll use the same intrinsic for all frames
+
+        for intrinsic_file in sorted(intrinsic_files, key=lambda x: int(x.split("_")[-1].split(".")[0])):
+            id = int(intrinsic_file.split("_")[-1].split(".")[0])
+            extrinsic_file = f"{camera_data_folder}/extrinsic/extrinsic_{id}.npy"
+
+            if intrinsic_data is None:
+                intrinsic_data = np.load(intrinsic_file)
+                intrinsic_data = resize_intrinsic(intrinsic_data, (192, 256), (height, width))
+
+            extrinsic = np.load(extrinsic_file)
+            key_camera_poses.append((id, extrinsic))
+
+        print(f"Loaded {len(key_camera_poses)} key camera poses")
+
+        # Create smooth trajectory by interpolating between key frames
+        if num_interpolations > 0:
+            smooth_trajectory = create_smooth_camera_trajectory(key_camera_poses, num_interpolations)
+            print(f"Created smooth trajectory with {len(smooth_trajectory)} total frames ({num_interpolations} interpolations between each key frame)")
+        else:
+            smooth_trajectory = [(str(id), ext) for id, ext in key_camera_poses]
+            print(f"No interpolation, using {len(smooth_trajectory)} key frames only")
+
+        # Render all frames (key frames + interpolated frames)
+        for frame_idx, (frame_id, extrinsic) in enumerate(smooth_trajectory):
+            print(f"Rendering frame {frame_idx + 1}/{len(smooth_trajectory)}: {frame_id}")
 
             # Set up the camera
-            camera = setup_camera(intrinsic, extrinsic, render_width=width, render_height=height)
+            camera = setup_camera(intrinsic_data, extrinsic, render_width=width, render_height=height)
             # Render the image
-            render_image(f"{folder_to_save}/render_image_{id}.png", resolution_x=width, resolution_y=height)
+            render_image(f"{folder_to_save}/render_image_{frame_id}.png", resolution_x=width, resolution_y=height)
 
             bpy.data.objects.remove(camera)
+
+        print(f"Finished rendering {len(smooth_trajectory)} frames to {folder_to_save}")
 
 def setup_camera(intrinsic_matrix, extrinsic_matrix, render_width, render_height):
     # Add and configure a new camera
@@ -1050,21 +1231,23 @@ def render_image(output_path, resolution_x=1920/2, resolution_y=1440/2):
 
 if __name__ == "__main__":
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="Blender integration script")
+    parser = argparse.ArgumentParser(description="Blender integration script with smooth camera trajectory")
     parser.add_argument('--scene', type=str, default="Girton", help="Scene name")
     parser.add_argument('--load_textured_scan', action='store_true', help="Load textured scan")
     parser.add_argument('--take_image', action='store_true', default=True, help="Take image")
-    parser.add_argument('--render_engine', type=str, choices=['BLENDER_EEVEE', 'CYCLES'], default='CYCLES', 
+    parser.add_argument('--render_engine', type=str, choices=['BLENDER_EEVEE', 'CYCLES'], default='CYCLES',
                         help="Rendering engine: CYCLES (better quality, optimized) or BLENDER_EEVEE (faster but lower quality)")
-    
+    parser.add_argument('--num_interpolations', type=int, default=3,
+                        help="Number of interpolated frames between each key camera pose (default: 3). Set to 0 to disable smoothing.")
+
     # Get all args after "--" which are intended for this script
     argv = sys.argv
     if "--" in argv:
         argv = argv[argv.index("--") + 1:]
     else:
         argv = []
-    
+
     args = parser.parse_args(argv)
-    
+
     # Run main function with provided arguments
-    main(args.scene, args.load_textured_scan, args.take_image, args.render_engine)
+    main(args.scene, args.load_textured_scan, args.take_image, args.render_engine, args.num_interpolations)
