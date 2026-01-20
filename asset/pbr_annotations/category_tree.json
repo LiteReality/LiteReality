@@ -1,0 +1,93 @@
+{
+ "Ceramic": [
+  "Porcelain",
+  "Tiles"
+ ],
+ "Concrete": [
+  "Asphalt",
+  "Concrete",
+  "PavingStones",
+  "Road",
+  "TactilePaving"
+ ],
+ "Fabric": [
+  "Carpet",
+  "Fabric"
+ ],
+ "Ground": [
+  "Grass",
+  "Gravel",
+  "Ground",
+  "Ice",
+  "Lava",
+  "Moss",
+  "Rails",
+  "Rocks",
+  "Rock",
+  "Shells",
+  "Snow"
+ ],
+ "Leather": [
+  "Leather"
+ ],
+ "Marble": [
+  "Granite",
+  "Marble",
+  "Terrazzo",
+  "Tiles"
+ ],
+ "Metal": [
+  "Chainmail",
+  "Foil",
+  "Metal",
+  "MetalPlates"
+ ],
+ "Misc": [
+  "Candy",
+  "Cardboard",
+  "Facade",
+  "Fence",
+  "Foam",
+  "Ivory",
+  "OfficeCeiling",
+  "Paper",
+  "Pipe",
+  "Sign"
+ ],
+ "Plaster": [
+  "PaintedPlaster",
+  "Paint",
+  "Plaster",
+  "Wallpaper"
+ ],
+ "Plastic": [
+  "Plastic",
+  "Sponge"
+ ],
+ "Stone": [
+  "Bricks",
+  "PavingStones",
+  "RoofingTiles",
+  "Tiles"
+ ],
+ "Terracotta": [
+  "Bricks",
+  "Clay",
+  "GlazedTerracotta",
+  "PaintedBricks",
+  "PavingStones",
+  "RoofingTiles",
+  "Tiles"
+ ],
+ "Wood": [
+  "Bark",
+  "Chipboard",
+  "Cork",
+  "PaintedWood",
+  "Planks",
+  "ThatchedRoof",
+  "Wood",
+  "WoodFloor",
+  "WoodSiding"
+ ]
+}

@@ -1,0 +1,3579 @@
+{
+ "Ceramic_Porcelain": [
+  {
+   "Ceramic_Porcelain001": "A soft white porcelain material with a smooth, matte finish and no discernible patterns or defects."
+  },
+  {
+   "Ceramic_Porcelain002": "A slightly off-white porcelain with a subtle gloss, devoid of patterns and exhibiting an untouched surface."
+  },
+  {
+   "Ceramic_Porcelain003": "A dark, near-black porcelain with a glossy surface, lacking any visible patterns or textural deviations."
+  }
+ ],
+ "Ceramic_Tiles": [
+  {
+   "Ceramic_Tiles003": "Aqua blue tiles with subtle variations in color and a glossy ceramic finish with simple, straight grout lines."
+  },
+  {
+   "Ceramic_Tiles004": "Mint green ceramic tiles with a smooth, even color and a clean, glossy appearance separated by dark grout."
+  },
+  {
+   "Ceramic_Tiles005": "Periwinkle and lavender ceramic tiles with noticeable color variation and alternating shades in a grid-like pattern."
+  },
+  {
+   "Ceramic_Tiles006": "Pebble-shape ceramic tiles in muted seafoam with a subtle color gradient and a matte-like finish in an overlapping pattern."
+  },
+  {
+   "Ceramic_Tiles008": "Soft ivory ceramic tiles with a satin finish arranged in a brick pattern with minimal color variation and slight relief texture."
+  },
+  {
+   "Ceramic_Tiles010": "Glossy off-white ceramic with smooth texture and clean grout lines."
+  },
+  {
+   "Ceramic_Tiles011": "Satin off-white ceramic with subtle surface irregularities and faint grout lines."
+  },
+  {
+   "Ceramic_Tiles013": "Combination of matte cream and light yellow tiles with aged appearance and notable grout texture."
+  },
+  {
+   "Ceramic_Tiles014": "Polished black and white checkered ceramic with sharp contrasts and smooth surface detailing."
+  },
+  {
+   "Ceramic_Tiles015": "Two-tone dark green and black tiles with a worn finish and slightly weathered grout."
+  },
+  {
+   "Ceramic_Tiles016": "A light grey and white checkered pattern on a ceramic surface with a matte finish."
+  },
+  {
+   "Ceramic_Tiles019": "Blue-green ceramic with an iridescent glazed finish and a weathered, crackled texture."
+  },
+  {
+   "Ceramic_Tiles020": "Pale turquoise ceramic tiles arranged tightly with visible grout lines on a slightly uneven surface."
+  },
+  {
+   "Ceramic_Tiles021": "A checkerboard pattern of reflective white and greenish-grey squares on a ceramic surface."
+  },
+  {
+   "Ceramic_Tiles022": "Dark green, glazed ceramic with small, square tiles, showing variation in hue and a slightly aged appearance."
+  },
+  {
+   "Ceramic_Tiles023": "A dark green ceramic with a grid pattern of slightly varying green shades and a matte finish."
+  },
+  {
+   "Ceramic_Tiles024": "A mosaic of small, matte green tiles with subtle variations in hue, giving a textured appearance."
+  },
+  {
+   "Ceramic_Tiles027": "Pale yellow ceramic tiles with a smooth surface and a noticeable grid pattern in a uniform color."
+  },
+  {
+   "Ceramic_Tiles028": "A beige ceramic finish with larger tiles, visible line separation, and a uniform, smooth texture."
+  },
+  {
+   "Ceramic_Tiles029": "Teal-colored ceramic tiles with a glossy appearance, distinct grid lines, and slight color variation."
+  },
+  {
+   "Ceramic_Tiles030": "Pale blue ceramic with a smooth finish and subtle grid line pattern."
+  },
+  {
+   "Ceramic_Tiles031": "Vibrant green ceramic featuring a glossy surface with sharp grid line indentations."
+  },
+  {
+   "Ceramic_Tiles032": "Dark green ceramic with a glossy surface and prominent grout lines giving a 3D tile effect."
+  },
+  {
+   "Ceramic_Tiles033": "Bright yellow ceramic with a smooth surface and subtle grid line details."
+  },
+  {
+   "Ceramic_Tiles034": "Olive green ceramic with a gentle sheen and an understated concave tile pattern."
+  },
+  {
+   "Ceramic_Tiles035": "Grayish-blue ceramic tiles with varying shades and a grid pattern creating a mosaic-like appearance."
+  },
+  {
+   "Ceramic_Tiles036": "Pristine white ceramic with a simple grid pattern, giving an impression of cleanliness and uniformity."
+  },
+  {
+   "Ceramic_Tiles037": "Vibrant coral red ceramic tiles arranged in a grid, exhibiting a warm, inviting color with a consistent pattern."
+  },
+  {
+   "Ceramic_Tiles039": "Pale gray ceramic featuring a subtle grid pattern with mossy green accents, suggesting wear or aging."
+  },
+  {
+   "Ceramic_Tiles040": "Light gray and white mottled ceramic tiles with a pronounced grid pattern, hinting at natural stone variations."
+  },
+  {
+   "Ceramic_Tiles041": "A mottled yellow ceramic with uneven white speckles and a semi-gloss finish."
+  },
+  {
+   "Ceramic_Tiles042": "This ceramic presents a sea green color, adorned with a widespread, irregular white patterning and a matte texture."
+  },
+  {
+   "Ceramic_Tiles043": "Featuring a gray base, the ceramic has subtle white flecks throughout and boasts a grainy, tactile surface."
+  },
+  {
+   "Ceramic_Tiles044": "A rich cobalt blue color dominates this ceramic, interspersed with light blue splotches and a matte, slightly textured appearance."
+  },
+  {
+   "Ceramic_Tiles052": "Dark charcoal gray ceramic, characterized by lighter gray marbling and distinct, glossy grid lines."
+  },
+  {
+   "Ceramic_Tiles053": "Green and white checkered ceramic tiles with varying shades of green and intricate seams."
+  },
+  {
+   "Ceramic_Tiles054": "Uniformly pale gray ceramic tiles with subtle variations in tone and visible grout lines."
+  },
+  {
+   "Ceramic_Tiles055": "Off-white ceramic tiles accented with black dashes and golden rectangles at intersections."
+  },
+  {
+   "Ceramic_Tiles056": "Black and white checkered ceramic tiles with a bold contrast and a classic pattern."
+  },
+  {
+   "Ceramic_Tiles057": "White ceramic tiles scattered with small red and blue rectangles and prominent grout lines."
+  },
+  {
+   "Ceramic_Tiles058": "Dark grey ceramic with white dashed patterns, exhibiting a worn, uneven texture with varying degrees of roughness."
+  },
+  {
+   "Ceramic_Tiles059": "Alternating dark and light green ceramic tiles with visible grout lines, presenting a smooth, consistent finish."
+  },
+  {
+   "Ceramic_Tiles060": "White and green checkered ceramic with a pattern of sharp, distinct squares, offering a slightly weathered and textured surface."
+  },
+  {
+   "Ceramic_Tiles062": "Slightly worn white ceramic with a subtle, irregular patchwork design, giving an impression of a lightly textured surface."
+  },
+  {
+   "Ceramic_Tiles067": "Glossy turquoise ceramic with a honeycomb pattern, showing varied shades and a consistent, slightly raised surface."
+  },
+  {
+   "Ceramic_Tiles069": "Light blue tiles with a hexagonal pattern and varying shades of blue giving a sense of depth."
+  },
+  {
+   "Ceramic_Tiles070": "Dark teal ceramic tiles with a hexagon pattern, transitioning to a deeper color toward the edges."
+  },
+  {
+   "Ceramic_Tiles071": "Matte white tiles arranged in a uniform hexagonal pattern, with a clean, unblemished surface."
+  },
+  {
+   "Ceramic_Tiles072": "Charcoal grey tiles with a hexagonal design and subtle variations in tone for a textured appearance."
+  },
+  {
+   "Ceramic_Tiles073": "Burgundy tiles with a smooth surface, featuring a white grid pattern that creates a distinguished look."
+  },
+  {
+   "Ceramic_Tiles074": "This tile material features a classic checkerboard pattern with alternating white and black colors, exhibiting a worn look with speckles and smudges."
+  },
+  {
+   "Ceramic_Tiles075": "A deep black ceramic material with lighter gray marbling, this texture shows significant wear and tear, including scratches and weathering."
+  },
+  {
+   "Ceramic_Tiles076": "This ceramic surface is adorned with an intricate black and white maze-like geometric pattern, detailed with clean lines over a white base."
+  },
+  {
+   "Ceramic_Tiles077": "Sporting a polished look, this ceramic combines swirling dark green patterns with large, smooth white areas forming sinuous shapes."
+  },
+  {
+   "Ceramic_Tiles078": "A beige ceramic tile with a natural stone appearance, showcasing a mottled pattern with patches of light and dark discoloration."
+  },
+  {
+   "Ceramic_Tiles079": "Beige and white ceramic with a matte finish and geometric square patterns, presenting a clean and modern appearance."
+  },
+  {
+   "Ceramic_Tiles080": "Dark green and black ceramic with a traditional diamond pattern, the surface shows variations in hue and a textured look."
+  },
+  {
+   "Ceramic_Tiles081": "Black and white ceramic with a high-contrast, optical wave pattern, exhibiting a classic and bold design."
+  },
+  {
+   "Ceramic_Tiles082": "A dual-toned ceramic material with a mixture of glossy black and matte white sections in a smooth curved pattern."
+  },
+  {
+   "Ceramic_Tiles099": "Vibrant cobalt blue and white ceramic with intricate floral and vine patterns, showcasing a classic and ornate style."
+  },
+  {
+   "Ceramic_Tiles100": "Glossy white ceramic with vibrant blue floral patterns and symmetrical tile lines."
+  },
+  {
+   "Ceramic_Tiles102": "Matte white ceramic with intricate blue scrollwork and tile divisions."
+  },
+  {
+   "Ceramic_Tiles103": "White ceramic featuring a dense network of blue filigree designs with tile segmentation."
+  },
+  {
+   "Ceramic_Tiles104": "White ceramic with minimalistic blue curved line details and prominent grid lines."
+  },
+  {
+   "Ceramic_Tiles105": "Smooth, matte white ceramic with subtle grid lines and no additional color or pattern."
+  },
+  {
+   "Ceramic_Tiles106": "Black ceramic with a glossy finish featuring smooth surface and evenly spaced, shallow grout lines."
+  },
+  {
+   "Ceramic_Tiles107": "White ceramic tile with a matte finish containing uniform, smooth surface and crisp grout lines."
+  },
+  {
+   "Ceramic_Tiles108": "Black ceramic with a high gloss finish, showcasing a smooth surface texture with distinct, evenly spaced grout lines."
+  },
+  {
+   "Ceramic_Tiles109": "Cream-colored ceramic with a speckled pattern, slight rough texture, and visible grout lines giving an earthy appearance."
+  },
+  {
+   "Ceramic_Tiles110": "Light beige ceramic with a randomized speckled pattern, subtle roughness, and prominent grout lines for a natural look."
+  },
+  {
+   "Ceramic_Tiles111": "Burnt orange ceramic tiles with subtle texture and a glossy finish, intersected with smooth light grey grout lines."
+  },
+  {
+   "Ceramic_Tiles112": "Light grey ceramic tiles featuring a matte finish and textured surface with thin, glossy blue cross-lines."
+  },
+  {
+   "Ceramic_Tiles113": "Mustard yellow ceramic tiles with a shiny glaze and visible texture, complemented by satin grey grout."
+  },
+  {
+   "Ceramic_Tiles114": "Deep black glossy ceramic with a light reflective quality, accented by textured dark grey joints."
+  },
+  {
+   "Ceramic_Tiles118": "Pale blue ceramic tiles with a bubble-like concave pattern and variations in tone, paired with narrow white grout."
+  },
+  {
+   "Ceramic_Tiles119": "This material features a glossy finish with green and white colors, showcasing a pattern of convex ceramic tiles."
+  },
+  {
+   "Ceramic_Tiles120": "Boasting a matte finish, this material presents a uniform beige color throughout its smooth ceramic tiles."
+  },
+  {
+   "Ceramic_Tiles122": "Vibrant blue and white colors define this pattern, with a mix of glossy and matte finishes on concave ceramic tiles."
+  },
+  {
+   "Ceramic_Tiles123": "Featuring a gradient from white to deep orange, this material has a glossy finish on convex ceramic tiles."
+  },
+  {
+   "Ceramic_Tiles124": "This material showcases a monochromatic palette of grays, with a pattern of glossy and matte finishes on concave ceramic tiles."
+  },
+  {
+   "Ceramic_Tiles125": "A ceramic material with a gradient of colors from white to orange, featuring a semi-glossy surface with subtle orange accents."
+  },
+  {
+   "Ceramic_Tiles126": "This ceramic material displays a playful pattern with a mix of light green to darker green tones, offering a matte finish with varied green hues."
+  },
+  {
+   "Ceramic_Tiles127": "A rose-tinted ceramic material that provides a sense of warmth, showcasing a pattern with shades of pink and a uniform, smooth appearance."
+  },
+  {
+   "Ceramic_Tiles128A": "A neutral ceramic material, presenting a clean and monochromatic scheme with a satin finish in a uniformly light grey color."
+  },
+  {
+   "Ceramic_Tiles128B": "An off-white ceramic material with a pure and classic look, characterized by a smooth matte texture in a consistent off-white color palette."
+  },
+  {
+   "Ceramic_Tiles129A": "Black ceramic with varying shades of gray, exhibiting a matte finish with an array of concave circular patterns."
+  },
+  {
+   "Ceramic_Tiles129B": "Black ceramic featuring a consistent dark tone, displaying a smooth finish with uniform convex circular patterns."
+  }
+ ],
+ "Concrete_Asphalt": [
+  {
+   "Concrete_Asphalt024C": "Dark charcoal color with subtle, lighter gray speckles and a fine-grained asphalt texture with minimal surface irregularities."
+  },
+  {
+   "Concrete_Asphalt026B": "Medium gray color with an evenly distributed, fine crackle pattern over an asphalt surface showing minimal weathering."
+  },
+  {
+   "Concrete_Asphalt026C": "Uniform dark gray color featuring a slightly more pronounced crackle network on the asphalt surface indicating moderate wear."
+  },
+  {
+   "Concrete_Asphalt005": "Light gray color with visible flecks of white and subtle surface granularity, simulating a freshly laid, fine asphalt."
+  },
+  {
+   "Concrete_Asphalt007": "Consistent medium gray color with an understated, smooth asphalt texture, and a homogenous material surface devoid of imperfections."
+  },
+  {
+   "Concrete_Asphalt008": "Light gray asphalt material featuring a network of prominent, interconnected cracks with subtle textural variations."
+  },
+  {
+   "Concrete_Asphalt009": "Uniform mid-tone gray material with a fine, scattered pattern suggesting a slightly pitted surface texture."
+  },
+  {
+   "Concrete_Asphalt010": "Dark gray surface with a smooth appearance and minimal patterning, giving an impression of dense asphalt composition."
+  },
+  {
+   "Concrete_Asphalt011": "Deep charcoal material with fine reddish-brown cracks throughout, hinting at weathering or distress."
+  },
+  {
+   "Concrete_Asphalt013": "Dark olive-gray asphalt with a pervasive spread of thin, branching veins, reminiscent of a distressed condition."
+  },
+  {
+   "Concrete_Asphalt014": "Uniform medium gray color with a smooth concrete texture and minimal surface imperfections."
+  },
+  {
+   "Concrete_Asphalt015": "Light gray color with a rough concrete texture featuring small granular patterns throughout."
+  },
+  {
+   "Concrete_Asphalt016": "Dark gray and brown color with a worn asphalt material, showcasing patches and streaks of wear."
+  },
+  {
+   "Concrete_Asphalt017": "Very dark gray with heavy wear on asphalt surface, displaying large areas of degradation and discoloration."
+  },
+  {
+   "Concrete_Asphalt019": "Charcoal gray with an aging asphalt appearance, characterized by large, rough patches of stripping and exposed layers."
+  },
+  {
+   "Concrete_Asphalt020L": "This material features a uniform, dark gray color with a smooth, compact appearance and subtle surface variations."
+  },
+  {
+   "Concrete_Asphalt020S": "The surface is a mid-tone gray with fine-grain texture and scattered small particulates throughout the material."
+  },
+  {
+   "Concrete_Asphalt022": "Sporting a deep gray color, the material is heavily weathered with an extensive network of lighter cracks covering its surface."
+  },
+  {
+   "Concrete_Asphalt023L": "Exhibiting a consistent light gray, this material has a uniformly rough texture with minimal variation."
+  },
+  {
+   "Concrete_Asphalt023S": "This material has a dusty gray color with a slightly speckled pattern and visible small grains and pits across the surface."
+  },
+  {
+   "Concrete_Asphalt024A": "A dark gray asphalt texture with fine-grained consistency and subtle lighter gray streaks throughout the material."
+  },
+  {
+   "Concrete_Asphalt024B": "This variant shows a slightly lighter gray asphalt with speckled patterns and a hint of greenish undertones."
+  },
+  {
+   "Concrete_Asphalt025A": "A medium gray asphalt material with uniform texture, featuring very faint, almost imperceptible, darker gray speckles."
+  },
+  {
+   "Concrete_Asphalt025B": "Another medium gray asphalt material, appears homogenous with slightly more pronounced dark gray speckling than the third."
+  },
+  {
+   "Concrete_Asphalt025C": "A consistent dark gray asphalt texture with a velvety appearance and faint traces of lighter and darker gray areas."
+  },
+  {
+   "Concrete_Asphalt026A": "Dark gray asphalt with prominent, high-contrast crack patterns and a rough, textured surface."
+  },
+  {
+   "Concrete_Asphalt027A": "Mid-tone gray asphalt with subtle, low-contrast patterns and a moderately rough texture."
+  },
+  {
+   "Concrete_Asphalt027B": "Uniform dark gray asphalt with minimal variance in color, showcasing a gently textured, consistent surface."
+  },
+  {
+   "Concrete_Asphalt027C": "Dark gray asphalt surface featuring a mix of sharp and subtle cracks, with an overall rough and uneven texture."
+  },
+  {
+   "Concrete_Asphalt028A": "Smooth, muted gray asphalt with very subtle variations in hue, presenting a soft and fine-textured appearance."
+  },
+  {
+   "Concrete_Asphalt028B": "A dark gray asphalt material with a subtle blend of lighter gray tones and minimal patterns."
+  },
+  {
+   "Concrete_Asphalt028C": "A slightly lighter dark gray asphalt, featuring a mix of muted gray shades and faint marbling effects."
+  },
+  {
+   "Concrete_Asphalt030": "A light beige concrete material, displaying a uniform appearance with tiny, sparse granules and subtle variations in tone."
+  },
+  {
+   "Concrete_Asphalt029A": "A dusty rose-colored smooth surface, offering a consistent pigment with very fine, almost imperceptible texture."
+  },
+  {
+   "Concrete_Asphalt029B": "A vibrant red material with a matte finish, presenting a uniform color and a subtle, soft texturing."
+  }
+ ],
+ "Concrete_Concrete": [
+  {
+   "Concrete_Concrete004": "A light gray concrete texture with pronounced horizontal striations and varying shades of gray."
+  },
+  {
+   "Concrete_Concrete005": "An olive gray concrete material speckled with lighter gray patches and subtle yellowish tones."
+  },
+  {
+   "Concrete_Concrete006": "A uniform medium gray concrete surface with minimal variation and a smooth finish."
+  },
+  {
+   "Concrete_Concrete007": "A pale gray concrete with a grid pattern of fine lines and small, regular indentations."
+  },
+  {
+   "Concrete_Concrete008": "A light gray concrete with a segmented appearance, featuring small bolt-like details and fine lines."
+  },
+  {
+   "Concrete_Concrete009": "A light gray concrete with dotted patterns and faint grid lines, suggesting a measuring guide or construction template."
+  },
+  {
+   "Concrete_Concrete010": "A medium gray concrete with subtle horizontal and vertical line indentations, resembling a paneled surface or wall."
+  },
+  {
+   "Concrete_Concrete011": "A textured concrete mixing shades of gray and specks of white, resembling a rough aggregate finish commonly used for exteriors."
+  },
+  {
+   "Concrete_Concrete012": "A dark gray, worn concrete surface with patchy areas and a slightly inconsistent color, suggesting weathering or water exposure."
+  },
+  {
+   "Concrete_Concrete014": "A uniform light gray concrete with a smooth, fine texture and scattered small imperfections, hinting at a well-used or aged material."
+  },
+  {
+   "Concrete_Concrete015": "A light gray concrete material with subtle vertical striations and small, scattered dark imperfections."
+  },
+  {
+   "Concrete_Concrete016": "A pale gray concrete material, appearing smoother with minimal fine speckles and faint markings."
+  },
+  {
+   "Concrete_Concrete017": "A mid-gray concrete material with visible surface wear and scratched patterns, giving a well-used look."
+  },
+  {
+   "Concrete_Concrete018": "A textured concrete material with embedded stones in varying shades of gray, providing an uneven, cobblestone-like appearance."
+  },
+  {
+   "Concrete_Concrete019": "An uneven, mottled gray concrete material that resembles a plastered surface with areas of smoothing and patching."
+  },
+  {
+   "Concrete_Concrete020": "A light gray concrete with a fine, uniform texture and subtle variations in color."
+  },
+  {
+   "Concrete_Concrete021": "A blue-gray concrete exhibiting a worn patina with areas of darker shading and mottling."
+  },
+  {
+   "Concrete_Concrete022": "A medium gray concrete with distinct patches of discoloration and prominent crack patterns."
+  },
+  {
+   "Concrete_Concrete023": "A pale gray concrete with a combination of smooth areas and fine, detailed etchings."
+  },
+  {
+   "Concrete_Concrete024": "A consistent light gray concrete with a soft, powdery surface and minimal color variation."
+  },
+  {
+   "Concrete_Concrete025": "A light gray concrete with small multi-colored aggregates scattered throughout the material surface."
+  },
+  {
+   "Concrete_Concrete027": "A homogeneous, dark gray concrete with subtle vertical striations and minimal variations in tone."
+  },
+  {
+   "Concrete_Concrete028": "A medium gray concrete featuring prominent horizontal and vertical wooden plank patterns with slight tonal variations."
+  },
+  {
+   "Concrete_Concrete029": "Dark gray concrete with distinct wooden plank impressions, creating a consistent pattern across the surface."
+  },
+  {
+   "Concrete_Concrete030": "Uniform medium gray concrete surface with minimal textural details and a few small pits and imperfections."
+  },
+  {
+   "Concrete_Concrete031": "Light grey concrete with subtle linear seams and tiny pits and imperfections across the surface."
+  },
+  {
+   "Concrete_Concrete032": "Dark grey, weathered concrete material with a slightly mottled appearance and occasional small pores."
+  },
+  {
+   "Concrete_Concrete033": "Uniform mid-grey concrete material with fine, diffuse patterns akin to brushed finish and minimal surface variation."
+  },
+  {
+   "Concrete_Concrete036": "Variably stained grey concrete showing areas of darker and lighter patches with an overall worn surface."
+  },
+  {
+   "Concrete_Concrete037": "Textured concrete with a fine aggregate visible throughout, creating a speckled pattern of greys and whites."
+  },
+  {
+   "Concrete_Concrete038": "Featuring a yellow-green color, this concrete material is speckled with small dark inclusions and slight surface irregularities."
+  },
+  {
+   "Concrete_Concrete039": "A weathered brown-grey concrete with extensive patches of erosion and exposed aggregate throughout much of its surface."
+  },
+  {
+   "Concrete_Concrete040": "Tan-colored concrete dotted with black and grey particles, displaying a consistent granular texture across its surface."
+  },
+  {
+   "Concrete_Concrete041A": "Uniform light grey concrete with subtle linear indentations suggesting a formwork pattern, giving it a directional texture."
+  },
+  {
+   "Concrete_Concrete041B": "This concrete variant is light grey with streaks of rust-like discoloration, punctuated by cracks and small chipped areas revealing rusty steel."
+  },
+  {
+   "Concrete_Concrete041C": "Aged grey concrete with scattered rust-like streaks and pronounced weathering, exhibiting a patchy distribution of rough textures."
+  },
+  {
+   "Concrete_Concrete041D": "Warm grey concrete, characterized by a grid of rust-colored markings akin to rebar imprints and a consistent, subtly textured surface."
+  },
+  {
+   "Concrete_Concrete042A": "Smooth light grey concrete with minimal discolorations, showcasing a uniform material consistency with subtle surface variations."
+  },
+  {
+   "Concrete_Concrete042B": "Pale grey concrete with localized rust-like stains and weathering, particularly noticeable in one region, indicating uneven exposure to elements."
+  },
+  {
+   "Concrete_Concrete042C": "Cool grey concrete featuring a pervasive grid of brownish-reddish markings and visible signs of distress across its breadth."
+  },
+  {
+   "Concrete_Concrete042D": "Grey concrete with a prominent grid of rusty rebar imprints and a large faded patch in the center."
+  },
+  {
+   "Concrete_Concrete043A": "Uniformly dark grey concrete with subtle vertical striations and minor patches of discoloration."
+  },
+  {
+   "Concrete_Concrete043B": "Weathered grey concrete with horizontal plank-like textures, punctuated by small rusty stains and cracks."
+  },
+  {
+   "Concrete_Concrete043C": "Grey concrete with an aged appearance, featuring weathered plank textures and scattered russet rebar markings."
+  },
+  {
+   "Concrete_Concrete043D": "Weathered grey concrete with a crisscross pattern of rusted rebar imprints and sporadic patches of erosion."
+  },
+  {
+   "Concrete_Concrete044A": "A smooth light gray concrete with subtle vertical striations and small imperfections."
+  },
+  {
+   "Concrete_Concrete044B": "Weathered dark gray concrete with visible wear and tear, along with patches of discoloration."
+  },
+  {
+   "Concrete_Concrete044C": "Rugged gray concrete with extensive cracks, pitting, and surface erosion indicating aged or distressed condition."
+  },
+  {
+   "Concrete_Concrete044D": "Mottled gray concrete with a varied texture and inconsistent color, with signs of deterioration and patchy areas."
+  },
+  {
+   "Concrete_Concrete045": "Pristine white concrete with pronounced vertical ribbing and a clean, uniform appearance."
+  }
+ ],
+ "Concrete_PavingStones": [
+  {
+   "Concrete_PavingStones031": "A light purple paving stones material with noticeable wear and subtle color variations between stones."
+  },
+  {
+   "Concrete_PavingStones032": "A light tan concrete with a tightly woven herringbone pattern and minimal discoloration."
+  },
+  {
+   "Concrete_PavingStones035": "A uniform gray paving stones material with a basketweave pattern, exhibiting a consistent, clean appearance."
+  },
+  {
+   "Concrete_PavingStones038": "A pale gray material with large rectangular stones and visible grout lines, showing slight surface wear."
+  },
+  {
+   "Concrete_PavingStones132": "An off-white concrete with wide grout lines creating a grid pattern, and distinct weathering and moss accumulation on the surface."
+  },
+  {
+   "Concrete_PavingStones133": "This material features a light gray color with a distinct pattern of dark grout lines creating a grid, showcasing aged and weathered paving stones."
+  },
+  {
+   "Concrete_PavingStones135": "The material displays a pinkish-beige color with an interlocking herringbone pattern indicative of neatly arranged paving stones, exhibiting a new and smooth appearance."
+  }
+ ],
+ "Concrete_Road": [
+  {
+   "Concrete_Road001": "Dark grey concrete with consistent, light grey dashes and scattered patches, showing a worn, weathered surface."
+  },
+  {
+   "Concrete_Road002": "Dark grey concrete material accented with intermittent, faded yellow lines and light grey markings, displaying signs of age and use."
+  },
+  {
+   "Concrete_Road003": "Dark grey concrete with a patchwork of varying grey shades, subtle yellow streaks visible, hinting at previous road markings."
+  },
+  {
+   "Concrete_Road004": "Uniform dark grey concrete featuring faint, delicate yellow lines crisscrossing, with occasional light grey speckles throughout."
+  },
+  {
+   "Concrete_Road005": "Deep grey concrete material with pronounced light grey lines forming a grid, surface appears textured with darker patches."
+  },
+  {
+   "Concrete_Road006": "Dark gray concrete with smooth texture and straight, solid line patterns across the surface."
+  },
+  {
+   "Concrete_Road007": "Dark gray concrete featuring smooth surface with dashed white line patterns, simulating road markings."
+  }
+ ],
+ "Concrete_TactilePaving": [
+  {
+   "Concrete_TactilePaving006": "Dull light gray Concrete material featuring evenly spaced, dome-shaped tactile paving bumps and subtle grayish color variations."
+  }
+ ],
+ "Fabric_Carpet": [
+  {
+   "Fabric_Carpet001": "Light beige carpet material with a tight-knit and ribbed texture, presenting a clean and uniform appearance."
+  },
+  {
+   "Fabric_Carpet002": "Soft blue fabric featuring a fluffy texture with darker blue tufted dot patterns throughout, providing a playful and cozy feel."
+  },
+  {
+   "Fabric_Carpet003": "White carpet with a grid of raised grey squares, creating a pattern that resembles a modern and orderly tiled floor."
+  },
+  {
+   "Fabric_Carpet004": "Dark grey material displaying a repetitive pattern of concave squares, giving a sense of depth and regularity to the surface."
+  },
+  {
+   "Fabric_Carpet005": "Deep teal carpet with a large grid pattern showcasing black and white squares, offering a bold and vibrant visual impact."
+  },
+  {
+   "Fabric_Carpet006": "A dark and light blue checkered pattern material with a soft, velvety fabric texture."
+  },
+  {
+   "Fabric_Carpet007": "Light gray fabric with a pattern of green dots, presenting a fresh, lightly textured surface."
+  },
+  {
+   "Fabric_Carpet008": "A beige carpet with square patterns, giving an impression of a dense, comfortable material."
+  },
+  {
+   "Fabric_Carpet011": "Olive green fabric with subtle texture and faded square outlines, suggesting a worn material."
+  },
+  {
+   "Fabric_Carpet012": "Dark gray fabric showcasing a tight, compact weave for a robust and coarse feel."
+  },
+  {
+   "Fabric_Carpet013": "A deep red fabric with a fuzzy texture, noticeable fiber clusters, and a matte finish, presenting a homogenous color without patterns."
+  },
+  {
+   "Fabric_Carpet014": "A cream-colored fabric material with a tight, woven basketweave pattern, displaying a consistent, smooth texture with no visible defects."
+  },
+  {
+   "Fabric_Carpet015": "A burnt orange fabric featuring a prominent, raised diamond weave pattern, showcasing a uniform color and a slightly coarse texture."
+  }
+ ],
+ "Fabric_Fabric": [
+  {
+   "Fabric_Fabric005": "Solid navy blue fabric with a fine, diagonal ribbed texture."
+  },
+  {
+   "Fabric_Fabric007": "Royal blue fabric featuring a diamond quilted pattern with stitched detailing."
+  },
+  {
+   "Fabric_Fabric012": "A navy blue fabric with a consistent basketweave pattern, presenting a uniform color with slight variations at the intersections."
+  },
+  {
+   "Fabric_Fabric013": "A brown fabric with a large, distinct basketweave pattern, exhibiting a gradient of brown hues across the weaves."
+  },
+  {
+   "Fabric_Fabric014": "A lime green fabric with a prominent basketweave pattern, characterized by a vibrant contrast in green shades."
+  },
+  {
+   "Fabric_Fabric017": "A teal-colored fabric featuring a smooth texture with minimal weave visibility, presenting a uniform material."
+  },
+  {
+   "Fabric_Fabric018": "A deep olive fabric distinguished by a pronounced ribbed weave pattern, giving a textured, striped appearance."
+  },
+  {
+   "Fabric_Fabric019": "A pure white fabric characterized by an extremely subtle weave, suggesting a soft, even material."
+  },
+  {
+   "Fabric_Fabric020": "A royal blue fabric with a noticeable coarse weave pattern, providing a rugged, textured surface."
+  },
+  {
+   "Fabric_Fabric021": "Deep olive green fabric with a small, tight, knitted pattern resembling a quilted design."
+  },
+  {
+   "Fabric_Fabric022": "Navy blue denim-like fabric with visible white-thread stitching and a diagonal weave texture."
+  },
+  {
+   "Fabric_Fabric023": "Dark steel blue fabric with a subtle, smooth, woven texture and very faint horizontal striations."
+  },
+  {
+   "Fabric_Fabric026": "The material is a rich, crimson red fabric with a pronounced corduroy texture consisting of vertical ribs."
+  },
+  {
+   "Fabric_Fabric027": "A muted olive green fabric with a square basketweave pattern, showing raised texture in a checkered design."
+  },
+  {
+   "Fabric_Fabric028": "This material is a light grey fabric with a fine herringbone weave, displaying a subtle zigzag pattern."
+  },
+  {
+   "Fabric_Fabric029": "The fabric is a deep charcoal black with a dense, fine weave, showing a uniform, slightly textured surface."
+  },
+  {
+   "Fabric_Fabric030": "A medium grey material with a distinct knitted appearance, hinting at a soft, woven texture in a uniform pattern."
+  },
+  {
+   "Fabric_Fabric031": "Dark grey fabric with a tightly woven texture and subtle variations in the thread's hue, giving a uniform appearance."
+  },
+  {
+   "Fabric_Fabric032": "Pure white fabric with a fine, ribbed texture running parallel throughout, suggesting a soft, matte material."
+  },
+  {
+   "Fabric_Fabric033": "Vibrant green fabric with a pronounced, woven pattern suggesting a durable, coarse texture across the surface."
+  },
+  {
+   "Fabric_Fabric034": "Light grey felt-like material with a soft, fuzzy appearance, free of any discernible pattern or texture variations."
+  },
+  {
+   "Fabric_Fabric035": "Mustard yellow fabric with a fine, diagonal weave pattern, presenting a consistent, lightly textured surface."
+  },
+  {
+   "Fabric_Fabric036": "This material is a light gray fabric with a visible weave pattern and a matte finish."
+  },
+  {
+   "Fabric_Fabric037": "The second material features a rich green color with a tightly woven texture and a matte appearance."
+  },
+  {
+   "Fabric_Fabric039": "This fabric material is charcoal gray with fine thread detailing, giving it a somewhat textured look."
+  },
+  {
+   "Fabric_Fabric040": "The fourth material is a deep reddish-brown fabric, with a subtle weave pattern and a matte surface."
+  },
+  {
+   "Fabric_Fabric041": "This material is a muted brown with a pronounced woven texture and a matte finish."
+  },
+  {
+   "Fabric_Fabric042": "This material features a uniform black color with a fine, straight-line woven pattern, suggesting a tight weave."
+  },
+  {
+   "Fabric_Fabric043": "Featuring a coarse gray fabric with a mottled appearance and a mix of lighter fibers, giving a used, varied texture."
+  },
+  {
+   "Fabric_Fabric044": "A silver-gray fabric presents with a pronounced diamond-shaped pattern, providing a textured and layered look."
+  },
+  {
+   "Fabric_Fabric045": "This fabric showcases a light gray color with a bubbled texture throughout, giving a plush, padded effect."
+  },
+  {
+   "Fabric_Fabric059": "Vibrant royal blue with a smooth, uniform textile surface, appearing matte and solid in color."
+  },
+  {
+   "Fabric_Fabric061": "Off-white with a densely woven pattern, displaying a detailed and intricate mesh-like texture with a consistent weave structure."
+  },
+  {
+   "Fabric_Fabric062": "Cream-colored with a tight, regular basketweave pattern, giving an impression of a structured and methodical textile design."
+  },
+  {
+   "Fabric_Fabric063": "Dark olive with a coarse, herringbone-like woven texture, suggesting a durable fabric typically used for heavy-duty applications."
+  },
+  {
+   "Fabric_Fabric064": "A light purple fabric material with a fine, consistent, dotted weave texture."
+  },
+  {
+   "Fabric_Fabric065": "A two-tone checkered fabric material combining shades of teal and grey with a small, squared pattern."
+  },
+  {
+   "Fabric_Fabric066": "A muted green fabric with a subtle and smooth weave, giving a uniform and almost solid appearance."
+  },
+  {
+   "Fabric_Fabric068": "A vibrant orange fabric featuring pronounced, raised ridges in a vertical pattern, displaying a textured surface."
+  },
+  {
+   "Fabric_Fabric069": "A denim-like fabric in a deep blue color with a visible weave pattern that mimics jeans material."
+  },
+  {
+   "Fabric_Fabric070": "A fine-knit fabric in a vibrant yellow color with a subtle diamond-shaped texture throughout the material."
+  },
+  {
+   "Fabric_Fabric073": "A dark blue fabric with a closely spaced ridged texture providing a surface that resembles corduroy."
+  },
+  {
+   "Fabric_Fabric074": "A bright blue woven fabric with a pronounced ribbed texture, giving it a look similar to grosgrain ribbon."
+  },
+  {
+   "Fabric_Fabric075": "A dark navy blue fabric with a tightly woven, fine-thread surface exhibiting a subtle, uniform texture."
+  },
+  {
+   "Fabric_Fabric077": "A light blue-grey fabric material showcasing a moderate weave pattern with slight variations in thread thickness and spacing."
+  }
+ ],
+ "Ground_Grass": [
+  {
+   "Ground_Grass001": "A vibrant green grass material with visible individual blades and a lush, dense texture."
+  },
+  {
+   "Ground_Grass002": "A slightly less saturated green grass material with pronounced leaf patterns and a compact texture."
+  },
+  {
+   "Ground_Grass003": "A deep green grass material with subtle variations in color, showcasing a mix of blade lengths and density."
+  },
+  {
+   "Ground_Grass004": "A mix of light and dark green grass blades with a realistic texture and a noticeable pattern of leaf clusters."
+  }
+ ],
+ "Ground_Gravel": [
+  {
+   "Ground_Gravel003": "Light beige gravel with a fine, uniform texture and tiny, compact stones throughout."
+  },
+  {
+   "Ground_Gravel004": "Light gray gravel featuring a mix of small and medium-sized stones with some color variation."
+  },
+  {
+   "Ground_Gravel005": "Dark gray gravel with an even distribution of medium-sized stones and subtle speckles of lighter gray."
+  },
+  {
+   "Ground_Gravel006": "Beige gravel with small to medium-sized stones, featuring a consistent, moderately rough texture and subtle color variations."
+  },
+  {
+   "Ground_Gravel007": "Pale beige gravel with a homogenous mix of small stones, presenting a slightly mottled pattern."
+  },
+  {
+   "Ground_Gravel008": "This material presents a cool blue-gray color, with a fine gravelly texture showing a consistent, small-grained distribution."
+  },
+  {
+   "Ground_Gravel009": "Featuring a neutral gray color, this material has a smooth grounding with subtle markings and very small granules scattered throughout."
+  },
+  {
+   "Ground_Gravel010": "The surface depicts an ashy gray color with a slightly mottled pattern of fine grains and a moderately rough texture."
+  },
+  {
+   "Ground_Gravel011": "With a gray base, this material boasts a rough texture composed of a dense concentration of variously sized pebbles."
+  },
+  {
+   "Ground_Gravel012": "Sporting a darker gray hue, this material is characterized by its patchy distribution of larger stones and spots of discoloration."
+  },
+  {
+   "Ground_Gravel013": "A dark grey gravel material with a consistent granular texture and minimal variation in color, with a matte finish."
+  },
+  {
+   "Ground_Gravel014": "Composed of a light grey and beige gravel mix, this material features large patches of color variance and a slightly coarse texture."
+  },
+  {
+   "Ground_Gravel015": "A blend of grey and subtle brown gravel, this material has scattered white inclusions and presents a rough and heterogeneous appearance."
+  },
+  {
+   "Ground_Gravel016": "Predominantly grey gravel interspersed with noticeable pebbles in shades of blue and white, giving the material a varied and speckled texture."
+  },
+  {
+   "Ground_Gravel017": "Characterized by its rich mix of blue, grey, and white pebbles, this gravel material displays a highly textured and multicolored surface."
+  },
+  {
+   "Ground_Gravel018": "Light gray gravel with subtle blue hues, smooth surface, low pattern variation."
+  },
+  {
+   "Ground_Gravel019": "Mix of gray and earthen tones, moderate pattern complexity, visibly varied stone sizes and colors."
+  },
+  {
+   "Ground_Gravel020": "Dark gray gravel with uniform color, high pattern density, stones with strongly defined edges and surfaces."
+  },
+  {
+   "Ground_Gravel021": "Olive green and gray gravel, consistent pattern with minimal color variation, stones showing slight wear."
+  },
+  {
+   "Ground_Gravel022": "Dark gray and tan gravel, high pattern and color variation, edges of stones appear weathered and rounded."
+  },
+  {
+   "Ground_Gravel023": "This material features a light gray color with various shades and subtle hints of green, showing a mix of rounded and angular gravel pieces with a matte finish."
+  },
+  {
+   "Ground_Gravel024": "A darker variation, this gravel material is a deep charcoal gray with slight variations in stone size, displaying a uniformly rough texture throughout."
+  },
+  {
+   "Ground_Gravel025": "With a warm, earthy brown color palette, this gravel material exhibits a rich mix of brown and amber tones, presenting a variety of stone sizes and matte finish."
+  },
+  {
+   "Ground_Gravel026": "This material has a neutral gray color with slight brown undertones, comprised of an assortment of gravel pieces that create an evenly rough texture."
+  },
+  {
+   "Ground_Gravel027": "Featuring a distinct olive green hue, this gravel material showcases a consistent color with a mix of stone sizes, providing an overall rough and matte appearance."
+  },
+  {
+   "Ground_Gravel028": "A monochrome gravel material with a uniformly light grey color and fine grain texture."
+  },
+  {
+   "Ground_Gravel029": "A multicolored gravel with a dark base and green and brown speckles, showing a variety of grain sizes."
+  },
+  {
+   "Ground_Gravel030": "A heterogeneous mix of gravel with a grey base and scattered red, white, and black pebbles, with noticeable surface texture variation."
+  },
+  {
+   "Ground_Gravel031": "A primarily beige gravel with subtle green and pink speckles and an even granular condition throughout."
+  },
+  {
+   "Ground_Gravel032": "A gravel material with a brown coloration, featuring a mix of stone sizes and visible grooves and ridges."
+  },
+  {
+   "Ground_Gravel033": "A mottled mix of earthy tones with noticeable patches of red and white pebbles, displaying a varied and rough texture."
+  },
+  {
+   "Ground_Gravel035": "Dominated by gray and white, this gravel has a consistent sprinkling of black, giving it a cool, stony appearance."
+  },
+  {
+   "Ground_Gravel036L": "Texture-wise similar to the first, but with a muted, more uniform color palette, primarily in shades of dusty rose and gray."
+  },
+  {
+   "Ground_Gravel036S": "With a visually diverse pattern, it features contrasting areas of dark gray pebbles mixed with lighter gray and subdued pink tones."
+  },
+  {
+   "Ground_Gravel037": "Consisting mostly of light tan and off-white pebbles, this sample has a homogenous color distribution and a gentle, coarse surface."
+  },
+  {
+   "Ground_Gravel038": "The material has a light beige color with a blend of small gray and brown gravel particles, presenting a uniformly rough texture."
+  }
+ ],
+ "Ground_Ground": [
+  {
+   "Ground_Ground007": "A dark gray material speckled with lighter gray and white patches, suggesting a rough, uneven texture."
+  },
+  {
+   "Ground_Ground010": "A uniform light gray material with subtle variations in shade, indicating a slightly worn surface."
+  },
+  {
+   "Ground_Ground011": "A variegated mix of white, gray, and black patches, resembling a fragmented pattern indicative of a weathered surface."
+  },
+  {
+   "Ground_Ground012": "A monochrome gray material with small, scattered imperfections, giving the appearance of an aged and eroded surface."
+  },
+  {
+   "Ground_Ground013": "A mottled green and gray material with hints of brown, resembling organic growth on a weathered stone-like surface."
+  },
+  {
+   "Ground_Ground014": "A dark gray ground material featuring small stones and patches of lighter gray sediment."
+  },
+  {
+   "Ground_Ground016": "A uniform light beige ground texture with fine, sandy granularity and subtle color variations."
+  },
+  {
+   "Ground_Ground017": "A pale gray ground surface marked by streaks and spots, suggesting wear or weathering."
+  },
+  {
+   "Ground_Ground019": "A mix of light and dark gray pebbles with occasional brown leaves, resembling a gravel path."
+  },
+  {
+   "Ground_Ground020": "A dark ground material interspersed with multicolored leaves, twigs, and small stones, mimicking a forest floor."
+  },
+  {
+   "Ground_Ground021": "A light gray material featuring subtle green patches and a scattering of small pebbles and coarse textures."
+  },
+  {
+   "Ground_Ground022": "A light gray surface sprinkled with varied sizes of white and light gray stones, providing a diverse, granular texture."
+  },
+  {
+   "Ground_Ground023": "A dark brown material with rich earth tones, dotted with bits of greenery and varied surface undulations."
+  },
+  {
+   "Ground_Ground024": "A grayish-brown texture with subtle green moss accents, featuring intricate patterns of wear and erosion."
+  },
+  {
+   "Ground_Ground025": "A uniform tan material with a smooth, fine-grained appearance and occasional small clumps resembling dried earth."
+  },
+  {
+   "Ground_Ground026": "A smooth tan-colored ground material with subtle variations in shading and tiny, dispersed particles."
+  },
+  {
+   "Ground_Ground027": "A light beige material with a raised, irregular texture resembling dried mud with a pitted surface."
+  },
+  {
+   "Ground_Ground028": "A mottled gray and brown material with patches of lichen or moss, showing signs of weathering and erosion."
+  },
+  {
+   "Ground_Ground029": "A rough, textured material in shades of beige and dark brown with cracks and various small, scattered stones."
+  },
+  {
+   "Ground_Ground030": "A pale gray material with a slightly rough texture and small patches of greenery and scattered bits of debris."
+  },
+  {
+   "Ground_Ground031": "A textured grey material with a network of cracks and subtle blue shades, resembling dry, parched earth."
+  },
+  {
+   "Ground_Ground033": "A smooth, creamy beige material with a soft, undulating surface and uniform coloration, akin to weathered sandstone."
+  },
+  {
+   "Ground_Ground034": "A rough, pale material spotted with grey and tiny dark flecks, giving the appearance of a worn limestone."
+  },
+  {
+   "Ground_Ground035": "A mottled beige material with darker patches and frequent spots of rust, suggesting corroded stone with iron content."
+  },
+  {
+   "Ground_Ground036": "A dark grey textured material with light speckles and streaks of white, resembling an asphalt surface with embedded gravel."
+  },
+  {
+   "Ground_Ground037": "This material features a greenish hue with hints of brown, textured with organic patterns that resemble grass and soil."
+  },
+  {
+   "Ground_Ground038": "Displaying a dark, charcoal color, this material is intermixed with subtle grey patterns, mimicking a compacted earthy texture."
+  },
+  {
+   "Ground_Ground039": "With a deep brown color, the material includes darker patchy areas and tiny speckles, similar to a wet, fertile soil."
+  },
+  {
+   "Ground_Ground040": "This one is a mix of brown and red hues with yellowish and greenish spots, resembling a soil rich in minerals and organic matter."
+  },
+  {
+   "Ground_Ground041": "Sporting a variegated appearance, it combines dark brown with patches of red, yellow, and green, evoking a sense of autumn leaves on forest ground."
+  },
+  {
+   "Ground_Ground042": "Multicolored with dominant dark tones, embedded with various colored particles and some visible fibers."
+  },
+  {
+   "Ground_Ground043": "Uniform gray color, displaying subtle variations in tone with minimal surface detail and markings."
+  },
+  {
+   "Ground_Ground044": "Light gray with a muted brown tinge, featuring gentle contrasts and sparse, minor discolorations."
+  },
+  {
+   "Ground_Ground045": "Dark gray with a hint of green, showing more pronounced surface mottling and several yellow-green accents."
+  },
+  {
+   "Ground_Ground046": "Warm beige with a pattern resembling a cracked surface, slightly mottled with soft green and yellow spots."
+  },
+  {
+   "Ground_Ground047": "This material presents a mix of earthy brown tones with patches of green, resembling moss-covered ground."
+  },
+  {
+   "Ground_Ground048": "The surface is a rich, dark brown, reminiscent of freshly tilled soil or rich organic compost."
+  },
+  {
+   "Ground_Ground049A": "Featuring a dusty beige color, this material has a dry, cracked appearance, akin to parched desert ground."
+  },
+  {
+   "Ground_Ground049B": "The texture here is a mix of beige with random spots and patches, giving the impression of a weathered, rocky surface."
+  },
+  {
+   "Ground_Ground049C": "A combination of beige and gray, this surface is dotted with a multitude of small pebbles or gravel."
+  },
+  {
+   "Ground_Ground050": "A beige ground material with a mix of smooth and pitted textures and sporadic patches of darker tones."
+  },
+  {
+   "Ground_Ground051": "This material presents in a dark brown hue with subtle variations and includes a sprinkling of small pebble-like elements."
+  },
+  {
+   "Ground_Ground052": "A pale gray ground surface characterized by a consistent, coarse texture and absence of any distinguishable patterns or pebbles."
+  },
+  {
+   "Ground_Ground053": "This material has a rich, rust-like color with an appearance of fragmented rock and soil, lending it a rough and irregular texture."
+  },
+  {
+   "Ground_Ground054": "A light tan ground featuring shallow indentations throughout its surface, providing a homogenous and softly undulating texture."
+  },
+  {
+   "Ground_Ground056": "Light gray color with scattered small pebbles and multicolored debris embedded in the material."
+  },
+  {
+   "Ground_Ground057": "Uniform sandy beige color with subtle texturing and a matte finish."
+  },
+  {
+   "Ground_Ground058": "Multicolored with patches of brown, white, and gray, resembling a rough, weathered surface with visible aggregate."
+  },
+  {
+   "Ground_Ground059": "Light olive color with sinuous, raised patterns across the material, simulating furrows or ridges."
+  },
+  {
+   "Ground_Ground062L": "Beige color speckled with various sizes of light and dark stones, giving a coarse, gravelly appearance."
+  },
+  {
+   "Ground_Ground062S": "Light tan color with a mixture of small and large pebbles throughout the material surface."
+  },
+  {
+   "Ground_Ground063": "Variation of light and dark green coloring with prominent white and gray stone inclusions."
+  },
+  {
+   "Ground_Ground064": "Uniform sandy color with fine grain and small pebbles distributed across the material."
+  },
+  {
+   "Ground_Ground066": "Warm, reddish-brown color with a coarse, fibrous texture and visible strands of organic material."
+  },
+  {
+   "Ground_Ground067": "Brownish-gray color with patches of green moss-like features and embedded small stones and pebbles."
+  },
+  {
+   "Ground_Ground068": "Mossy green color with a rough texture featuring patches of brown dirt and various shades of green vegetation."
+  },
+  {
+   "Ground_Ground069": "Light gray with a fine textured surface scattered with small pebbles and speckles of varying shades of gray."
+  },
+  {
+   "Ground_Ground070": "Warm brown color presenting a mixture of soil and tiny rocks, with occasional green sprouts and some clumped texture."
+  },
+  {
+   "Ground_Ground055L": "Soft beige color exhibiting a ripple-like pattern across the surface, evoking a wind-swept or water-eroded appearance."
+  },
+  {
+   "Ground_Ground055S": "Off-white color with consistent, horizontal ribbing throughout the material, suggesting layers or stratification."
+  },
+  {
+   "Ground_Ground060": "A light gray material with a rough, uneven texture and small, scattered dark specks throughout the surface."
+  },
+  {
+   "Ground_Ground065": "A gray material with a grid pattern overlay, featuring a combination of smaller textured squares and some sparse speckling."
+  }
+ ],
+ "Ground_Ice": [
+  {
+   "Ground_Ice001": "This material features a translucent white color with deep green patches resembling fractures or internal shards."
+  },
+  {
+   "Ground_Ice002": "The material is a muted green with a web-like pattern of darker lines, suggesting a dense, intertwined structure."
+  },
+  {
+   "Ground_Ice003": "Displays a dark green color with a variety of shades and a prominent pattern that appears as interconnected, angular sections."
+  }
+ ],
+ "Ground_Lava": [
+  {
+   "Ground_Lava001": "Dark brown and fiery orange intertwine with fluid-like patterns resembling molten rock with high contrast and pronounced textures."
+  },
+  {
+   "Ground_Lava002": "Featuring a dominantly black base with faint red to burnt orange strokes, creating a charred ground-like appearance with minimal highlights."
+  },
+  {
+   "Ground_Lava003": "A blend of dark maroon and burnt sienna swirls together, presenting a highly textured material that simulates cooled volcanic terrain."
+  },
+  {
+   "Ground_Lava004": "Bright orange and yellow hues dominate, mimicking flowing lava with less pronounced textural detail and smoother transitions."
+  },
+  {
+   "Ground_Lava005": "Rich, dark mahogany tones envelope the material, detailed with tightly packed, swirling patterns, emulating a dense, cooled lava surface."
+  }
+ ],
+ "Ground_Moss": [
+  {
+   "Ground_Moss001": "This material features a varied moss color palette with noticeable brown twigs interspersed throughout its textured surface."
+  },
+  {
+   "Ground_Moss002": "The material presents as a dense and bright green moss with a uniformly velvety texture across its surface."
+  },
+  {
+   "Ground_Moss003": "Highlighted by shades of dark and light green, this material has a clumpy moss texture with subtle variations in height."
+  },
+  {
+   "Ground_Moss004": "This material showcases a deep, homogeneous green color, with the moss forming a closely packed and undulating surface."
+  }
+ ],
+ "Ground_Rails": [
+  {
+   "Ground_Rails001": "The material features a speckled grey color with subtle variations and small flecks of darker and lighter tones, appearing coarse and solid with visible seams."
+  }
+ ],
+ "Ground_Rocks": [
+  {
+   "Ground_Rocks001": "A collection of earth-toned, angular rocks with moss accents, creating an uneven, rough surface."
+  },
+  {
+   "Ground_Rocks002": "This material is composed of light gray, rounded pebbles tightly packed with a grainy texture."
+  },
+  {
+   "Ground_Rocks003": "The surface features a uniform pattern of small, light, convex pebbles, giving a speckled appearance and a regular texture."
+  },
+  {
+   "Ground_Rocks004": "Featuring a mix of off-white and light gray stones of varying sizes, this material has a somewhat flatter surface."
+  },
+  {
+   "Ground_Rocks005": "Dominated by cool-hued, round stones with a hint of violet and moss, this material offers a unique, more colorful roughness."
+  },
+  {
+   "Ground_Rocks006": "Dense cluster of small, multicolored pebbles with a matte finish and smooth to slightly rough texture."
+  },
+  {
+   "Ground_Rocks007": "Mix of larger, jagged gray stones with occasional moss, featuring varied textures and some weathering."
+  },
+  {
+   "Ground_Rocks008": "Aggregate of mid-sized, predominantly gray stones, showing signs of erosion and sporadic moss."
+  },
+  {
+   "Ground_Rocks009": "Coarse conglomerate of light gray pebbles and stones, displaying a varied pattern with minimal color variation."
+  },
+  {
+   "Ground_Rocks010": "Rough assembly of white and light gray angular stones, loosely compacted with visible edges and slight color diversity."
+  },
+  {
+   "Ground_Rocks011": "Featuring layers of slate gray rocks with a matt finish and irregular surface patterns."
+  },
+  {
+   "Ground_Rocks012": "Composed of dark gray and beige fragmented rocks with a somewhat smooth texture and jagged edges."
+  },
+  {
+   "Ground_Rocks013": "Consists of gray rocks with golden-brown highlights, forming a rough, granular surface with varied topography."
+  },
+  {
+   "Ground_Rocks014": "Presents a uniform field of dark gray pebbles, closely packed to create a fine-grained texture."
+  },
+  {
+   "Ground_Rocks015": "Covered in a multitude of small, light gray pebbles with a dense, even, and consistent surface."
+  },
+  {
+   "Ground_Rocks017": "A beige-colored surface with scattered tan and ash fragments, showing varied textures from sandy to rough stone."
+  },
+  {
+   "Ground_Rocks018": "A mix of dark charcoal and slate gray stones embedded in a dull, sandy matrix, providing a rugged texture with sharp contrasts."
+  },
+  {
+   "Ground_Rocks019": "A pale, creamy base speckled with an array of gray stones, combining smooth and rough textures in a single material."
+  },
+  {
+   "Ground_Rocks020": "Featuring a soft, sand-colored background with a dense scattering of small, angular stones that give a more granular texture."
+  },
+  {
+   "Ground_Rocks021": "A light sandy base with sparse, peppered small stones, offering a cleaner and smoother texture with minimal color variation."
+  },
+  {
+   "Ground_Rocks022": "Multicolored pebbly rock surface with various shades of gray, white, brown, and occasional reddish stones, presenting a smooth overall appearance."
+  },
+  {
+   "Ground_Rocks024L": "Grayish rock texture with a more uniform, densely packed surface showing smaller stones and minimal variation in color, with some mossy green accents."
+  },
+  {
+   "Ground_Rocks024S": "Mixture of gray and white rock pieces with moderate color variation, featuring larger, more angular fragments and a rougher appearance compared to the others."
+  },
+  {
+   "Ground_Rocks025": "A predominantly beige rock material with large, flat embedded stones, displaying minimal color variation and a coarse, fragmented surface texture."
+  }
+ ],
+ "Ground_Rock": [
+  {
+   "Ground_Rock002": "The material has a uniform matte charcoal color with a rough texture and no visible patterns or markings."
+  },
+  {
+   "Ground_Rock003": "This surface displays a blend of olive and beige colors with a slightly mottled pattern and a coarser texture."
+  },
+  {
+   "Ground_Rock004": "The material is a pale, sandy hue with a fine, granulated texture having subtle variations in lightness and saturation."
+  },
+  {
+   "Ground_Rock005": "A blend of light gray and white tones characterizes this surface, showing a speckled pattern with a distinctly rough texture."
+  },
+  {
+   "Ground_Rock007": "Dark gray with tinges of green, this material texture is notably rugged, featuring raised, sharp rock formations and cavities."
+  },
+  {
+   "Ground_Rock008": "Grey rock material with a heavily textured surface, showcasing varied shades of grey with slight white patches giving it a rugged look."
+  },
+  {
+   "Ground_Rock009": "Ochre brown rock with a rough, uneven surface and a mottled pattern of dark and light brown that suggests a dry, clay-like texture."
+  },
+  {
+   "Ground_Rock010": "Slate grey rock material with subtle hints of green and purple, featuring a smoother surface with lighter grey striations."
+  },
+  {
+   "Ground_Rock011": "Variegated moss green and slate rock with an appearance of wear, with green patches indicative of moss-like growth patterns."
+  },
+  {
+   "Ground_Rock012": "Dark rock with a mix of black and deep green, suggesting a more moisture-rich environment, with intermittent patches of lighter green."
+  },
+  {
+   "Ground_Rock013": "Dark grey color with a rough, textured surface displaying worn patterns and subtle variations in shades."
+  },
+  {
+   "Ground_Rock015": "Greenish-blue color with a mottled appearance, presenting a blend of mineral-like patterns with varying tones."
+  },
+  {
+   "Ground_Rock016": "Uniform mid-grey color with a relatively smooth appearance, punctuated by minor abrasions and subtle texture variations."
+  },
+  {
+   "Ground_Rock017": "Light grey color with yellowish patches, showing signs of weathering, and some areas appearing more eroded than others."
+  },
+  {
+   "Ground_Rock018": "Off-white color with minimal discoloration, featuring a fairly homogeneous surface with some visible fissures and mild textural irregularities."
+  },
+  {
+   "Ground_Rock019": "This material has a pale, almost white color, with yellowish horizontal striations and smooth patches."
+  },
+  {
+   "Ground_Rock020": "This one is a dark gray color with very subtle greenish tints and a mottled surface texture with slight abrasions."
+  },
+  {
+   "Ground_Rock021": "The material is off-white with bold yellowish patterns, having an uneven, pitted surface resembling weathered limestone."
+  },
+  {
+   "Ground_Rock022": "A dark gray, nearly black color characterizes this material, with pronounced layered textures evoking sedimentary rock formations."
+  },
+  {
+   "Ground_Rock023": "Featuring a medium gray color, this material has a rough, pattern of cracks and fissures similar to aged granite."
+  },
+  {
+   "Ground_Rock024": "This material has a light gray color with hints of blue and yellow, showcasing a varied texture with slight concave-convex patterns."
+  },
+  {
+   "Ground_Rock025": "Displaying a homogeneous pale gray color, this material has a smooth texture with subtle fractures and minimal pattern variation."
+  },
+  {
+   "Ground_Rock026": "Featuring a monochromatic white and gray color scheme, this material has a craggy surface with deep grooves and a highly textured appearance."
+  },
+  {
+   "Ground_Rock028": "The material presents a dark gray coloration with green moss-like patterns, showing a rough, uneven texture with visible layering and fissures."
+  },
+  {
+   "Ground_Rock029": "With a rich brown color, this material exhibits a dry, cracked texture with deep ridges and a distinct pattern of desiccation and wear."
+  },
+  {
+   "Ground_Rock030": "Material features grey and brown tones, aged surface with prominent lines and moss accents"
+  },
+  {
+   "Ground_Rock031": "Material has dark grey coloration with heavy textures resembling volcanic rock"
+  },
+  {
+   "Ground_Rock032": "Material shows light grey hues, weathered surface with less pronounced texture"
+  },
+  {
+   "Ground_Rock033": "Material presents a mix of dark brown and black, with intricate patterns suggesting sedimentary layers"
+  },
+  {
+   "Ground_Rock034": "Material depicts varying shades of grey with green moss-like growths, showing signs of erosion"
+  },
+  {
+   "Ground_Rock035": "The material has a dark navy color with jagged texturing and patches of lichen-like patterns."
+  },
+  {
+   "Ground_Rock036": "This rock features a muted olive color with a slightly smoother surface and striations throughout."
+  },
+  {
+   "Ground_Rock037": "Dark grey with contrasting veins of lighter gray, this rock presents a rough texture with sharp edges."
+  },
+  {
+   "Ground_Rock039": "The surface is predominantly light taupe with areas of light grey, showcasing a rugged texture with deep grooves."
+  },
+  {
+   "Ground_Rock040": "A pale, cream-colored rock, peppered with greenish mossy patterns and a pitted, porous surface."
+  },
+  {
+   "Ground_Rock042L": "Light gray color with a coarse, cracked texture and scattered dark fissures."
+  },
+  {
+   "Ground_Rock042S": "Pale gray material featuring light veins, subtle cracks, and smooth undulating patterns."
+  },
+  {
+   "Ground_Rock043L": "Dark gray, heavily textured with deep cracks and prominent ridges, resembling rough concrete."
+  },
+  {
+   "Ground_Rock044": "Variably tinted with mossy greens and grays, this material has a pockmarked surface with signs of erosion."
+  },
+  {
+   "Ground_Rock045": "Darker shades of green and gray intermingle, creating a mottled pattern with deep grooves and a rugged terrain."
+  },
+  {
+   "Ground_Rock046L": "Featuring light gray color with mossy green patches, this rock material has a worn, rough surface with subtle textures."
+  },
+  {
+   "Ground_Rock046S": "This material has a predominantly light gray color with slightly brighter green moss accents and a gently weathered, textured surface."
+  },
+  {
+   "Ground_Rock047": "Exhibiting a grayish color with hints of green, the rock material has an uneven, aged texture with visible fissures and ridges."
+  },
+  {
+   "Ground_Rock048": "Presenting a darker shade of gray, this rock has a visibly rough and rugged surface with occasional green patches and deep grooves."
+  },
+  {
+   "Ground_Rock049": "Displaying a dark brown color, this rock material appears heavily eroded and coarse with pronounced, irregular indentations and a rough texture."
+  },
+  {
+   "Ground_Rock050": "A dark grey rock material with deep grooves and a coarse, uneven surface, displaying no visible patterns."
+  },
+  {
+   "Ground_Rock051": "The rock material has layers of slate grey with slight greenish tints, exhibiting a stratified pattern with worn edges."
+  },
+  {
+   "Ground_Rock052": "This material features a predominantly yellow-tan color with bold, blocky striations and various shades of grey."
+  },
+  {
+   "Ground_Rock053": "A mossy greenish-brown rock material with a rough texture and splotches of darker and lighter patches throughout."
+  }
+ ],
+ "Misc_Foam": [
+  {
+   "Misc_Foam001": "A monochromatic foam material with a prominent black blemish, varied pore sizes, and a matte, textured surface."
+  },
+  {
+   "Misc_Foam002": "A grayscale foam texture featuring high contrast, intricate patterns of pores and ridges with a matte finish."
+  },
+  {
+   "Misc_Foam003": "A uniformly colored gray foam surface with a slightly smoother texture, showcasing dense, smaller pores and subtle variations in depth."
+  }
+ ],
+ "Ground_Shells": [
+  {
+   "Ground_Shells001": "A mix of gray and brown hues with a detailed gravel material featuring varied sizes of pebbles and a rough texture."
+  }
+ ],
+ "Ground_Snow": [
+  {
+   "Ground_Snow002": "The surface displays a gradient from light to darker gray with a soft, powdery snow texture."
+  },
+  {
+   "Ground_Snow004": "A uniform light gray color with a smooth snow material, devoid of any distinct patterns or variations."
+  },
+  {
+   "Ground_Snow005": "Characterized by a consistent, light gray color and a fine, granular snow texture resembling compacted snowfall."
+  },
+  {
+   "Ground_Snow006": "This one features a medium gray palette with larger, irregular clumps giving it a rough, uneven snow texture."
+  },
+  {
+   "Ground_Snow007B": "The material here has a stark white color with visible lines and indentations, suggesting a more icy, crusty snow surface."
+  },
+  {
+   "Ground_Snow007C": "A snowy surface featuring pronounced, sharp-edged textures, with subtle variations in white color."
+  },
+  {
+   "Ground_Snow008A": "The snowy material here has smoother undulating patterns, with distinct layered striations in white."
+  },
+  {
+   "Ground_Snow008B": "This snow material includes delicate, spiky textures and is uniform in a crisp white color."
+  },
+  {
+   "Ground_Snow008C": "Characterized by dense, compacted textures and a consistent white tone, this snow resembles a packed surface."
+  },
+  {
+   "Ground_Snow009A": "The material on this sphere presents rough clumps and a slightly mottled white coloration, giving an appearance of loosely packed snow."
+  },
+  {
+   "Ground_Snow009B": "White snow material with high roughness and a pattern of small, densely packed grooves giving a coarse texture."
+  },
+  {
+   "Ground_Snow009C": "White snow surface with slightly less roughness, featuring smaller and more delicate grooves than the first."
+  },
+  {
+   "Ground_Snow010A": "White snow covering, smoother with a subtle pattern of fine indentations, creating a softly uneven texture."
+  },
+  {
+   "Ground_Snow010B": "White snowy exterior, very subtle patterning with extremely low contrast in texture, presenting a gently undulating surface."
+  },
+  {
+   "Ground_Snow010C": "White snow composition, moderate roughness, marked by thin, elongated grooves scattered across the material."
+  }
+ ],
+ "Leather_Leather": [
+  {
+   "Leather_Leather002": "Dark grey colored leather with a smooth texture and subtle grain patterns."
+  },
+  {
+   "Leather_Leather003": "Tan brown leather featuring weathered patterns with pronounced grain and slight wrinkles."
+  },
+  {
+   "Leather_Leather004": "Light cream-colored leather with a tight pebbled texture and uniform appearance."
+  },
+  {
+   "Leather_Leather005": "Rich burgundy leather with a subtle sheen and smooth, fine-grained texture."
+  },
+  {
+   "Leather_Leather006": "Olive green leather with a distressed look, exhibiting deep grain patterns and natural irregularities."
+  },
+  {
+   "Leather_Leather009": "Dark gray leather with a matte finish and a smooth texture, adorned with uniformly spaced button tufts."
+  },
+  {
+   "Leather_Leather010": "Taupe leather featuring a slightly worn look with a soft, fine-grain texture and prominent button tufting."
+  },
+  {
+   "Leather_Leather011": "Deep burgundy leather with a subtle sheen, displaying a pronounced pebbled grain and tufted with symmetrical buttons."
+  },
+  {
+   "Leather_Leather012": "Off-white leather with a delicate feel, bearing a slight sheen and detailed with evenly distributed tufted buttons."
+  },
+  {
+   "Leather_Leather014": "Dark brown leather with a smooth surface and subtle natural imperfections."
+  },
+  {
+   "Leather_Leather015": "Charcoal leather with a dotted pattern and a matte surface texture."
+  },
+  {
+   "Leather_Leather017": "Camel brown leather featuring a grid of stitched crosses with a slightly worn texture."
+  },
+  {
+   "Leather_Leather018": "Light gray leather with uniform perforations and a new, unworn surface."
+  },
+  {
+   "Leather_Leather019": "Medium brown leather with sparse perforations and a matte, slightly worn surface."
+  },
+  {
+   "Leather_Leather020": "A rich crimson leather with a subtle pebbling and visible stitching details."
+  },
+  {
+   "Leather_Leather021": "Deep brown leather with a pronounced grain texture and a matte finish."
+  },
+  {
+   "Leather_Leather022": "Muted dark brown, almost olive leather showcasing a smoother, less textured surface."
+  },
+  {
+   "Leather_Leather023": "Light tan leather with a prominent cracked pattern, implying well-worn usage."
+  },
+  {
+   "Leather_Leather024": "Vivid red leather with a noticeable coarse grain, giving a tactile sense of ruggedness."
+  },
+  {
+   "Leather_Leather025": "Off-white leather with a subtle, fine-grained texture hinting at a soft, well-conditioned material."
+  },
+  {
+   "Leather_Leather026": "Jet black leather featuring a matte finish with a slightly wrinkled texture suggesting a durable surface."
+  },
+  {
+   "Leather_Leather027": "Deep black leather with a visible grain pattern providing a sense of a lush, slightly worn material."
+  },
+  {
+   "Leather_Leather028": "Rich brown leather with a fine grain texture, conveying a smooth, classic appearance with minimal wear."
+  },
+  {
+   "Leather_Leather029": "Light brown leather with an inviting texture characteristic of a lightly used, well-maintained surface."
+  },
+  {
+   "Leather_Leather030": "Rich chocolate brown leather with a smooth, consistent grain and matte finish"
+  },
+  {
+   "Leather_Leather031": "Deep black leather showcasing a subtle pebble grain texture with a soft, velvety look"
+  },
+  {
+   "Leather_Leather032": "Charcoal gray leather with a fine grain texture, conveying a sleek and uniform appearance"
+  },
+  {
+   "Leather_Leather033A": "Warm chestnut brown leather with a pronounced grain pattern and a slightly worn, vintage appearance"
+  },
+  {
+   "Leather_Leather033B": "Dark mahogany leather with an aged patina, detailed with crackled textures and a rustic, weathered charm"
+  },
+  {
+   "Leather_Leather033C": "A worn brown leather with a distressed look and visible scratches and faded color patches."
+  },
+  {
+   "Leather_Leather034D": "Uniform dark brown leather presenting a sleek appearance with subtle grain detail."
+  },
+  {
+   "Leather_Leather035D": "A smooth, eggshell-colored leather that appears soft to the touch with a matte finish and minimal texturing."
+  },
+  {
+   "Leather_Leather036D": "A bold, bright red leather with a very smooth surface and minimal detailing for a sleek, modern appearance."
+  },
+  {
+   "Leather_Leather037": "This material features a rich burgundy color with a subtle grain texture indicative of a fine pebbled leather surface."
+  }
+ ],
+ "Marble_Granite": [
+  {
+   "Marble_Granite001A": "A beige granite with a subtle pattern of darker grains and light speckles across its surface."
+  },
+  {
+   "Marble_Granite001B": "A mix of light brown and gray granite, exhibiting a more uniform pattern with fine, evenly distributed speckles."
+  },
+  {
+   "Marble_Granite002B": "A predominantly light gray granite, characterized by a mottled appearance with a sparse distribution of darker grains."
+  },
+  {
+   "Marble_Granite003A": "A light gray granite showing pronounced weathering and staining, featuring a patchy distribution of light and dark areas."
+  },
+  {
+   "Marble_Granite003B": "A grayish-brown granite with clusters of dark grains and lighter areas, showing moderate variation in grain size and distribution."
+  },
+  {
+   "Marble_Granite004A": "A granite material with a beige base and a mosaic of lighter speckles, showing a moderate variation."
+  },
+  {
+   "Marble_Granite004B": "This granite presents a taupe base color, peppered with a distribution of lighter and darker granules."
+  },
+  {
+   "Marble_Granite005A": "Featuring a cooler bluish-gray base, the granite here is intermixed with subtle white and dark speckles."
+  },
+  {
+   "Marble_Granite006A": "A warm, coffee-colored granite with densely packed, small speckles throughout, and a darker shading."
+  },
+  {
+   "Marble_Granite006B": "Rich, cinnamon-brown granite, uniformly mottled with tiny dark brown and black spots, giving a coarse texture."
+  },
+  {
+   "Marble_Granite007A": "This granite features a dominant beige color with a patch of lighter, almost white area with irregular edges, and dark speckles throughout the material."
+  },
+  {
+   "Marble_Granite007B": "This granite material presents a uniform beige hue with minute, dark brown speckles giving it an overall freckled appearance with subtle variations in tone."
+  }
+ ],
+ "Marble_Marble": [
+  {
+   "Marble_Marble001": "This material features a soft white color with subtle grey veining, giving it a classic and sophisticated appearance."
+  },
+  {
+   "Marble_Marble002": "The dark, rich black color is interspersed with occasional streaks of white and grey, presenting a dramatic and elegant look."
+  },
+  {
+   "Marble_Marble003": "This one has a pale grey color, covered with a network of fine, intricate grey veining that provides a sense of depth and texture."
+  },
+  {
+   "Marble_Marble004": "The material here appears with a white base, accented by soft, diffused grey veining, offering a gently marbled pattern."
+  },
+  {
+   "Marble_Marble005": "Featuring a slightly darker grey base, this material is characterized by its delicate, web-like grey veining throughout."
+  },
+  {
+   "Marble_Marble006": "This material features a deep black color with subtle white and gold veins."
+  },
+  {
+   "Marble_Marble007": "With a sandy beige color, this marble has a uniform appearance with faint veining and patches."
+  },
+  {
+   "Marble_Marble008": "A rich golden brown color characterizes this marble, highlighted with darker streaks and cloudy patterns."
+  },
+  {
+   "Marble_Marble009": "This marble showcases a dark green color with light green variegations and occasional white and rust accents."
+  },
+  {
+   "Marble_Marble010": "A pale pinkish-white marble with subtle light gray web-like patterns scattered across its surface."
+  },
+  {
+   "Marble_Marble011": "Featuring a blend of smoky gray and earthy brown tones with subtle patterns and veins."
+  },
+  {
+   "Marble_Marble012": "This has a dominantly white base with light gray veining throughout the material."
+  },
+  {
+   "Marble_Marble013": "Dark and rich with a mix of black, blue, and brown hues, complemented by intricate white veining."
+  },
+  {
+   "Marble_Marble014": "A creamy white base with a touch of yellow, showcasing weathered patterns and veins."
+  },
+  {
+   "Marble_Marble015": "Pristine pale cream color that appears almost uniform across the material's surface."
+  },
+  {
+   "Marble_Marble016": "Dark gray marble with heavy white veining and subtle darker patterns giving a bold contrast."
+  },
+  {
+   "Marble_Marble018": "Off-white marble with delicate beige and gray veins, and slight surface imperfections conveying an elegant feel."
+  },
+  {
+   "Marble_Marble019": "White marble with a light scattering of gray veins and minimal patterning for a clean, minimalist look."
+  },
+  {
+   "Marble_Marble020": "Beige marble with light brown and gray veining, along with patches of slight roughness for a natural appearance."
+  },
+  {
+   "Marble_Marble021": "Pale white marble with a network of fine gray veins and a few faint patches, presenting a pristine aesthetic."
+  },
+  {
+   "Marble_Marble022": "A warm beige color with intricate white veining and a high degree of polish on the marble material."
+  },
+  {
+   "Marble_Marble023": "Dark navy blue marble with prominent white and lighter blue veining, with a highly polished material surface."
+  },
+  {
+   "Marble_Marble024": "A light taupe marble with subtle white veining and a uniform, glossy finish on the material."
+  },
+  {
+   "Marble_Marble025": "This marble is pure white with very faint gray veining, presenting a smooth, matte material surface."
+  },
+  {
+   "Marble_Marble026": "A sandy yellow marble with sporadic subtle white patches and a slightly rough, less polished material finish."
+  }
+ ],
+ "Marble_Terrazzo": [
+  {
+   "Marble_Terrazzo001": "A light gray base with dispersed large blue and smaller gray fragments, presenting a calming terrazzo appearance."
+  },
+  {
+   "Marble_Terrazzo002": "Featuring a warm beige background interspersed with large amber and smaller translucent fragments in a terrazzo design."
+  },
+  {
+   "Marble_Terrazzo003": "Dark charcoal base speckled with sharp white and gray pieces throughout the terrazzo pattern, giving a bold contrast."
+  },
+  {
+   "Marble_Terrazzo004": "Cool gray hue with a mix of large white and smaller dark gray terrazzo fragments, creating a harmonious blend."
+  },
+  {
+   "Marble_Terrazzo005": "A pale gray backdrop dotted with dense black and light gray terrazzo chips, forming a classic monochrome pattern."
+  },
+  {
+   "Marble_Terrazzo006": "A white terrazzo material with sparse, large, beige chunks and smaller grey speckles dispersed throughout."
+  },
+  {
+   "Marble_Terrazzo007": "A light violet terrazzo material featuring abundant, small, dark blue fragments mixed with fine white granules."
+  },
+  {
+   "Marble_Terrazzo008": "A greyish-white terrazzo material with medium-sized, irregularly shaped light brown pieces and delicate grey particles."
+  },
+  {
+   "Marble_Terrazzo010": "A pale terrazzo material peppered with colorful, varied-sized fragments of blue, red, orange, and yellow against a white background."
+  },
+  {
+   "Marble_Terrazzo011": "A white terrazzo material densely packed with assorted small to medium-sized particles in shades of brown, grey, and black."
+  },
+  {
+   "Marble_Terrazzo012": "A cream-colored terrazzo with an assortment of small, multicolored chips and fragments scattered throughout the material."
+  },
+  {
+   "Marble_Terrazzo013": "A light gray terrazzo with a diversity of green, white, and black chips, creating a gentle contrast with the base color."
+  },
+  {
+   "Marble_Terrazzo014": "A medium gray terrazzo featuring larger, multicolored pieces, including pronounced hues of orange and red amidst white and dark chips."
+  },
+  {
+   "Marble_Terrazzo015": "A dark gray, almost black terrazzo with varying sizes of predominantly green and white chips, providing a stark contrast to the base."
+  },
+  {
+   "Marble_Terrazzo016": "A deep, forest green terrazzo with bold white and red chips alongside black fragments, offering a rich and varied texture."
+  },
+  {
+   "Marble_Terrazzo017": "White Terrazzo with densely packed, multicolored chips, featuring red, black, and gray accents on a bright base."
+  },
+  {
+   "Marble_Terrazzo018": "Light gray Terrazzo with large, scattered chips in a variety of colors including orange, black, and red, accented by smaller fragments."
+  },
+  {
+   "Marble_Terrazzo019L": "Creamy beige Terrazzo with medium-sized, translucent and opaque chips distributed throughout, giving a subtle, mottled appearance."
+  },
+  {
+   "Marble_Terrazzo019M": "Beige Terrazzo, less saturated with a finer distribution of small to medium translucent chips, creating a homogenous and soft look."
+  },
+  {
+   "Marble_Terrazzo019S": "Pale beige Terrazzo with sparse, small translucent chips and a few visible larger fragments, presenting an overall muted appearance."
+  }
+ ],
+ "Marble_Tiles": [
+  {
+   "Marble_Tiles012": "This material features a checkered pattern with alternating white and dark green tiles, with subtle variations in the green's depth and the white's brightness."
+  }
+ ],
+ "Metal_Chainmail": [
+  {
+   "Metal_Chainmail001": "Dark gray chainmail with a tight-knit pattern giving a uniform appearance and a muted finish."
+  },
+  {
+   "Metal_Chainmail002": "Medium gray chainmail with slightly more pronounced texture and a variation in pattern density."
+  },
+  {
+   "Metal_Chainmail003": "Light gray chainmail with a wide-open weave pattern, showcasing distinct ring details and visual depth."
+  }
+ ],
+ "Metal_Foil": [
+  {
+   "Metal_Foil001": "The material has a dark charcoal color with a tactile foil texture and a dull, matte finish."
+  },
+  {
+   "Metal_Foil002": "Featuring a bright gold color, this material exhibits a crinkled foil texture with a semi-gloss appearance."
+  },
+  {
+   "Metal_Foil003": "This one is a deep gray, resembling a smoother foil texture and has a very subtle sheen to its surface."
+  }
+ ],
+ "Metal_Metal": [
+  {
+   "Metal_Metal001": "A silver-colored metal with a high-gloss finish and visible smudges and scratches."
+  },
+  {
+   "Metal_Metal002": "A slightly tarnished silver metal with marks and a few rust spots indicating weathering."
+  },
+  {
+   "Metal_Metal003": "A clean silver metal surface with minimal weathering and a few small scratches and dents."
+  },
+  {
+   "Metal_Metal004": "A metallic surface with an uneven silver color, showing signs of oxidation and wear."
+  },
+  {
+   "Metal_Metal005": "A dark gray metal with a rough texture, pitted surface, and areas of oxidation."
+  },
+  {
+   "Metal_Metal007": "A golden color material with a polished surface showing some tarnish and subtle wear marks."
+  },
+  {
+   "Metal_Metal008": "A coppery tone material featuring a patina effect with a slightly mottled surface and visible aging spots."
+  },
+  {
+   "Metal_Metal009": "A silvery metal with a brushed finish, revealing straight, parallel patterns across the surface."
+  },
+  {
+   "Metal_Metal010": "A darker silver color with a subtle brushed pattern, exhibiting a less polished, matte finish."
+  },
+  {
+   "Metal_Metal011": "A light silver material with a very soft brushed texture and an evenly diffused, satin-like finish."
+  },
+  {
+   "Metal_Metal012": "This material displays a polished, clean silver color with minimal surface imperfections or visual markings."
+  },
+  {
+   "Metal_Metal014": "Featuring a faded steel color, the material has an evenly distributed worn texture with subtle hints of rust."
+  },
+  {
+   "Metal_Metal025": "Oxidized surface with a mix of dark brown rust and splotches of orange, giving it a well-aged appearance."
+  },
+  {
+   "Metal_Metal027": "Matte black with a uniform color and an unblemished, smooth material characteristic."
+  },
+  {
+   "Metal_Metal028": "A matte black metal sphere with no visible patterns, presenting a subdued, even color."
+  },
+  {
+   "Metal_Metal029": "Dark gray metal with slight variations in shading and subtle, smooth texture."
+  },
+  {
+   "Metal_Metal030": "A mid-tone gray metal sphere with a soft, unblemished surface and consistent coloration."
+  },
+  {
+   "Metal_Metal031": "Dark metallic gray with a gentle gradient and faint swirl-like patterns, giving a soft appearance."
+  },
+  {
+   "Metal_Metal032": "Light gray metal with a frosted finish, displaying subtle gradients and a slightly mottled pattern."
+  },
+  {
+   "Metal_Metal033": "A matte navy-blue color with a smooth surface and subtle, uniform material texture."
+  },
+  {
+   "Metal_Metal034": "A shiny gold color with a highly polished finish that has a mirror-like quality."
+  },
+  {
+   "Metal_Metal035": "A burnished copper color with a weathered patina and faint swirling material striations."
+  },
+  {
+   "Metal_Metal036": "A deep charcoal black with visible abrasions and a worn, slightly uneven material surface."
+  },
+  {
+   "Metal_Metal037": "A muted silver with a mottled appearance, showcasing variably sized flecks and a rough texture."
+  },
+  {
+   "Metal_Metal038": "A dark gray metal with subtle weathering patterns and a tarnished texture."
+  },
+  {
+   "Metal_Metal039": "A light gray, mottled metal featuring a speckled pattern and signs of surface wear."
+  },
+  {
+   "Metal_Metal040": "A mid-gray metal with extensive scratch marks and a slightly worn surface texture."
+  },
+  {
+   "Metal_Metal041A": "A smooth metal with a uniform silver color and minimal surface imperfections."
+  },
+  {
+   "Metal_Metal042A": "A polished brass-like material with subtle variations, hinting at gentle use or handling"
+  },
+  {
+   "Metal_Metal042B": "An aged bronze material with tarnished green overtones and diffuse surface wear"
+  },
+  {
+   "Metal_Metal043A": "A light metallic gray material with uniform finish, conveying a feel of sleek modernity"
+  },
+  {
+   "Metal_Metal043B": "A darkened steel material with diffuse splotches, suggesting long-term environmental exposure"
+  },
+  {
+   "Metal_Metal044A": "A silver-colored metal with a smooth surface showing some subtle wear and tear."
+  },
+  {
+   "Metal_Metal044B": "A light grey metal with a weathered, textured surface and signs of oxidation."
+  },
+  {
+   "Metal_Metal045A": "A silvery metal with a brushed finish, displaying fine horizontal stroke patterns."
+  },
+  {
+   "Metal_Metal045B": "A dull grey metal with a slightly pitted surface and a diffuse matte texture."
+  },
+  {
+   "Metal_Metal046A": "A dark grey, almost black metal with visible abrasions and a roughened, aged condition."
+  },
+  {
+   "Metal_Metal046B": "A dark gray metallic surface with subtle scratches and variations in tone, resembling aged steel."
+  },
+  {
+   "Metal_Metal047B": "A brownish metallic surface with a patina of rust, giving it an antique copper appearance with wear marks."
+  }
+ ],
+ "Metal_MetalPlates": [
+  {
+   "Metal_MetalPlates004": "Deep matte black color with segmented lines, presenting a cleaner, smoother metallic appearance."
+  },
+  {
+   "Metal_MetalPlates005": "Dark gray with a subtle gradient to black, featuring a grid-like pattern across the metal surface."
+  },
+  {
+   "Metal_MetalPlates006": "Black with geometric triangular indentations creating a textured, patterned metallic surface."
+  },
+  {
+   "Metal_MetalPlates007": "Dark grey color with a polished metallic finish and precise segmented patterns."
+  },
+  {
+   "Metal_MetalPlates008": "Light silver color featuring segmented metallic plates with subtle scratches and variations."
+  },
+  {
+   "Metal_MetalPlates009": "Medium grey metal with mixed matte and polished areas and segmented plate detailing."
+  },
+  {
+   "Metal_MetalPlates014": "Dull gray MetalPlates with a uniform appearance and scattered markings from corrosion or damage."
+  }
+ ],
+ "Misc_Candy": [
+  {
+   "Misc_Candy001": "White candy with bold red stripes, featuring glossy finish and subtle surface imperfections resembling scratches or smudges."
+  },
+  {
+   "Misc_Candy002": "Creamy white candy adorned with thin golden stripes, a satin-like finish, and including darker caramelized areas."
+  },
+  {
+   "Misc_Candy003": "Pale white candy accented with delicate light yellow stripes, a soft matte finish, and faint indications of a sugary texture."
+  }
+ ],
+ "Misc_Cardboard": [
+  {
+   "Misc_Cardboard001": "This material has a tan color with visible darker vertical striping and distressed patches of varying sizes and shapes."
+  },
+  {
+   "Misc_Cardboard002": "Featuring a consistent tan hue, this surface is marked by uniform vertical ridges without visible imperfections."
+  },
+  {
+   "Misc_Cardboard003": "Tan in color with uniform vertical ribbing, it shows a cluster of small, scattered blue marks concentrated in one area."
+  },
+  {
+   "Misc_Cardboard004": "This one is tan with subtle vertical ridges and sporadic small blue marks and scratches distributed across the surface."
+  }
+ ],
+ "Misc_Facade": [
+  {
+   "Misc_Facade001": "Dark tones with highlights suggesting a checker-like pattern, predominantly dark gray with slight color variations and a smooth finish."
+  },
+  {
+   "Misc_Facade002": "A contrasting checkerboard of luminous gold and deep black, resembling a glowing grid with consistent square patterning and a sleek texture."
+  },
+  {
+   "Misc_Facade003": "Bright, reflective gold grid on a backdrop of uniform black, with a clean, geometric pattern and a polished surface."
+  },
+  {
+   "Misc_Facade004": "Soft, cream-colored grid pattern against an off-white base, displaying a subtle variance in hue with a uniform, glossy texture."
+  },
+  {
+   "Misc_Facade005": "Deep, dark blue/green grid on a near-black background, with subtle tonal variations and a consistent, smooth pattern."
+  },
+  {
+   "Misc_Facade007": "Black color material with glossy white patterns reminiscent of a futuristic cityscape, featuring various panel-like structures."
+  },
+  {
+   "Misc_Facade008": "Primarily black color, this has elongated vertical striping with irregular interruptions providing a barcode effect."
+  },
+  {
+   "Misc_Facade009": "Featuring black color with glossy white horizontal banding, this resembles architectural floors in a staggered building design."
+  },
+  {
+   "Misc_Facade010": "Mix of black and white colors in a checkered pattern, simulating a pixelated and abstract urban layout."
+  },
+  {
+   "Misc_Facade011": "Combines black and white in a densely packed vertical cityscape pattern with varying building heights and a glossy finish."
+  },
+  {
+   "Misc_Facade012": "A black fa\u00e7ade material with a grid of gold accents and orange textures visible within the crevices."
+  },
+  {
+   "Misc_Facade013": "A combination of dark brown and black fa\u00e7ade with evenly spaced vertical gold stripes and a subtle orange hue."
+  },
+  {
+   "Misc_Facade014": "Dark brown fa\u00e7ade material accented by small, scattered gold embellishments, featuring a subtle orange tint."
+  },
+  {
+   "Misc_Facade015": "A predominantly black fa\u00e7ade material with fine gold gridlines and minute orange details peeking through."
+  },
+  {
+   "Misc_Facade016": "Black and dark brown fa\u00e7ade material with a pattern of horizontal gold lines and orange accents."
+  },
+  {
+   "Misc_Facade017": "Features black and yellow vertical stripes with varying opacity and intricate interior light scattering."
+  },
+  {
+   "Misc_Facade018A": "Displays a brown brick pattern with transparent window elements and occasional interior lighting."
+  },
+  {
+   "Misc_Facade018B": "Presents a lighter brown brick facade with evenly spaced windows, some reflecting an internal glow."
+  },
+  {
+   "Misc_Facade018C": "Exhibits a golden brown tone with softer brick texture, highlighting windows that emit a warm luminance."
+  },
+  {
+   "Misc_Facade019B": "Boasts a dark grey brick likeness with a mix of reflective and matte window detailing, illuminated sporadically from within."
+  },
+  {
+   "Misc_Facade019C": "Golden yellow and gray facade showcasing a grid pattern with a high-gloss finish and alternating reflective bands."
+  },
+  {
+   "Misc_Facade020A": "Brown and darker gray facade with a matte finish, featuring a consistent grid-like pattern with prominent window frames."
+  },
+  {
+   "Misc_Facade020B": "Subdued gold and gray facade, with a grid pattern exhibiting a mix of opaque and semi-transparent windowpanes."
+  },
+  {
+   "Misc_Facade020C": "Muted gold and gray facade, with a grid design and alternating windowpane reflectivity, giving a varied visual texture."
+  }
+ ],
+ "Misc_Fence": [
+  {
+   "Misc_Fence001": "Light gray fence with hexagonal patterns and uniform glossy finish."
+  },
+  {
+   "Misc_Fence002": "Medium gray fence material with hexagonal mesh design and a semi-glossy surface."
+  },
+  {
+   "Misc_Fence003": "Gray fence material with hexagonal shapes, featuring a matte finish and visible signs of wear."
+  },
+  {
+   "Misc_Fence004": "Fence with a darker gray, hexagonal mesh pattern and a matte texture showing slight discoloration."
+  },
+  {
+   "Misc_Fence005": "Fence material in dark gray with hexagonal patterns, matte surface, and hints of rust or damage."
+  },
+  {
+   "Misc_Fence006": "A white-colored fence material with a clean, uniform hexagonal pattern and a smooth finish, showing minimal signs of wear."
+  },
+  {
+   "Misc_Fence007A": "A silver-gray colored fence material with smooth, interlocked circular patterns, exhibiting a slightly tarnished condition."
+  },
+  {
+   "Misc_Fence007B": "A mixed gray and rust-colored fence material with square and diamond patterns, featuring a textured, corroded surface."
+  },
+  {
+   "Misc_Fence007C": "A brown and dark gray fence material with a coarser, rust-heavy appearance and a grid pattern, showing significant weathering."
+  },
+  {
+   "Misc_Fence008A": "A black and white fence material with clean, square patterns and a pristine condition, displaying a high-contrast appearance."
+  },
+  {
+   "Misc_Fence008B": "The material appears as a white fence with a grid pattern, exhibiting a clean and uniform appearance."
+  },
+  {
+   "Misc_Fence008C": "This material has a brownish hue, simulating a rusted fence with a consistent grid layout, giving a weathered look."
+  }
+ ],
+ "Misc_Ivory": [
+  {
+   "Misc_Ivory001A": "A pale ivory color material with a smooth and shiny surface displaying minimal vein patterns."
+  },
+  {
+   "Misc_Ivory001B": "This variety has a more cream hue, with visible surface scratches and subtle, natural texture variation."
+  },
+  {
+   "Misc_Ivory002A": "Light ivory material, even in color, with faint horizontal banding and a satiny finish."
+  },
+  {
+   "Misc_Ivory002B": "Comparable light ivory tone with a consistent and unblemished surface, presenting a uniform appearance."
+  }
+ ],
+ "Misc_OfficeCeiling": [
+  {
+   "Misc_OfficeCeiling001": "A light grey office ceiling material with a subtle speckled pattern and a smooth surface texture."
+  },
+  {
+   "Misc_OfficeCeiling002": "Featuring a light grey office ceiling texture, this material includes a square luminescent panel inset depicting a mild glow."
+  },
+  {
+   "Misc_OfficeCeiling003": "This one shows the same light grey speckled ceiling material, with the addition of two square luminous panels emitting a soft light."
+  },
+  {
+   "Misc_OfficeCeiling004": "A variation displaying light grey speckled material, distinguished by a network of dark lines forming a grid with cylindrical intersections."
+  },
+  {
+   "Misc_OfficeCeiling005": "The material here is a light grey speckled office ceiling texture, punctuated by small square and rectangular gaps revealing a darker layer beneath."
+  },
+  {
+   "Misc_OfficeCeiling006": "A light gray material with subtle texture resembling a ceiling tile pattern, interspersed with flat, darker gray squares."
+  }
+ ],
+ "Misc_Paper": [
+  {
+   "Misc_Paper003": "Matte white color with a crumpled paper texture indicative of creases and folds."
+  },
+  {
+   "Misc_Paper004": "Textured surface resembling fine horizontal ridges, displaying a light beige color."
+  },
+  {
+   "Misc_Paper005": "Rough, mottled texture with a crinkled appearance, presented in a tan color."
+  },
+  {
+   "Misc_Paper006": "Smooth, subtle fibrous texture with a uniform camel color, suggesting a higher density paper."
+  }
+ ],
+ "Misc_Pipe": [
+  {
+   "Misc_Pipe001": "A light gray color with horizontal and vertical line patterns, exhibiting variations in tones and minor surface imperfections."
+  },
+  {
+   "Misc_Pipe002": "A medium gray color featuring distinct horizontal lines and bands with a visible circular indentation on the top."
+  },
+  {
+   "Misc_Pipe003": "A darker gray with a smooth gradient, displaying fine horizontal ridges across the entire surface."
+  },
+  {
+   "Misc_Pipe004": "A uniform mid-tone gray with pronounced horizontal ridges, creating a striped pattern with slight variations in darkness."
+  }
+ ],
+ "Misc_Sign": [
+  {
+   "Misc_Sign001": "Red and white material with weathered texture and faded colors showcasing signs of wear and tear."
+  },
+  {
+   "Misc_Sign002": "Bright yellow background with a bold, black exclamation mark symbol, detailed with scratches and smudges."
+  },
+  {
+   "Misc_Sign003": "Vibrant yellow with a black-bordered skull and crossbones symbol, the surface marred by scratches and dirt."
+  },
+  {
+   "Misc_Sign005": "Striking yellow warning sign featuring a black figure slipping, with a noticeable distressed and soiled surface."
+  },
+  {
+   "Misc_Sign006": "Yellow and black signage displaying a cross mark, with pronounced abrasions and filth across its face."
+  },
+  {
+   "Misc_Sign007": "Yellow material with a black and white radiation symbol, showing wear and surface imperfections."
+  },
+  {
+   "Misc_Sign008": "Yellow material with a black flame icon, featuring a distressed and worn surface texture."
+  },
+  {
+   "Misc_Sign009": "Yellow material with a black zigzag arrow indicating electricity, characterized by surface wear and scratches."
+  },
+  {
+   "Misc_Sign010": "Yellow material adorned with a black and white snowflake symbol, displaying signs of aging and a rough texture."
+  },
+  {
+   "Misc_Sign011": "Yellow material with a black sunburst or starburst pattern, exhibiting a distressed look with scuffs and marks."
+  },
+  {
+   "Misc_Sign013": "Bright yellow with black border, features three curved lines above a rectangle, indicating heat or hot surface, worn surface with scratches and spots."
+  },
+  {
+   "Misc_Sign014": "Vivid yellow with black edging, displays a thermometer within, symbolizing temperature control, material shows signs of wear and tear with scuff marks."
+  },
+  {
+   "Misc_Sign015": "Intense yellow and black boundary, presents a wineglass shape, perhaps denoting fragility or breakable material, with noticeable weathering and scrapes."
+  },
+  {
+   "Misc_Sign016": "Striking yellow with black frame, includes a cog and wineglass design, suggesting mechanical operations or industrial work, surface is distressed with blemishes."
+  },
+  {
+   "Misc_Sign017": "Luminous yellow encased by a black trim, portrays a forklift, indicating an operational area for vehicles, the material is aged with apparent abrasions."
+  },
+  {
+   "Misc_Sign018": "The material features a vibrant yellow color with black patterns, representing an explosion symbol, showing slight wear and tear."
+  },
+  {
+   "Misc_Sign019": "This material is yellow with a black pictogram of a falling person, displaying minor scuffs and dirt accumulation."
+  },
+  {
+   "Misc_Sign021": "Sporting a bright red color, the material has a white capsule-like shape and black symbol on it, along with patches of rust and wear."
+  },
+  {
+   "Misc_Sign022": "The material is red with a white skull and crossbones symbol, showing extensive weathering, rust, and paint chipping."
+  },
+  {
+   "Misc_Sign023": "Featuring a yellow background with a black scorpion symbol, this material has heavy soiling, staining, and noticeable surface degradation."
+  },
+  {
+   "Misc_Sign024": "A yellow and black material with a rough texture, featuring a tree and deer pattern indicating caution for wildlife."
+  },
+  {
+   "Misc_Sign025": "A yellow and black material with visible wear, displaying a skull and crossbones pattern, commonly used for poison warnings."
+  },
+  {
+   "Misc_Sign026": "A yellow and black weathered material, marked by an X pattern, suggesting a warning for an unspecified hazard."
+  }
+ ],
+ "Plaster_PaintedPlaster": [
+  {
+   "Plaster_PaintedPlaster004": "A solid yellow painted plaster with subtle vertical streaks and a consistent, smooth finish."
+  }
+ ],
+ "Plaster_Paint": [
+  {
+   "Plaster_Paint001": "A burnt orange colored paint with a plaster-like texture, showcasing subtle variations in shade and a matte finish."
+  },
+  {
+   "Plaster_Paint002": "Sky blue paint on a plaster material, featuring gentle textural nuances and a consistent color density throughout."
+  },
+  {
+   "Plaster_Paint003": "Vibrant green plaster painted surface, marked by slight textural irregularities and a uniform hue."
+  },
+  {
+   "Plaster_Paint004": "Chalky white painted finish on plaster, with discernible patchiness and variations in surface texture."
+  },
+  {
+   "Plaster_Paint005": "Deep charcoal paint with a plaster composition, displaying a rough texture and slight variability in tone."
+  },
+  {
+   "Plaster_Paint006": "This material features a muted lemon-yellow color with a matte paint texture and subtle, uneven surface indicating slight wear."
+  }
+ ],
+ "Plaster_Plaster": [
+  {
+   "Plaster_Plaster001": "A uniformly white-colored plaster with a subtle, smooth texture and minimal surface variation."
+  },
+  {
+   "Plaster_Plaster002": "Slightly off-white plaster with a hint of gray, showcasing a fine-grained texture and light surface distressing."
+  },
+  {
+   "Plaster_Plaster003": "A grayish-white plaster that exhibits a sporadic pattern of small, shallow indentations and subtle surface roughness."
+  },
+  {
+   "Plaster_Plaster004": "A pale gray plaster material with visible signs of aging and wear, including cracks and varied surface roughness."
+  },
+  {
+   "Plaster_Plaster005": "A light gray plaster with an aged appearance marked by a mix of surface scratches, patches of discoloration, and varying roughness."
+  },
+  {
+   "Plaster_Plaster006": "A monochromatic light gray plaster with subtle variations in texture, featuring areas of wear and soft, diffuse patches suggesting age."
+  }
+ ],
+ "Plaster_Wallpaper": [
+  {
+   "Plaster_Wallpaper001A": "A uniform off-white colored plaster material with a subtle texture and no visible patterns."
+  },
+  {
+   "Plaster_Wallpaper001C": "Off-white colored plaster featuring faint vertical streaks, giving the impression of wear or antiquing."
+  },
+  {
+   "Plaster_Wallpaper002A": "A consistent off-white plaster material similar to the first, with understated textural qualities."
+  },
+  {
+   "Plaster_Wallpaper002B": "A weathered off-white plaster with patches of discoloration and mottling, suggesting age or exposure."
+  },
+  {
+   "Plaster_Wallpaper002C": "A plaster material with a marbled green and white color pattern, exhibiting a rough, textured surface with muted variations in tones."
+  }
+ ],
+ "Plastic_Plastic": [
+  {
+   "Plastic_Plastic003": "Solid chocolate brown colored plastic, with a smooth and uniform appearance."
+  },
+  {
+   "Plastic_Plastic004": "Light gray plastic exhibiting a fine, matte texture without any notable imperfections."
+  },
+  {
+   "Plastic_Plastic005": "Sky-blue colored plastic with a slightly worn surface showing subtle scratch patterns."
+  },
+  {
+   "Plastic_Plastic006": "Matte black plastic with subtle scratches and surface imperfections."
+  },
+  {
+   "Plastic_Plastic007": "Vibrant orange plastic with visible scuff marks and slight wear."
+  },
+  {
+   "Plastic_Plastic008": "Deep blue plastic with a cleaner surface and minimal markings."
+  },
+  {
+   "Plastic_Plastic012A": "A matte black plastic material with a fine, uniform texture."
+  },
+  {
+   "Plastic_Plastic012B": "A slightly lighter black plastic, with a subtle, soft-textured finish."
+  },
+  {
+   "Plastic_Plastic013A": "A white plastic with an even, smooth surface without any noticeable texture."
+  },
+  {
+   "Plastic_Plastic013B": "A white plastic with faint, irregular scratches and a slightly rough texture."
+  },
+  {
+   "Plastic_Plastic014A": "A glossy, smooth orange plastic, vibrant with a slight gradient in shading."
+  },
+  {
+   "Plastic_Plastic015A": "A sky blue plastic with a smooth and clean surface, giving an impression of a soft finish."
+  },
+  {
+   "Plastic_Plastic016A": "A lemon yellow plastic, uniform in color with a subtle dullness, hinting at a non-glossy material."
+  },
+  {
+   "Plastic_Plastic016B": "A pale daffodil yellow plastic with minor abrasions, indicating a slightly used condition with a satin sheen."
+  },
+  {
+   "Plastic_Plastic017A": "A spring green plastic, appearing pristine with a velvety surface, devoid of imperfections or marks."
+  },
+  {
+   "Plastic_Plastic018A": "This one is of a neutral gray color, exhibiting a fine, uniform grain pattern throughout the material."
+  },
+  {
+   "Plastic_Plastic018B": "This object appears in a muted gray, marred by an array of scratches and scuffs, giving it a distressed look."
+  }
+ ],
+ "Plastic_Sponge": [
+  {
+   "Plastic_Sponge002": "A muted yellow color with hints of orange undertones and a textured surface resembling a sponge with slight indentations."
+  },
+  {
+   "Plastic_Sponge003": "Vibrant lime green color with a spongy texture featuring small, scattered pits and a slightly uneven surface."
+  }
+ ],
+ "Stone_Bricks": [
+  {
+   "Stone_Bricks024": "A light gray brick material with a rough, pitted surface and scattered, small, darker speckles."
+  },
+  {
+   "Stone_Bricks038": "An off-white, sandy-toned brick material with a textured surface forming a subtle grid pattern with soft variations in color."
+  },
+  {
+   "Stone_Bricks063": "A mid-tone gray brick material with a smoother surface, showing distinct joints between bricks, and subtle color variation."
+  },
+  {
+   "Stone_Bricks064": "A dark gray brick material with a uniform surface, prominently defined brick seams, and a subtle shift in shades across bricks."
+  },
+  {
+   "Stone_Bricks065": "A two-tone brick material with strong contrast, featuring smooth light gray bricks separated by dark gray dividers."
+  },
+  {
+   "Stone_Bricks066": "The material is a light gray brick stone with a smooth finish and subtle pattern variations consisting of clean, sharp lines."
+  },
+  {
+   "Stone_Bricks067": "This material combines light gray and cream-colored brick stones, displaying an alternating pattern with a cleaner and more polished look."
+  },
+  {
+   "Stone_Bricks068": "Featuring a uniform sandstone color, the material shows signs of weathering with a mottled surface and faint, smooth patterns."
+  },
+  {
+   "Stone_Bricks069": "The material is a mossy green tinted brick stone with aging signs, showing darker grooves and a slightly mottled and worn texture."
+  }
+ ],
+ "Stone_PavingStones": [
+  {
+   "Stone_PavingStones005": "Moss-covered gray paving stones with varying tones and heavy texture, conveying an aged and weathered look."
+  },
+  {
+   "Stone_PavingStones006": "Uniform light gray paving stones with subtle variations and smoother texture, presenting a modern and maintained appearance."
+  },
+  {
+   "Stone_PavingStones007": "Olive green paving stones with a distinct diamond pattern and raised texture, suggesting a decorative and detailed design."
+  },
+  {
+   "Stone_PavingStones011": "Dark gray paving stones with a repetitive, small-scale textured pattern, reflecting a classic, tightly-fitted cobblestone arrangement."
+  },
+  {
+   "Stone_PavingStones012": "Cool blue paving stones with a pronounced embossed texture, laid in a uniform pattern, creating a unique and stylish surface."
+  },
+  {
+   "Stone_PavingStones013": "A grey paving stone material with a mix of warmer and cooler tones, showcasing an interlocking pattern."
+  },
+  {
+   "Stone_PavingStones014": "This material features a uniform light grey color with a fine, evenly distributed texture resembling cobblestones."
+  },
+  {
+   "Stone_PavingStones015": "A neutral grey paving stone material with a regular grid pattern and subtle variations in the grey shades between stones."
+  },
+  {
+   "Stone_PavingStones016": "A worn paving stone texture with a blue-grey color, demonstrating signs of age and weathering, and an irregular pattern."
+  },
+  {
+   "Stone_PavingStones017": "A smooth paving stone material displaying a light grey hue with a simple, large block pattern and minimal color variation."
+  },
+  {
+   "Stone_PavingStones018": "Multicolored stone with signs of weathering and moss, presenting a varied pattern of purples and greens with rounded edges."
+  },
+  {
+   "Stone_PavingStones019": "Uniform slate gray stone with a subtle pattern of fine horizontal lines and a smooth, even surface."
+  },
+  {
+   "Stone_PavingStones024": "Light gray stone featuring a regular pattern of rectangular blocks and slight variations in depth across the surface."
+  },
+  {
+   "Stone_PavingStones025": "Gray stone with an irregular pattern resembling cobblestone, with varying shapes, sizes, and a rough texture."
+  },
+  {
+   "Stone_PavingStones027": "Beige stone characterized by a distinct diamond-shaped grid pattern and a textured surface with varying depths."
+  },
+  {
+   "Stone_PavingStones028": "Light gray PavingStones with defined edges and a smooth surface, showcasing slight variances in tone."
+  },
+  {
+   "Stone_PavingStones029": "Pale gray PavingStones material with a uniform pattern, minimal color variation, and a matte surface."
+  },
+  {
+   "Stone_PavingStones033": "Gray PavingStones with moss accents, emphasizing a rough texture and small, intricate patterns of wear."
+  },
+  {
+   "Stone_PavingStones034": "Aged gray PavingStones texture, featuring a detailed, weathered pattern with subtle green moss filling the cracks."
+  },
+  {
+   "Stone_PavingStones036": "PavingStones with pronounced green moss growth within the joints, providing a stark contrast against the gray stones."
+  },
+  {
+   "Stone_PavingStones039": "Multicolored paving stones with shades of blue, gray, and subtle purples with a varied pattern and moderate surface texture."
+  },
+  {
+   "Stone_PavingStones040": "This material features moss-covered paving stones in a herringbone pattern with a predominant green color and some stones peeking through."
+  },
+  {
+   "Stone_PavingStones041": "A weathered gray paving stone pattern with pronounced edges and small, cube-like stones tightly packed together."
+  },
+  {
+   "Stone_PavingStones042": "The material has light gray paving stones in an offset pattern, showcasing a surface with a worn, aged appearance and distinct separations."
+  },
+  {
+   "Stone_PavingStones043": "Soft pastel-colored paving stones arranged in arcs, displaying a spectrum of pinks, yellows, and beiges with a gently used texture."
+  },
+  {
+   "Stone_PavingStones045": "Multicolored paving stones with a smooth, worn texture, showcasing hues of gray, brown, and hints of green and yellow."
+  },
+  {
+   "Stone_PavingStones046": "Consistent pale gray paving stones with uniform size; clean-cut edges and a smooth, matte finish."
+  },
+  {
+   "Stone_PavingStones047": "Medium gray paving stones with a weathered look, presenting small, fine cracks and slightly irregular edges."
+  },
+  {
+   "Stone_PavingStones048": "Dark gray paving stones with a rougher surface, featuring visible aging and naturalistic dark spots."
+  },
+  {
+   "Stone_PavingStones049": "Homogeneous charcoal gray paving stones, heavily textured with pronounced aging and a consistent, weathered pattern."
+  },
+  {
+   "Stone_PavingStones050": "Dark grey and brown paving stones with a weathered texture, including patches of moss and dirt accumulation between the stones."
+  },
+  {
+   "Stone_PavingStones051": "A uniform grey cobblestone pattern material with subtle variations in stone shades and a worn, smooth finish."
+  },
+  {
+   "Stone_PavingStones053": "A vibrant pattern of light grey and mossy green stones with a crisp, interlocking hexagonal design and a slightly weathered texture."
+  },
+  {
+   "Stone_PavingStones055": "Irregular blue-grey stones held together with grout, exhibiting a wide range of stone sizes and a rough, uneven surface texture."
+  },
+  {
+   "Stone_PavingStones056": "Pale yellow and pink herringbone brickwork with visible aging and patches of moss, giving a well-used and weathered appearance."
+  },
+  {
+   "Stone_PavingStones057": "Light grey paving stones with a uniform grid pattern, exhibiting subtle variations in tone and a smooth surface texture."
+  },
+  {
+   "Stone_PavingStones058": "Medium grey paving stones arranged in a checkerboard pattern of alternating lighter and darker shades with a slightly rough texture."
+  },
+  {
+   "Stone_PavingStones059": "Dark grey paving stones in a varied layout with clusters of lighter stones creating a mottled effect and a visibly textured surface."
+  },
+  {
+   "Stone_PavingStones060": "Charcoal grey paving stones with an arrangement of light grey highlights in concentric circles and a granular surface texture."
+  },
+  {
+   "Stone_PavingStones062": "Deep grey paving stones featuring a bulls-eye pattern with light grey center and alternating light and dark rings, showing a fine-grained texture."
+  },
+  {
+   "Stone_PavingStones063": "Gray slate PavingStones, with even coloration and subtle variations in shades of gray, showing a distinct cubic pattern."
+  },
+  {
+   "Stone_PavingStones064": "Dark gray PavingStones material with visible aging and weathering, presenting a more uniform and less pronounced pattern."
+  },
+  {
+   "Stone_PavingStones065": "PavingStones with a gray base and subtle hints of green moss-like coloration, signifying a degree of natural overgrowth."
+  },
+  {
+   "Stone_PavingStones066": "Variegated gray PavingStones exhibiting a pattern with both light and dark gray tones, suggesting wear and irregular surface conditioning."
+  },
+  {
+   "Stone_PavingStones067": "Dark gray PavingStones with a prominent green organic pattern, resembling moss coverage, indicating prolonged exposure to the elements."
+  },
+  {
+   "Stone_PavingStones068": "Dark grey PavingStones material with high-frequency, multicolored moss patterns and a heavily aged, weathered surface."
+  },
+  {
+   "Stone_PavingStones070": "Weathered grey and beige PavingStones with green moss in the crevices, showcasing medium roughness and irregular block patterns."
+  },
+  {
+   "Stone_PavingStones071": "Uniform light grey PavingStones material with consistent crack patterns, mild discoloration from weathering, and a moderately worn surface."
+  },
+  {
+   "Stone_PavingStones072": "Evenly arranged grey PavingStones showing significant crack patterns, subtle color variation, and a somewhat smooth, aged surface."
+  },
+  {
+   "Stone_PavingStones073": "Light grey PavingStones with high contrast in crack patterning, minimal color variation, and an evenly weathered, smooth surface."
+  },
+  {
+   "Stone_PavingStones074": "Featuring a light gray color, this PavingStones material has noticeable yellow-tinted grout lines and a coarse texture."
+  },
+  {
+   "Stone_PavingStones075": "This material displays a uniform light gray color with subtle patterns and cleaner, narrow grout lines giving a smooth finish."
+  },
+  {
+   "Stone_PavingStones076": "Similar in color to the second, this one has more pronounced variations in stone size and arrangement, with rugged grout lines."
+  },
+  {
+   "Stone_PavingStones077": "Uniform in stone size, this material has a light gray hue with a pattern of clean lines and a somewhat smoother surface overall."
+  },
+  {
+   "Stone_PavingStones078": "Presenting a cooler tone of gray, the pattern is consistent with noticeable grout lines and a relatively rough surface texture."
+  },
+  {
+   "Stone_PavingStones079": "A dark gray paving stone material with signs of wear and subtle rust-like discolorations, featuring a pattern of hexagonal segments."
+  },
+  {
+   "Stone_PavingStones080": "A similar dark gray paving stone with hexagonal patterns and more pronounced aging effects, including orange-brown rust stains."
+  },
+  {
+   "Stone_PavingStones081": "A light gray paving stone material with a clean appearance and a pattern of rectangular segments, showing minimal signs of wear."
+  },
+  {
+   "Stone_PavingStones083": "A weathered white paving stone with rectangular segments, exhibiting significant staining and discoloration over its surface."
+  },
+  {
+   "Stone_PavingStones084": "A reddish-brown paving stone material with green moss-like growth in the crevices, giving the appearance of age and exposure to moisture."
+  },
+  {
+   "Stone_PavingStones086": "Featuring reddish-brown paving stones with subtle green moss accents and varied weathering on individual bricks, indicating a used condition."
+  },
+  {
+   "Stone_PavingStones087": "Consisting of uniform dark grey stones, this material shows minimal color variation and presents a well-maintained, newer look."
+  },
+  {
+   "Stone_PavingStones088": "This material displays a mix of pinkish and grey paving stones, lightly weathered and with occasional green moss highlights, suggesting moderate use."
+  },
+  {
+   "Stone_PavingStones089": "Characterized by a dark brown color palette with significant moss growth, giving the stones a damp, reclaimed by nature appearance."
+  },
+  {
+   "Stone_PavingStones090": "The surface is dark and richly textured, with pervasive green moss providing a vibrant contrast against the predominantly brown paving stones."
+  },
+  {
+   "Stone_PavingStones091": "A dark grey paving stone material with occasional green moss in the crevices and varying shades of weathering."
+  },
+  {
+   "Stone_PavingStones092": "A terracotta-colored paving stone material with a uniform brick pattern and minimal signs of weathering."
+  },
+  {
+   "Stone_PavingStones093": "A dark hued paving stone with patches of green moss and subtle purple tints showing signs of age and wear."
+  },
+  {
+   "Stone_PavingStones094": "A reddish-brown paving stone material patterned with larger, multicolored bricks and visible green moss accents."
+  },
+  {
+   "Stone_PavingStones095": "A muted blue-grey paving stone material displaying a cross-hatch pattern with sparse greenery and minimal wear."
+  },
+  {
+   "Stone_PavingStones096": "Multicolored paving stones with shades of pink, blue, and aged white, displaying weathered edges and moss growth in crevices."
+  },
+  {
+   "Stone_PavingStones097": "Vibrant reddish paving stones with subtle hues of blue, showcasing an interlocking pattern and slight surface wear."
+  },
+  {
+   "Stone_PavingStones098": "Uniform charcoal grey paving stones with a clean finish and consistent coloration, displaying a minimalist, modern appearance."
+  },
+  {
+   "Stone_PavingStones099": "Light grey paving stones with a subtle green tinge, featuring straight-edged cuts and a smooth but weathered surface texture."
+  },
+  {
+   "Stone_PavingStones100": "Soft grey paving stones with elegant white contour lines, presenting a refined design with a gently undulating surface pattern."
+  },
+  {
+   "Stone_PavingStones102": "Light gray paving stone material with subtle speckled pattern and smooth grout lines."
+  },
+  {
+   "Stone_PavingStones103": "Light gray paving stones with etched zigzag patterns on the edges and a slightly rougher surface texture."
+  },
+  {
+   "Stone_PavingStones104": "Mixed gray paving stones incorporating straight horizontal etched lines and distinct mossy green accents."
+  },
+  {
+   "Stone_PavingStones105": "Varied gray paving stones with vertical wear lines showing signs of weathering and mossy green highlights."
+  },
+  {
+   "Stone_PavingStones106": "Dark gray paving stones with a rough, textured surface and intermittent mossy green lines on the edges."
+  },
+  {
+   "Stone_PavingStones107": "Multicolored paving stones material with worn, pink and gray hues and varied, weathered textures."
+  },
+  {
+   "Stone_PavingStones108": "Uniform gray paving stones with subtle color variations, showing signs of consistent wear and age."
+  },
+  {
+   "Stone_PavingStones109": "Darker gray paving stones with a monochromatic color scheme, displaying heavy texture and more even wear."
+  },
+  {
+   "Stone_PavingStones112": "Greenish-gray paving stones, featuring worn patches and a subtle hint of moss, giving a sense of age."
+  },
+  {
+   "Stone_PavingStones113": "Deep green paving stones with significant moss coverage, suggesting a neglected, damp environment."
+  },
+  {
+   "Stone_PavingStones115A": "Predominantly cool gray color with distinctive aging and moss, worn paving stone pattern with pronounced textures and weathered edges."
+  },
+  {
+   "Stone_PavingStones115B": "Darker gray shades with visible signs of aging and erosion, paving stone surface with a slightly smoother texture and less pronounced moss."
+  },
+  {
+   "Stone_PavingStones115C": "Charcoal to black color spectrum, heavily aged stone surface with distinct erosion and moss patterns, showing high contrast in stone separation."
+  },
+  {
+   "Stone_PavingStones116": "Muted olive and beige hue with a worn paving stone surface, traces of moss and aging with subtle color variations and blurred stone edges."
+  },
+  {
+   "Stone_PavingStones117": "Dark slate gray color with a repetitive diamond pattern, exhibiting an aged look with milder erosion and subtle, sporadic discoloration."
+  },
+  {
+   "Stone_PavingStones119": "A gray paving stone pattern with some green moss accents and a rough, weathered texture."
+  },
+  {
+   "Stone_PavingStones120": "A greenish-gray stone with a mossy pattern that gives a sense of aged roughness."
+  },
+  {
+   "Stone_PavingStones124": "Multicolored bricks with a pattern of wear and sporadic moss, showing a varied color palette."
+  },
+  {
+   "Stone_PavingStones125A": "Light gray, smoothly textured paving stones arranged in an offset pattern with minimal discoloration."
+  },
+  {
+   "Stone_PavingStones125B": "Uniform light gray stones with a clean, smooth finish and subtle pattern variations."
+  },
+  {
+   "Stone_PavingStones126A": "Light grey paving stone material with subtle surface wear and visible linear patterns simulating laid stones."
+  },
+  {
+   "Stone_PavingStones126B": "Paving stone with white and grey patterns, simulating a checkerboard arrangement with light weathering."
+  },
+  {
+   "Stone_PavingStones127": "Dark grey paving stones showcasing significant aging with deep grout lines and a varied pattern."
+  },
+  {
+   "Stone_PavingStones128": "Variegated paving stone material featuring alternating light grey and white blocks, with minimal surface wear."
+  },
+  {
+   "Stone_PavingStones129": "Colorful brick paving material with red, brown, and charcoal bricks, set in a traditional staggered bond pattern with evident mortar."
+  },
+  {
+   "Stone_PavingStones130": "Muted beige color with a uniform hexagonal pattern, showing signs of subtle wear and slight surface texture variation."
+  },
+  {
+   "Stone_PavingStones131": "Weathered light gray stones with green moss-filled crevices, presenting an irregular pattern and varied stone sizes."
+  },
+  {
+   "Stone_PavingStones134": "Mottled gray and pink stones of different shapes embedded in a rough-textured concrete, depicting worn-out and fragmented edges."
+  },
+  {
+   "Stone_PavingStones136": "Pale yellow stone with a grid-like pattern featuring mild discoloration at the intersections, giving a smooth and structured appearance."
+  }
+ ],
+ "Stone_RoofingTiles": [
+  {
+   "Stone_RoofingTiles001": "Dark gray, weathered RoofingTiles pattern with a matte finish and visible aging effects like erosion on the tile edges."
+  },
+  {
+   "Stone_RoofingTiles002": "Medium gray RoofingTiles with a slightly smoother appearance and less pronounced aging compared to the first one."
+  },
+  {
+   "Stone_RoofingTiles003": "Uniform light gray RoofingTiles with an organized layout exhibiting straight, clear grout lines and minimal wear."
+  },
+  {
+   "Stone_RoofingTiles004": "Even lighter gray RoofingTiles, very smooth with a structured pattern, showing very subtle variations in tile depth."
+  },
+  {
+   "Stone_RoofingTiles005": "The lightest gray RoofingTiles displaying a very subtle gradient of color variation across the tiles with minimal texture."
+  }
+ ],
+ "Stone_Tiles": [
+  {
+   "Stone_Tiles018": "Featuring a dark grey tile stone material with subtle variations of shading and discrete dark grout lines."
+  },
+  {
+   "Stone_Tiles026": "Composed of a dusty pink stone tile material with weathered texture and irregular cracks apparent between tiles."
+  },
+  {
+   "Stone_Tiles045": "Comprised of a charcoal black stone tile material with prominent, clean grout lines and a consistent, even texture."
+  },
+  {
+   "Stone_Tiles046": "Consisting of a light blue stone tile material with patterns resembling marble veining and fine, light grout lines."
+  },
+  {
+   "Stone_Tiles047": "Characterized by a rich terracotta-colored stone tile material with soft variations in hue and visible aging on tile edges."
+  },
+  {
+   "Stone_Tiles048": "Pale tiles with a mix of vibrant lime and light green hues, showcasing a relatively smooth texture with matte surfaces."
+  },
+  {
+   "Stone_Tiles049": "The material features a subdued beige color, with a pattern of faint grid lines and minimal variation in tone, presenting a uniform, matte finish."
+  },
+  {
+   "Stone_Tiles050": "Dark gray stone with a patchy, inconsistent pattern that includes subtle red veining and various shades across tiles indicating wear."
+  },
+  {
+   "Stone_Tiles051": "The surface displays a stark contrast between charcoal and lighter gray, arranged in a regular pattern similar to a checkerboard with slightly worn textures."
+  },
+  {
+   "Stone_Tiles083": "Weathered stone with an array of natural browns and greens, some tiles host moss or lichen growth, and the overall feel is rough and aged."
+  },
+  {
+   "Stone_Tiles084": "Dark grey tiles with subtle brownish tints, featuring minor weathering and few noticeable patterns."
+  },
+  {
+   "Stone_Tiles085": "Medium grey stone tiles, showing moderate wear with slightly more pronounced patterns and discoloration."
+  },
+  {
+   "Stone_Tiles086": "Aged grey stone tiles with significant weathering, moss, and pronounced patterns of wear and erosion."
+  },
+  {
+   "Stone_Tiles087": "Light grey tiles with substantial patchy weathering, including areas of erosion and moss accumulation."
+  },
+  {
+   "Stone_Tiles088": "Variably colored stone tiles with heavy wear, moss coverage, and a diverse range of brown and green hues."
+  },
+  {
+   "Stone_Tiles089": "Light gray stone tiles with subtle green moss accents, featuring distinct straight-line grooves and a mix of rough and smooth areas."
+  },
+  {
+   "Stone_Tiles090": "Dark gray stone surface with a more unified and smooth appearance, exhibiting deep, curved grooves separating the stone segments."
+  },
+  {
+   "Stone_Tiles091": "Similar dark gray stone characterized by prominent, cracked, and organic patterns with sparsely distributed green moss."
+  },
+  {
+   "Stone_Tiles092": "Dark gray stone tiles with a heavy moss presence in the crevices, giving it a slightly weathered appearance with organic separation lines."
+  },
+  {
+   "Stone_Tiles093": "Dark gray stone with large, smooth segments and lighter gray outlines, offering a cleaner, more uniform pattern with minimal moss."
+  },
+  {
+   "Stone_Tiles094": "Beige stone tiles with aged, dark smudges and pronounced grout lines creating a weathered look."
+  },
+  {
+   "Stone_Tiles095": "Light beige stone tiles, slightly worn with subdued, darker markings and subtle grout lines."
+  },
+  {
+   "Stone_Tiles096": "Beige stone tiles with prominent, aged black streaks and wear, creating a stark contrast on each tile face."
+  },
+  {
+   "Stone_Tiles097": "Uniformly light beige stone tiles showing minimal aging, with clean grout lines lending a tidy appearance."
+  },
+  {
+   "Stone_Tiles098": "Mossy green tones over stone tiles, with vegetation in the grout lines implying exposure to damp conditions."
+  },
+  {
+   "Stone_Tiles115": "This material features a pale green and beige color palette with uneven tile patterns, showing mild weathering and texture variations."
+  },
+  {
+   "Stone_Tiles117": "The material presents a darker array of greens and browns with more pronounced cracks and aging, alongside distinct tile shapes and textures."
+  }
+ ],
+ "Terracotta_Bricks": [
+  {
+   "Terracotta_Bricks005": "Terracotta bricks with a warm, orange color and a smooth, even surface showing minimal weathering or damage."
+  },
+  {
+   "Terracotta_Bricks006": "A deeper red terracotta with nuances of brown, featuring bricks that appear slightly rougher and more worn with visible signs of aging."
+  },
+  {
+   "Terracotta_Bricks007": "Weathered terracotta bricks displaying a mix of faded red and white hues, with pronounced signs of aging and a rugged, textured surface."
+  },
+  {
+   "Terracotta_Bricks008": "Muted white terracotta bricks with evident aging, creating a rustic appearance through weathering and pronounced surface texture variation."
+  },
+  {
+   "Terracotta_Bricks009": "Pale salmon terracotta bricks with a subtle gradient effect, showing slight weathering, and a gently textured surface giving a soft, worn look."
+  },
+  {
+   "Terracotta_Bricks010": "Composed of pale red bricks with visible mortar lines, featuring a clean and uniform terracotta texture."
+  },
+  {
+   "Terracotta_Bricks011": "Features weathered terracotta bricks with a range of orange-brown tones and prominent, aged textures."
+  },
+  {
+   "Terracotta_Bricks013": "Showcases a darker brown terracotta with a more pronounced texture, giving a rough and rustic appearance."
+  },
+  {
+   "Terracotta_Bricks014": "A blend of muted brown and red bricks with a distressed terracotta surface, exhibiting signs of wear and erosion."
+  },
+  {
+   "Terracotta_Bricks015": "Mix of purplish and brown bricks with subtle variations in tone, presenting a smoother terracotta surface with less pronounced texture."
+  },
+  {
+   "Terracotta_Bricks016": "Orange-brown terracotta bricks with prominent white mortar lines and a slight surface variation suggesting gentle wear."
+  },
+  {
+   "Terracotta_Bricks017": "Pinkish-brown bricks, tightly packed with thin, subtle mortar lines and a uniformly worn texture across the surface."
+  },
+  {
+   "Terracotta_Bricks018": "Diverse color palette of bricks ranging from light tan to deep red, with heavily weathered textures and darkened mortar."
+  },
+  {
+   "Terracotta_Bricks019": "Light cream-colored bricks with clean, straight mortar lines, presenting a newer, well-preserved material appearance."
+  },
+  {
+   "Terracotta_Bricks020": "Warm beige bricks with neat off-white mortar, displaying a consistent and smooth finish with minimal textural wear."
+  },
+  {
+   "Terracotta_Bricks021": "Peach-colored terracotta with a smooth finish and faint horizontal lines, giving a neat, orderly appearance."
+  },
+  {
+   "Terracotta_Bricks022": "Orange-toned terracotta featuring a glossy finish with varied brick sizes and visible surface imperfections."
+  },
+  {
+   "Terracotta_Bricks023": "Darker, weathered terracotta bricks with a mix of purplish stains and faded colors, presenting an old, worn look."
+  },
+  {
+   "Terracotta_Bricks025": "Consistently shaped terracotta bricks with an orange hue and a semi-gloss surface, creating a polished uniformity."
+  },
+  {
+   "Terracotta_Bricks026": "Multicolored bricks with tints of purple and orange, an uneven surface texture, and a matte finish, suggesting vintage terracotta."
+  },
+  {
+   "Terracotta_Bricks027": "This material features cool tones with a mix of blues and grays, arranged in an even brick pattern with a relatively smooth texture."
+  },
+  {
+   "Terracotta_Bricks028": "The material presents a traditional brick color, with variations of red and orange, exhibiting a classic brickwork pattern with visible texture."
+  },
+  {
+   "Terracotta_Bricks029": "A weathered appearance is evident in this material, with light yellow and faded red bricks and substantial surface wear suggesting age."
+  },
+  {
+   "Terracotta_Bricks030": "This material's appearance is a playful mix of narrow bricks in varying shades of orange, beige, and gray, tightly compacted with a smooth finish."
+  },
+  {
+   "Terracotta_Bricks031": "The most variegated of all, this material showcases a mosaic of red, pink, beige, and white bricks, giving it a diverse and colorful texture."
+  },
+  {
+   "Terracotta_Bricks032": "Variegated shades of white, gray and muted browns, with a matte terracotta texture and uneven surface condition"
+  },
+  {
+   "Terracotta_Bricks033": "Mosaic pattern with hues of cool grays and blues, terracotta texture with subtle variations and a matte finish"
+  },
+  {
+   "Terracotta_Bricks034": "Earthy tones ranging from greens to grays, presenting a terracotta material with a mottled pattern and matte surface"
+  },
+  {
+   "Terracotta_Bricks035": "Warm palette of beige and cream, terracotta surface with a clean, consistent pattern and a smooth matte finish"
+  },
+  {
+   "Terracotta_Bricks036": "Vibrant shades of green, terracotta with a regular mosaic pattern, presenting variations in hue and a matte texture"
+  },
+  {
+   "Terracotta_Bricks037": "A weathered orange-brown terracotta with irregularly shaped bricks and visible wear and tear."
+  },
+  {
+   "Terracotta_Bricks039": "Pale orange and white bricks arranged in a neat pattern showing variations in saturation and subtle textural differences."
+  },
+  {
+   "Terracotta_Bricks040": "Gray and blue-toned terracotta bricks with a distressed look suggesting age and a rougher surface texture."
+  },
+  {
+   "Terracotta_Bricks041": "Light yellow terracotta bricks with a tinge of blue, evenly placed with minimal wear and a relatively smoother texture."
+  },
+  {
+   "Terracotta_Bricks042": "Pink and dark red terracotta bricks exhibiting a smooth texture with a clear pattern and slight color variations."
+  },
+  {
+   "Terracotta_Bricks043": "Aged white and gray terracotta bricks with mossy discolorations and varying degrees of wear and erosion."
+  },
+  {
+   "Terracotta_Bricks044": "Faded white to beige terracotta bricks, uniform in color with minimal weathering or discoloration."
+  },
+  {
+   "Terracotta_Bricks045": "Mix of tan, brown, and white terracotta bricks with distinct wear patterns and slight damage revealing darker underlayers."
+  },
+  {
+   "Terracotta_Bricks047": "Alternating rows of orange, yellow, and pale white terracotta bricks with notable weathering and heterogeneous color variation."
+  },
+  {
+   "Terracotta_Bricks048": "Nearly monochromatic white terracotta bricks with a clean appearance and minimal signs of aging or wear."
+  },
+  {
+   "Terracotta_Bricks049": "Featuring worn terracotta bricks with a mix of gray, beige and white tones, exhibiting aged surfaces and varying degrees of weathering."
+  },
+  {
+   "Terracotta_Bricks050": "Old terracotta bricks with a warm brown color and subtle orange hues, showing signs of wear and uneven, chipped textures."
+  },
+  {
+   "Terracotta_Bricks051": "Vibrant orange terracotta bricks arranged evenly, displaying a cleaner and smoother surface with minimal signs of aging."
+  },
+  {
+   "Terracotta_Bricks052": "Peach-colored terracotta bricks that have slight color variation, presenting a well-maintained appearance with a smooth and clean texture."
+  },
+  {
+   "Terracotta_Bricks053": "Light gray terracotta bricks with hints of pale yellow, characterized by a uniform and semi-weathered surface with some staining."
+  },
+  {
+   "Terracotta_Bricks054": "Terracotta material with a warm reddish-brown color, featuring a clean and smooth brick pattern with minimal surface wear."
+  },
+  {
+   "Terracotta_Bricks055": "Darker terracotta bricks presenting an aged greenish-black color, suggesting a subtle mossy appearance with slightly smoothed edges."
+  },
+  {
+   "Terracotta_Bricks056": "Black bricks with terracotta material, exhibiting slight variations in hue, creating a pattern featuring an antique and weathered look."
+  },
+  {
+   "Terracotta_Bricks057": "Bricks with a uniform chocolate brown color, terracotta material showing natural color variations and a gently eroded surface pattern."
+  },
+  {
+   "Terracotta_Bricks058": "Terracotta bricks with a deep charcoal black color, providing a stark, monochromatic appearance, smooth in texture with crisp edges."
+  },
+  {
+   "Terracotta_Bricks059": "Warm terracotta color with a brick pattern featuring distinct light grout lines and smooth brick surfaces showing minimal wear."
+  },
+  {
+   "Terracotta_Bricks060": "Light gray terracotta resembling a weathered brick pattern with high contrast grout lines and an overall worn, aged surface texture."
+  },
+  {
+   "Terracotta_Bricks061": "Charcoal gray material in a clean brick layout with subtle variations in brick shades and even grout lines demonstrating slight aging."
+  },
+  {
+   "Terracotta_Bricks062": "Moss green hues on a brick pattern, exhibiting a weathered look with hints of yellow and aging, paired with consistent grout spacing."
+  },
+  {
+   "Terracotta_Bricks070": "Vibrant terracotta color on a traditional brick layout with pronounced orange bricks, clear grout lines, and a generally new and clean appearance."
+  },
+  {
+   "Terracotta_Bricks071": "Bright orange terracotta brick surface with clean, distinct mortar lines and smooth brick texture."
+  },
+  {
+   "Terracotta_Bricks073A": "Traditional red terracotta brick with a slightly worn surface, featuring small imperfections and uneven mortar."
+  },
+  {
+   "Terracotta_Bricks073B": "Aged, dark red terracotta brick facade with subtle green moss accents, showcasing weathering across the bricks."
+  },
+  {
+   "Terracotta_Bricks073C": "Dark brown to black terracotta brick material hinting at prolonged exposure with pronounced texture variations and weathering."
+  },
+  {
+   "Terracotta_Bricks074": "Weathered pale orange terracotta bricks with visible surface erosion and discoloration, showcasing varied brick condition and mortar depth."
+  },
+  {
+   "Terracotta_Bricks076A": "Muted greenish-gray terracotta with a roughly hewn stone pattern and varied, aged surface texture."
+  },
+  {
+   "Terracotta_Bricks076B": "Darker greenish-gray terracotta featuring irregular stone pattern, with visible aging and surface imperfections."
+  },
+  {
+   "Terracotta_Bricks076C": "Variably shaded greenish-gray terracotta, presenting an uneven stone pattern and signs of weathering."
+  },
+  {
+   "Terracotta_Bricks080A": "Vibrant orange terracotta with a uniform brick pattern and clean, well-defined mortar lines."
+  },
+  {
+   "Terracotta_Bricks080B": "Slightly darker orange terracotta displaying a regular brick pattern with subtle variations in brick color."
+  },
+  {
+   "Terracotta_Bricks080C": "Featuring a warm, burnt orange color with old terracotta bricks arranged in staggered rows, showing signs of wear and age."
+  },
+  {
+   "Terracotta_Bricks081A": "Presents with a muted mustard yellow color, terracotta bricks have a smooth appearance with minimal signs of wear."
+  },
+  {
+   "Terracotta_Bricks081B": "Characterized by a pale sand color, the terracotta bricks have subtle weathering, hinting at mild exposure to elements."
+  },
+  {
+   "Terracotta_Bricks081C": "Exhibits a light beige color with terracotta bricks, slightly worn edges suggesting gentle use and a slightly weathered surface."
+  },
+  {
+   "Terracotta_Bricks082A": "Displays a rich, reddish-brown hue, the terracotta bricks are in an ordered pattern with clear signs of distress and aging."
+  },
+  {
+   "Terracotta_Bricks082B": "Orange terracotta sphere with a smooth brick pattern featuring fine dark lines outlining each brick and a slightly weathered texture."
+  },
+  {
+   "Terracotta_Bricks082C": "Reddish-brown terracotta sphere with a pronounced brick pattern, visible erosion on the edges of bricks, and subtle variations in brick tones."
+  },
+  {
+   "Terracotta_Bricks087": "Muted green terracotta sphere with a rugged and irregular stone-like pattern, showing varied texture and color intensity across the surface."
+  },
+  {
+   "Terracotta_Bricks088": "Bright orange terracotta sphere with a distinct perforated brick pattern, consistent geometric holes throughout, and a clean, precise appearance."
+  }
+ ],
+ "Terracotta_Clay": [
+  {
+   "Terracotta_Clay001": "Material has a warm, earthy terracotta color with a smooth, uniform surface showing subtle texture variations."
+  },
+  {
+   "Terracotta_Clay002": "Surface features a slightly lighter terracotta color with an even, subdued texture and minimal variation in tone."
+  },
+  {
+   "Terracotta_Clay003": "Presents a muted salmon-like terracotta hue with a delicate, fine-textured surface and consistent material quality."
+  },
+  {
+   "Terracotta_Clay004": "Exhibits a distinct grayish-blue color, marking a clear departure from the terracotta range, with a smooth surface and subtle texture."
+  }
+ ],
+ "Terracotta_GlazedTerracotta": [
+  {
+   "Terracotta_GlazedTerracotta001": "A warm brown color with subtle variations, resembling aged glazed terracotta with a slightly matte finish and speckled pattern,"
+  },
+  {
+   "Terracotta_GlazedTerracotta002": "A deep navy blue color, emulating a smoother glazed terracotta with a less pronounced texture and a muted pattern,"
+  },
+  {
+   "Terracotta_GlazedTerracotta003": "A pale, off-white color with minimalistic patterning, indicative of worn glazed terracotta having a soft finish and gentle surface irregularities."
+  }
+ ],
+ "Terracotta_PaintedBricks": [
+  {
+   "Terracotta_PaintedBricks001": "Deep blue color with visible worn Terracotta technique showcasing yellowish cracks and rough, aged surface texture."
+  },
+  {
+   "Terracotta_PaintedBricks003": "Soft green color, featuring a Terracotta surface with subtle variations in hue and minimal surface imperfections, presenting a matte finish."
+  },
+  {
+   "Terracotta_PaintedBricks004": "Pure white color on a subtly textured Terracotta finish with very light surface wear and a clean, smooth appearance."
+  },
+  {
+   "Terracotta_PaintedBricks005": "Dark, distressed black and grey color palette on Terracotta, emphasizing heavy wear with contrasting highlights and deep scratches."
+  }
+ ],
+ "Terracotta_PavingStones": [
+  {
+   "Terracotta_PavingStones020": "A muted teal and pink terracotta material with a weathered pattern and varying shades suggesting age and wear."
+  },
+  {
+   "Terracotta_PavingStones022": "A warm beige terracotta with a uniform brick-like pattern and a smooth, well-preserved surface suggesting minimal wear."
+  },
+  {
+   "Terracotta_PavingStones023": "A dual-toned terracotta material featuring faded blue over bricks, hinting at a historical layering with subtle aging."
+  },
+  {
+   "Terracotta_PavingStones026": "An earthy pink terracotta sphere with a consistent brick pattern, displaying slight variations in hue, indicating gentle wear."
+  },
+  {
+   "Terracotta_PavingStones030": "A mixed hue terracotta with hints of green and pink, interwoven brick pattern and a slightly distressed surface texture."
+  },
+  {
+   "Terracotta_PavingStones114": "A burnt sienna color material with a pattern of varied-size terracotta paving stones, some with moss green highlights."
+  },
+  {
+   "Terracotta_PavingStones118": "A reddish-brown terracotta material arranged in an intricate, interlocking herringbone pattern across its surface."
+  },
+  {
+   "Terracotta_PavingStones123": "A faded terracotta material with regular-sized bricks showing signs of wear, including chips and a slightly dusty surface."
+  }
+ ],
+ "Terracotta_RoofingTiles": [
+  {
+   "Terracotta_RoofingTiles007": "Warm terracotta color with subtle green moss accents and noticeable earthy tones in the grooved roofing tile pattern on the material surface."
+  },
+  {
+   "Terracotta_RoofingTiles008": "Darker terracotta hue with more pronounced green moss distribution, showcasing aged terracotta roofing tiles with deep grooves."
+  },
+  {
+   "Terracotta_RoofingTiles009": "Muted dark grey terracotta, simulating slate tiles with a smooth, worn surface exhibiting mild green moss presence in the grooves."
+  },
+  {
+   "Terracotta_RoofingTiles010": "Light greenish-grey terracotta tiles with a gentle weathered look and soft green patches, creating a traditional roofing texture with shallow grooves."
+  }
+ ],
+ "Terracotta_Tiles": [
+  {
+   "Terracotta_Tiles063": "This terracotta material features a honeycomb pattern with a range of reddish-brown to light cream colors, exhibiting a matte surface texture."
+  },
+  {
+   "Terracotta_Tiles064": "The terracotta here provides a distinct, alternating striped honeycomb pattern in shades of cream and soft orange, giving a clean, uniform appearance."
+  },
+  {
+   "Terracotta_Tiles065": "A more muted terracotta material displays a honeycomb pattern with an emphasis on cream colors, interspersed with subtle hints of soft orange."
+  },
+  {
+   "Terracotta_Tiles066": "This one is a uniform, soft orange terracotta material, possessing a consistent honeycomb pattern throughout and a matte finish."
+  }
+ ],
+ "Wood_Bark": [
+  {
+   "Wood_Bark003": "A light beige bark material with a fine, vertical ridged texture and a slightly weathered surface."
+  },
+  {
+   "Wood_Bark004": "A grayscale bark material with pronounced grooves and a rough, intertwined fibrous texture."
+  },
+  {
+   "Wood_Bark006": "A dark gray bark with deep, rough grooves accented by spots of orange-brown rust color indicating aged or weathered wood."
+  },
+  {
+   "Wood_Bark007": "A pale green-gray bark with a heavily cracked surface, suggesting a lichen-covered or moss-grown texture."
+  },
+  {
+   "Wood_Bark009": "A light yellow-tan bark with large, flaky patches and an overall rough, peeling appearance."
+  },
+  {
+   "Wood_Bark010": "Light beige wood material with subdued, uneven bark texture and hints of greenish patches, showing signs of weathering and age."
+  },
+  {
+   "Wood_Bark013": "Darker greenish-brown wood with pronounced vertical ridges and grooves, accented by moss-like green patches, detailed bark patterns."
+  }
+ ],
+ "Wood_Chipboard": [
+  {
+   "Wood_Chipboard001": "A warm tan chipboard with a coarse texture and visible strands of wood fibers."
+  },
+  {
+   "Wood_Chipboard002": "A muted brown chipboard material with densely packed wood flakes creating a rough texture."
+  },
+  {
+   "Wood_Chipboard003": "A light brown chipboard showcasing a mix of flake sizes contributing to a slightly uneven surface."
+  },
+  {
+   "Wood_Chipboard004": "A pale tan chipboard with a consistent pattern of wood particles giving a smooth appearance."
+  },
+  {
+   "Wood_Chipboard005": "A light cream chipboard material with small, intricately detailed wood shavings and a polished look."
+  },
+  {
+   "Wood_Chipboard006": "Light tan chipboard with a consistent pattern of compressed wood fibers, smooth with no obvious wear or damage."
+  },
+  {
+   "Wood_Chipboard007": "A slightly darker tan chipboard, with a noticeable pattern variation of compressed fibers, appearing dense and in good condition."
+  },
+  {
+   "Wood_Chipboard008": "Similar tan chipboard material with subtle pattern differences in fiber compression, presenting a uniform and intact surface."
+  }
+ ],
+ "Wood_Cork": [
+  {
+   "Wood_Cork001": "The left material features a pinkish-tan color with prominent, varied-size granular patterns, giving it a highly textured, rough appearance."
+  },
+  {
+   "Wood_Cork002": "The right material displays a uniform light tan color, with a subtle, fine-grained texture and a seemingly smoother surface."
+  }
+ ],
+ "Wood_PaintedWood": [
+  {
+   "Wood_PaintedWood001": "Vivid blue painted wood with visible brush strokes and a distressed texture."
+  },
+  {
+   "Wood_PaintedWood002": "Bright green painted wood with subtle yellowish streaks and a worn surface."
+  },
+  {
+   "Wood_PaintedWood003": "Deep red painted wood with a weathered look showing darker striations."
+  },
+  {
+   "Wood_PaintedWood004": "Pale yellow painted wood with aging marks and a faded, used appearance."
+  },
+  {
+   "Wood_PaintedWood005": "Dark brown painted wood with a heavily aged and roughened surface showing years of wear."
+  },
+  {
+   "Wood_PaintedWood006A": "The material has a rich, orange-brown color with visible grain and subtle variations in hue, resembling aged wood."
+  },
+  {
+   "Wood_PaintedWood006B": "This surface shows a faded pale orange and beige painted wood with weathered grain patterns and slight discolorations."
+  },
+  {
+   "Wood_PaintedWood006C": "A muted beige painted wood material with prominent horizontal grain and signs of wear, giving an impression of use."
+  },
+  {
+   "Wood_PaintedWood007A": "The wood appears painted in a deep navy hue with visible grain and lighter streaks, suggesting slight wear."
+  },
+  {
+   "Wood_PaintedWood007C": "Light tan color with subtle wood grain patterns and surface scratches, presenting a worn and seasoned appearance."
+  },
+  {
+   "Wood_PaintedWood008A": "Soft blue color with visible wood textures showing through, creating a painted and slightly distressed look."
+  },
+  {
+   "Wood_PaintedWood008B": "Weathered blue and tan areas, giving an impression of aged paint over wood with a history of exposure and wear."
+  },
+  {
+   "Wood_PaintedWood008C": "Warm brown tone with pronounced wood grain and a varnished, slightly glossy finish indicating some preservation."
+  },
+  {
+   "Wood_PaintedWood009A": "Vibrant green hue with prominent wood grain and painted surface, displaying signs of wear and superficial damage."
+  },
+  {
+   "Wood_PaintedWood009C": "PaintedWood in a natural, faded white hue with visible grain patterns and cracks suggesting weathered use."
+  }
+ ],
+ "Wood_Planks": [
+  {
+   "Wood_Planks002": "A light gray Planks material with pronounced grain patterns and subtle variations in tone, showing signs of age and weathering."
+  },
+  {
+   "Wood_Planks004": "A darker gray, Planks material showing heavy grain detailing, with areas of discoloration suggesting prolonged exposure."
+  },
+  {
+   "Wood_Planks005": "A reddish-brown Planks material with a worn, uneven surface, showing signs of age and patchy color consistencies."
+  },
+  {
+   "Wood_Planks006": "A muted olive-toned Planks material with fine grain and periodic dark speckles, exhibiting a slightly aged and used appearance."
+  },
+  {
+   "Wood_Planks007": "A light beige Planks material, with clean, soft grain lines and minimal discolouration indicating a newer or well-maintained condition."
+  },
+  {
+   "Wood_Planks008": "This material features a light beige color with visible vertical grain patterns and a smooth wooden texture."
+  },
+  {
+   "Wood_Planks009": "A pale wooden material boasting subtle grain patterns with small knots and a satiny matte finish."
+  },
+  {
+   "Wood_Planks010": "The material presents a muted gray color, punctuated by lines of wear and small cracks suggesting an aged surface."
+  },
+  {
+   "Wood_Planks011": "Characterized by a dark, weathered wood appearance with pronounced grain texture and evidence of old nail holes."
+  },
+  {
+   "Wood_Planks012": "This material displays a rich, dark brown tone with heavy grain details and overlapping aged plank patterns."
+  },
+  {
+   "Wood_Planks013": "Aged gray wood planks variegated with subtle green moss, showcasing weathered patterns and pronounced grain textures."
+  },
+  {
+   "Wood_Planks014": "Rich brown wood with varying dark streaks and a visible grain, punctuated by faded green moss accents."
+  },
+  {
+   "Wood_Planks015": "Muted brown and gray wood planks interspersed with darker knots and lines, evoking a well-worn, textured appearance."
+  },
+  {
+   "Wood_Planks016": "Light gray, almost whitewashed wood, with black speckles and soft grain detailing, presenting a dry and aged pattern."
+  },
+  {
+   "Wood_Planks017": "Deep orange-brown wood highlighted by darkened grooves and a prominent, undulating grain pattern, conveying a polished look."
+  },
+  {
+   "Wood_Planks021": "A pale yellow Planks material with distinct light grain patterns and a clean appearance."
+  },
+  {
+   "Wood_Planks022": "A white Planks material with weathered blue paint, showing signs of wear and a rustic feel."
+  },
+  {
+   "Wood_Planks023A": "Light brown wood planks with subtle grain patterns and visible knot details, appearing smooth and worn."
+  },
+  {
+   "Wood_Planks023B": "A slightly darker brown wood with visible grain and soft, weathered plank lines suggesting gentle use."
+  },
+  {
+   "Wood_Planks023C": "Darker brown wooden planks featuring a hint of green patina, showing pronounced grain and aged character."
+  },
+  {
+   "Wood_Planks024A": "Charcoal gray planks with heavy grain texture, giving the impression of weathered and aged wood."
+  },
+  {
+   "Wood_Planks024C": "Deep black wood with subtle brown undertones, showcasing aged plank lines and a distinctly worn texture."
+  },
+  {
+   "Wood_Planks025A": "Dark charcoal color with subtle brown undertones, displaying aged wood with heavy grain patterns and textured surface."
+  },
+  {
+   "Wood_Planks025B": "Deep ebony hue with lighter grain detailing, exhibiting worn wooden planks with pronounced textural grooves."
+  },
+  {
+   "Wood_Planks025C": "Rich onyx black color, featuring a subdued wood grain pattern with less pronounced textures, appearing more polished."
+  },
+  {
+   "Wood_Planks026A": "Warm sandy beige coloration with a visible natural wood pattern, complete with detailed grain lines and a smooth finish."
+  },
+  {
+   "Wood_Planks026B": "Golden honey-tinted wood with realistic grain patterns and visible plank divisions, giving a well-used yet refined appearance."
+  },
+  {
+   "Wood_Planks026C": "Dark walnut color with heavy grain patterns and subtle golden streaks, surface appears aged and worn."
+  },
+  {
+   "Wood_Planks027A": "Light grey with weathered wood patterns and visible knot details, giving an overall muted and rustic appearance."
+  },
+  {
+   "Wood_Planks027B": "Natural wood color with a soft grey patina, showing well-defined grain and plank edges, conveying a seasoned look."
+  },
+  {
+   "Wood_Planks028": "Peachy salmon hue with prominent linear ridges, presenting a cleaner and smoother plank appearance, less textured."
+  },
+  {
+   "Wood_Planks029L": "Warm tan color with finely etched linear patterns, presenting a more uniform and sanded surface, with minimal wear."
+  },
+  {
+   "Wood_Planks030A": "A mix of brown and gray hues with varied plank sizes, featuring a patchwork pattern with visible grain and aged surface texture."
+  },
+  {
+   "Wood_Planks031B": "Slight greenish tint over brown planks with distinct lines, creating a pattern of wide and narrow segments; wood grain is subtly visible with an aged texture."
+  },
+  {
+   "Wood_Planks031C": "Dark green and black with vertical Planks pattern, showing signs of wear and weathering."
+  }
+ ],
+ "Wood_ThatchedRoof": [
+  {
+   "Wood_ThatchedRoof001A": "Uniform medium brown color with a consistent, fine thatched pattern and a matte appearance."
+  },
+  {
+   "Wood_ThatchedRoof001B": "Darker brown with subtle greenish hues, featuring a slightly more varied thatch pattern with visible aging."
+  },
+  {
+   "Wood_ThatchedRoof002A": "Light grayish-tan color with a distinct, weathered thatched pattern and hints of green, suggesting moss or lichen growth."
+  },
+  {
+   "Wood_ThatchedRoof002B": "Deep green color with a dense thatched pattern, exhibiting signs of significant moss or organic growth on the surface."
+  }
+ ],
+ "Wood_Wood": [
+  {
+   "Wood_Wood002": "A warm tan wood featuring faint, straight grain lines and a polished, even texture, displaying a muted golden tone."
+  },
+  {
+   "Wood_Wood003": "A medium blonde wood with prominent, wavy grain patterns and a semi-glossy surface, offering a rich, warm appearance."
+  },
+  {
+   "Wood_Wood004": "A dark brown wood with dense, straight grain and an elegant, satin finish, presenting a deep, chocolate coloration."
+  },
+  {
+   "Wood_Wood005": "A reddish-blonde wood characterized by broad, flowing grains and a soft sheen, exuding a natural, amber radiance."
+  },
+  {
+   "Wood_Wood006": "Light brown wood with subdued grain patterns and a soft, matte finish, displaying a subtle, weathered condition."
+  },
+  {
+   "Wood_Wood007": "Dark chocolate brown material with dense, flowing grain patterns, exuding an impression of polished hardness."
+  },
+  {
+   "Wood_Wood008": "Rich, deep reddish-brown wood with prominent, straight grain patterns and a vibrant, polished appearance."
+  },
+  {
+   "Wood_Wood009": "Espresso toned wood with mixed grain patterns, including knots and irregularities, suggesting a rustic and aged quality."
+  },
+  {
+   "Wood_Wood010": "Dark mahogany with dense, interlocking grain patterns and a slight reddish hue, conveying a look of elegance and warmth."
+  },
+  {
+   "Wood_Wood013": "A rich, dark brown wood with prominent swirling grain patterns and knot details, giving a classic hardwood appearance."
+  },
+  {
+   "Wood_Wood014": "A light tan wood with subtle grain patterns throughout, providing a smooth and even texture reminiscent of sanded oak."
+  },
+  {
+   "Wood_Wood015": "A medium reddish-brown wood with straight and wavy grain patterns, offering a warm and natural cherry wood look."
+  },
+  {
+   "Wood_Wood016": "A dark grey-brown wood with densely packed swirling grain patterns, simulating the look of aged or weathered walnut."
+  },
+  {
+   "Wood_Wood017": "A pale cream-colored wood with very fine, straight grain patterns, presenting a clean and minimalist appearance similar to ash or beech."
+  },
+  {
+   "Wood_Wood018": "Deep mahogany color with prominent, straight dark grain patterns and visible knot details."
+  },
+  {
+   "Wood_Wood019": "Light golden hue with swirling grain patterns interspersed with small knot accents."
+  },
+  {
+   "Wood_Wood021": "Pale, sandy beige tone with a fine, uniform grain pattern and a smooth appearance."
+  },
+  {
+   "Wood_Wood022": "Soft, cream color with gentle, wavy grain patterns and a slightly weathered texture."
+  },
+  {
+   "Wood_Wood023": "Light beige color with subtle, straight grain patterns and a smooth finish."
+  },
+  {
+   "Wood_Wood024": "Golden yellow with visible darker grain patterns giving a striped appearance."
+  },
+  {
+   "Wood_Wood025": "Rich reddish-brown hue with prominent, wavy grain patterns and a polished surface."
+  },
+  {
+   "Wood_Wood027": "Dark brown with a saturated tone, featuring straight, subtle grain patterns and a matte texture."
+  },
+  {
+   "Wood_Wood028": "Ebony color boasting a very dark, uniform appearance with minimal grain visibility and a satiny sheen."
+  },
+  {
+   "Wood_Wood030": "A reddish-brown hue with a prominent, straight grain pattern and a smooth finish."
+  },
+  {
+   "Wood_Wood032": "A pale yellow material with a subtle, soft grain pattern and a matte finish."
+  },
+  {
+   "Wood_Wood033": "A whitewashed appearance, with faded grain lines and a weathered, distressed condition."
+  },
+  {
+   "Wood_Wood035": "Dark brown with prominent black grain patterns and variations in texture, appearing weathered and aged."
+  },
+  {
+   "Wood_Wood036": "Medium brown with a softer, blurred grain pattern and a uniform, less textured surface."
+  },
+  {
+   "Wood_Wood037": "Light beige with very faint, almost indiscernible grain pattern, presenting a smooth and even surface."
+  },
+  {
+   "Wood_Wood038": "Rich, golden brown with clearly defined grain lines, exhibiting a vibrant and polished surface."
+  },
+  {
+   "Wood_Wood039": "Muted, grayish-brown with a subtle grain pattern, giving the appearance of a worn, matte surface."
+  },
+  {
+   "Wood_Wood041": "Light beige wood with a subtle grain texture and smooth finish."
+  },
+  {
+   "Wood_Wood042": "Medium brown with consistent straight grains and a velvety texture."
+  },
+  {
+   "Wood_Wood043": "Charcoal black wood tone with gentle grain patterns and a matte appearance."
+  },
+  {
+   "Wood_Wood044": "Warm honey brown color featuring fine, straight grains and a satiny polish."
+  },
+  {
+   "Wood_Wood045": "A warm, light-brown wood with prominent grain patterns and visible wear marks."
+  },
+  {
+   "Wood_Wood046": "This one displays a pale, almost bleached wood color with subtle grain patterns and small knot details."
+  },
+  {
+   "Wood_Wood048": "Featuring a yellow-toned wooden surface with a bold, straight grain pattern and a smooth appearance."
+  },
+  {
+   "Wood_Wood049": "A deep, chocolate-brown wood material with dense, straight grain patterns and a uniform texture."
+  },
+  {
+   "Wood_Wood053": "Golden tan appearance with a subtler, straight grain pattern, giving a uniform and clean look."
+  },
+  {
+   "Wood_Wood054": "Rich caramel hue with minimal grain visibility, presenting an even and subdued wood texture."
+  },
+  {
+   "Wood_Wood055": "Weathered brown tone with intricate crisscrossing scratch patterns, indicating a distressed or aged condition."
+  },
+  {
+   "Wood_Wood056": "A light tan colored wood with subtle, straight grain patterns and a smooth surface texture."
+  },
+  {
+   "Wood_Wood057": "A pale wood with a matte finish, showcasing fine scratches and light weathering throughout."
+  },
+  {
+   "Wood_Wood058": "This wood features a golden tan hue with pronounced, wavy grain patterns and a satiny sheen."
+  },
+  {
+   "Wood_Wood059": "A medium brown wood, with a visible coarse grain texture and a somewhat muted, matte surface."
+  },
+  {
+   "Wood_Wood060": "Dark brown wood displaying a rich color, with heavy, dark grain patterns and a textured surface."
+  },
+  {
+   "Wood_Wood061": "Light beige color with subtle grain patterns and a matte finish, resembling bleached or sun-faded wood."
+  },
+  {
+   "Wood_Wood062": "Dark charcoal color featuring pronounced grain texture, giving the appearance of weathered or charred wood."
+  },
+  {
+   "Wood_Wood063": "Warm mid-brown hue with a visible wood grain pattern, akin to a classic oak or walnut finish."
+  },
+  {
+   "Wood_Wood065": "Olive-green tinted wood with visible grain, suggesting a dyed or stained wood variety with a unique coloration."
+  },
+  {
+   "Wood_Wood066": "Rich, glossy amber-brown with smooth, flowing grain lines, reminiscent of polished mahogany or cherry wood."
+  },
+  {
+   "Wood_Wood067": "Dark walnut color with consistent grain, presenting a polished surface with subtle variations in hues of brown."
+  },
+  {
+   "Wood_Wood068": "Off-white to light beige color, with a soft, uniform and fine grain texture providing a naturally matte finish."
+  },
+  {
+   "Wood_Wood069": "Vibrant cherry wood color, characterized by a strong, straight grain and a smooth transition from light to rich red tones."
+  },
+  {
+   "Wood_Wood073": "Consistent medium brown color with visible fine lines and grain, darker knots dot the surface."
+  },
+  {
+   "Wood_Wood076": "Dark chocolate brown, uniform in color with a slightly worn surface texture, displaying faint straight grain patterns."
+  },
+  {
+   "Wood_Wood077": "A dark brown wood material with fine, straight grain patterns and a matte finish."
+  },
+  {
+   "Wood_Wood078": "A warm, golden-brown wood material showcasing a subtle grain with a smooth texture."
+  },
+  {
+   "Wood_Wood079": "A light greyish-brown wood with a muted, even grain pattern, giving it a soft appearance."
+  },
+  {
+   "Wood_Wood080": "An aged wood material with weathered blue-grey paint remnants and exposed grain with knots."
+  },
+  {
+   "Wood_Wood081": "A rich, reddish-brown wood material featuring bold, well-defined grain patterns and a polished look."
+  },
+  {
+   "Wood_Wood086": "A light gray wooden material with prominent linear grain patterns and a rough texture"
+  },
+  {
+   "Wood_Wood082A": "A vibrant orange-brown wooden surface exhibiting a shiny appearance and smooth, clear horizontal grain"
+  },
+  {
+   "Wood_Wood082B": "A medium honey-toned wooden material, glossy with broad, smooth plank-like patterns"
+  },
+  {
+   "Wood_Wood083A": "A lighter amber-hued wood, less glossy with visible knot and thin, straight grain lines"
+  },
+  {
+   "Wood_Wood083B": "A soft beige wood featuring faint, subtle grains, and a low-luster finish with a smooth feel"
+  },
+  {
+   "Wood_Wood084A": "Deep brown color with pronounced grain patterns, presenting a polished surface with varying shades of chocolate and walnut."
+  },
+  {
+   "Wood_Wood084B": "Mid-tone brown color with less contrast in grain patterns, a uniform appearance with subtle variations of tan and mocha."
+  },
+  {
+   "Wood_Wood085A": "Vibrant orange-brown color, featuring bold, straight grain patterns with noticeable color separation between the stripes."
+  },
+  {
+   "Wood_Wood085B": "Warm, reddish-brown color, smooth with interspersed knots and minimalistic grain detailing suggestive of cherry or mahogany."
+  },
+  {
+   "Wood_Wood087": "Light tan color with densely packed, fine grain lines creating a textured appearance in a palette of soft beige and cream."
+  },
+  {
+   "Wood_Wood088": "This material has a warm, light brown color with prominent straight grain patterns and a satin-like sheen with minimal roughness."
+  },
+  {
+   "Wood_Wood089": "The material presents as a muted beige color with a subtle wood grain that has less contrast and a more uniform, fine texture."
+  }
+ ],
+ "Wood_WoodFloor": [
+  {
+   "Wood_WoodFloor007": "Variegated brown tones with a mix of light and dark patches, displaying a plank-like pattern with visible joints."
+  },
+  {
+   "Wood_WoodFloor008": "Dark brown WoodFloor material with a variety of darker patches and straight grain."
+  },
+  {
+   "Wood_WoodFloor010": "Light tan WoodFloor material with a consistent, fine straight-line grain."
+  },
+  {
+   "Wood_WoodFloor011": "Chocolate brown WoodFloor material with varied plank patterns and subtle grain details."
+  },
+  {
+   "Wood_WoodFloor013": "Cinnamon red WoodFloor material featuring a herringbone pattern with a uniform texture."
+  },
+  {
+   "Wood_WoodFloor014": "Medium brown WoodFloor material with an interlocking plank pattern, displaying rich tones and grain."
+  },
+  {
+   "Wood_WoodFloor015": "Light beige color with a subtle pattern, smooth-looking wood material with a fine grain texture."
+  },
+  {
+   "Wood_WoodFloor016": "Rich, deep brown color, wood material with a pronounced, flowing wood grain and a polished appearance."
+  },
+  {
+   "Wood_WoodFloor018": "Two-toned lattice pattern with a lighter beige and a muted brown, wood material with a textured, geometric pattern."
+  },
+  {
+   "Wood_WoodFloor019": "Warm reddish-brown color, wood material with a pronounced mixed straight and crosshatch grain texture."
+  },
+  {
+   "Wood_WoodFloor021": "Light tan and cream color with a checkerboard pattern, wood material with a distinct, alternating grain texture."
+  },
+  {
+   "Wood_WoodFloor022": "A dark brown WoodFloor material with a prominent interweaving pattern, varying in hue and with noticeable aged marks."
+  },
+  {
+   "Wood_WoodFloor023": "A mid-tone brown WoodFloor material featuring a less contrasting interlocking pattern with minute color variation."
+  },
+  {
+   "Wood_WoodFloor024": "A light beige WoodFloor material, with a checkerboard pattern showing distinct variation in wood grain and color."
+  },
+  {
+   "Wood_WoodFloor025": "A rich chocolate brown WoodFloor material that displays a dense, overlapping weave pattern with subtle variations in darkness."
+  },
+  {
+   "Wood_WoodFloor031": "A golden-yellow color with a pronounced plank pattern, alternating in shade and exhibiting a smooth wood floor material."
+  },
+  {
+   "Wood_WoodFloor032": "A deep chestnut brown color with a distinct, contrasting plank pattern, revealing varying shades and a polished wood floor look."
+  },
+  {
+   "Wood_WoodFloor033": "Pale cream color with a smooth, interlocking parquet pattern and subtle grain texture reminiscent of light bleached wood."
+  },
+  {
+   "Wood_WoodFloor034": "Warm honey-toned color featuring a traditional straight plank design with prominent grain and knot details."
+  },
+  {
+   "Wood_WoodFloor035": "Dark chocolate color, distressed surface with heavy grain, knots, and pronounced old plank markings giving it a reclaimed appearance."
+  },
+  {
+   "Wood_WoodFloor036": "Soft, whitewashed color with a subtle wood plank texture, minimal knots, and a uniform grain pattern giving a contemporary feel."
+  },
+  {
+   "Wood_WoodFloor038": "Vibrant orange-colored wood with prominent grain patterns and intermittent knots."
+  },
+  {
+   "Wood_WoodFloor039": "Light beige wood with subtle vertical grain patterns and a smooth, worn appearance."
+  },
+  {
+   "Wood_WoodFloor040": "Medium honey-toned wood with pronounced grain and occasional darker streaks and knots."
+  },
+  {
+   "Wood_WoodFloor045": "Warm yellow wood with tightly packed grain, presenting a polished and uniform appearance."
+  },
+  {
+   "Wood_WoodFloor056": "A warm tan wood floor material characterized by its vertical plank pattern and consistent coloring."
+  },
+  {
+   "Wood_WoodFloor059": "A vibrant yellowish WoodFloor material with a basket weave pattern featuring slightly varying hues."
+  },
+  {
+   "Wood_WoodFloor052": "A rich golden brown WoodFloor material with a pronounced chevron parquet pattern and subtle color variations."
+  }
+ ],
+ "Wood_WoodSiding": [
+  {
+   "Wood_WoodSiding001": "Dark brown WoodSiding with pronounced grain patterns and visible metal rivets, showing signs of weathering and aged condition."
+  },
+  {
+   "Wood_WoodSiding003": "A lighter brown WoodSiding with horizontal strip patterns, displaying a worn, uneven texture with subtle color variations."
+  },
+  {
+   "Wood_WoodSiding005": "A reddish-brown WoodSiding featuring a tightly arranged, grooved pattern with smooth, undulating wood grain detail."
+  },
+  {
+   "Wood_WoodSiding006": "Golden-brown WoodSiding presenting a chunky, convex pattern with individual planks showing varied grain density and a used appearance."
+  },
+  {
+   "Wood_WoodSiding007": "A deep brown WoodSiding with alternating light and dark horizontal striping, exhibiting a well-used surface with notable plank definition."
+  },
+  {
+   "Wood_WoodSiding008": "Dark brown WoodSiding with parallel grain patterns and smooth texture, displaying a well-maintained condition."
+  },
+  {
+   "Wood_WoodSiding010": "Weathered gray WoodSiding material with visible grain, featuring rough texture and slightly uneven surface."
+  },
+  {
+   "Wood_WoodSiding011": "Ashen-gray WoodSiding with a coarse, weather-beaten texture and visible horizontal grain, showing signs of aging."
+  },
+  {
+   "Wood_WoodSiding012": "Dark gray WoodSiding, exhibiting a rough, distressed texture with pronounced grain patterns and aged appearance."
+  },
+  {
+   "Wood_WoodSiding013": "Faded brown WoodSiding with subtle, weathered grain patterns and a slightly rough texture, indicating moderate wear."
+  }
+ ]
+}
