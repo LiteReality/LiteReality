@@ -105,6 +105,50 @@ bash litereality/utils/install_blender.sh
 
 ---
 
+## 🐳 Docker Installation (Alternative)
+
+If you prefer using Docker, you can build and run LiteReality in a container:
+
+### 1. Build the Docker Image
+
+```bash
+docker build -t litereality .
+```
+
+> **Note:** The build process downloads pretrained weights for GroundingDINO and SAM (~3GB). HuggingFace models (CLIP, DinoV2, Qwen-VL) will be downloaded on first run unless you uncomment line 128 in the Dockerfile to bake them into the image.
+
+### 2. Run the Container
+
+```bash
+docker run --gpus all -it \
+    -v $(pwd)/scans:/app/scans \
+    -v $(pwd)/output:/app/output \
+    -v $(pwd)/cache:/app/cache \
+    -v $(pwd)/litereality_database:/app/litereality_database \
+    litereality
+```
+
+### 3. Run Processing Inside Container
+
+Once inside the container, run the pipeline:
+
+```bash
+bash script.sh scans/2025_05_05_08_42_28 Darwin_BedRoom
+```
+
+### Docker Volume Mounts
+
+| Mount | Description |
+|-------|-------------|
+| `/app/scans` | Input RGB-D scans |
+| `/app/output` | Generated outputs (GLTF, renders, videos) |
+| `/app/cache` | Intermediate cache files |
+| `/app/litereality_database` | Material database (~200GB) |
+
+> **Tip:** To persist HuggingFace model downloads between runs, add `-v $(pwd)/hf_cache:/app/third_party/hf_cache` to the docker run command.
+
+---
+
 ## 📊 Data Preparation
 
 ### 1. Download LiteReality Database 
