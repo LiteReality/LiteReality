@@ -31,14 +31,14 @@
 ## 📢 News
 
 - **[2026-05-01]** Full rendered footage and evaluation code for reproducing Table 2 & Table 3 are now available for [download](https://drive.google.com/drive/folders/1Uonhe30rX0eu2EWa6ObL7LLRoSUArez3?usp=sharing)!
-- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([Instruction](#2-download-example-scans), [results visualization](#-results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
+- **[2026-01-19]** LiteReality code is out! Test it with the example scans ([Instructions](#2-download-example-scans), [results visualization](#-results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
 - **[2025-09-18]** LiteReality has been accepted at NeurIPS 2025!
 - **[2025-07-03]** Our paper is now available on [arXiv](https://arxiv.org/abs/2507.02861)! Check out the [video demo](https://www.youtube.com/watch?v=ecK9m3LXg2c).
 
 --- 
 
 ## 🎬 Results on Example Scans
-We tested this codebase with several example scans; here are some of the results (Left:RGB, Right:LiteReality Reconstruction). **Click on any thumbnail to watch the full video 🎬.**
+We tested this codebase with several example scans; here are some of the results (Left: RGB, Right: LiteReality Reconstruction). **Click on any thumbnail to watch the full video 🎬.**
 |  Girton Study Room | Darwin BedRoom | CUED BoardRoom |
 |-------------|---------|---------|
 | [![Girton Study Room](https://img.youtube.com/vi/pD06w2lUZZM/0.jpg)](https://www.youtube.com/watch?v=pD06w2lUZZM) | [![Darwin BedRoom](https://img.youtube.com/vi/fXzUqLkk2FQ/0.jpg)](https://www.youtube.com/watch?v=fXzUqLkk2FQ) | [![CUED BoardRoom](https://img.youtube.com/vi/Ku8fVaQy-8I/0.jpg)](https://www.youtube.com/watch?v=Ku8fVaQy-8I) |
@@ -76,7 +76,6 @@ pip install -e .
 > **Note:** The GroundingDINO code in this repository includes patches for compatibility with PyTorch 2.5.1+ and CUDA 12.4.
 
 ```bash
-
 mkdir third_party
 cd third_party
 git clone https://github.com/IDEA-Research/GroundingDINO.git
@@ -132,7 +131,7 @@ python litereality/utils/download_example_scans.py
 
 ---
 
-##  Test on Example Scans
+## Test on Example Scans
 
 After downloading the database and example scans, run the full test suite:
 
@@ -146,11 +145,11 @@ Or test on a single example first:
 bash script.sh scans/2025_05_05_08_42_28 Darwin_BedRoom
 ```
 
-##  Test on Your Own Scans
+## Test on Your Own Scans
 
 ### 1. Prepare Data
 
-Currently, data capture uses Apple RoomPlan on a LiDAR-equipped iPhone. We use the [3D Scanner App](https://apps.apple.com/app/3d-scanner-app/id1419913995) to capture full images, depth, camera data, and RoomPlan raw outputs. Following the [video](https://www.youtube.com/watch?v=BWDLHgKHA-k) below:
+Currently, data capture uses Apple RoomPlan on a LiDAR-equipped iPhone. We use the [3D Scanner App](https://apps.apple.com/app/3d-scanner-app/id1419913995) to capture full images, depth, camera data, and RoomPlan raw outputs. Follow the [video](https://www.youtube.com/watch?v=BWDLHgKHA-k) below:
 
 <a href="https://www.youtube.com/watch?v=BWDLHgKHA-k">
   <img src="asset/scan_your_own_room_thumb.jpg" alt="Scan your room tutorial" width="240">
