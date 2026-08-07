@@ -30,6 +30,7 @@
 
 ## 📢 News
 
+- **[2026-08-07]** 🚀 Check out our new work, **[LiteReality-Agent](https://litereality.github.io/Litereality-agent-site/)** — an open-source toolkit that turns a phone scan into an *interactable* indoor 3D scene as editable Python code, together with our own **free iOS scanner app**. See the [project page](https://litereality.github.io/Litereality-agent-site/), the [code](https://github.com/LiteReality/LiteReality-Agent/), and the [free iOS app](https://apps.apple.com/gb/app/litereality/id6774158260)!
 - **[2026-05-01]** Full rendered footage and evaluation code for reproducing Table 2 & Table 3 are now available for [download](https://drive.google.com/drive/folders/1Uonhe30rX0eu2EWa6ObL7LLRoSUArez3?usp=sharing)!
 - **[2026-01-19]** LiteReality code is out! Test it with the example scans ([Instructions](#2-download-example-scans), [results visualization](#-results-on-example-scans)), or [your own scans](#test-on-your-own-scans)! 
 - **[2025-09-18]** LiteReality has been accepted at NeurIPS 2025!
